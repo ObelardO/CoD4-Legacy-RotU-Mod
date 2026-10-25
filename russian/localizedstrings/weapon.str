@@ -1,0 +1,63 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           "Strings used in the weapon settings go in this file."
+
+REFERENCE           AMMOBOX
+LANG_RUSSIAN        "���� ��������"
+
+REFERENCE           MEDKIT
+LANG_RUSSIAN        "�������"
+
+REFERENCE           MAGNUM
+LANG_RUSSIAN        ".44 Magnum"
+
+REFERENCE           MP5K
+LANG_RUSSIAN        "MP5K"
+// LANG_ENGLISH        "MPFUNFK"
+
+REFERENCE           MTAR
+LANG_RUSSIAN        "MTAR-21"
+// LANG_ENGLISH        "JEEROS-21"
+
+REFERENCE           CAR101
+LANG_RUSSIAN        "C.A.R. 101"
+
+REFERENCE           F2000
+LANG_RUSSIAN        "FN F2000"
+
+REFERENCE           SCAR_H
+LANG_RUSSIAN        "SCAR-H"
+
+REFERENCE           M40A5
+LANG_RUSSIAN        "M40A5"
+
+REFERENCE           KRABER
+LANG_RUSSIAN        "Kraber AP"
+
+REFERENCE           USAS12
+LANG_RUSSIAN        "USAS-12"
+
+REFERENCE			RAYGUN
+LANG_RUSSIAN		"������� �����"
+
+REFERENCE			RAYGUN_MK2
+LANG_RUSSIAN		"������� ����� Mk. 2"
+
+REFERENCE           TESLA
+LANG_RUSSIAN        "����-����� DG-2"
+
+REFERENCE           MINIGUN
+LANG_RUSSIAN        "������ ������"
+
+ENDMARKER

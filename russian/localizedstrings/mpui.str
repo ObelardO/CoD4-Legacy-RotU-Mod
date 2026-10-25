@@ -1,0 +1,1379 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE           BOG
+LANG_RUSSIAN        "������"
+
+REFERENCE           SABOTAGE
+LANG_RUSSIAN        "�������"
+
+REFERENCE           SABOTAGE_CUSTOM
+LANG_RUSSIAN        "������� (����)"
+
+REFERENCE           ZOMB
+LANG_RUSSIAN        "�����: ����������"
+
+REFERENCE           SURV
+LANG_RUSSIAN        "��������� ����� �����"
+
+REFERENCE           INITIALZOMBS
+LANG_RUSSIAN        "��������� �����"
+
+REFERENCE           PREPARETIME
+LANG_RUSSIAN        "����� ����������"
+
+REFERENCE           SPAWNSPEED
+LANG_RUSSIAN        "�������� ���������"
+
+REFERENCE           HEALTHINCREASE
+LANG_RUSSIAN        "���� �������� �����"
+
+
+REFERENCE           STORY
+LANG_RUSSIAN        "�������� �����"
+
+REFERENCE           BRIDGE
+LANG_RUSSIAN        "����"
+
+REFERENCE           CRASHED
+LANG_RUSSIAN        "������"
+
+REFERENCE           HOSPITAL
+LANG_RUSSIAN        "���������"
+
+REFERENCE           SWAMP
+LANG_RUSSIAN        "�������"
+
+REFERENCE           VILLAGE
+LANG_RUSSIAN        "�������"
+
+REFERENCE           DEATHMATCH
+LANG_RUSSIAN        "������ �� ����"
+
+REFERENCE           TEAM_DEATHMATCH
+LANG_RUSSIAN        "��������� ���"
+
+REFERENCE           CAPTURE_THE_FLAG
+LANG_RUSSIAN        "������ �����"
+
+REFERENCE           HEADQUARTERS
+LANG_RUSSIAN        "����"
+
+REFERENCE           SEARCH_AND_DESTROY
+LANG_RUSSIAN        "����� � ����������"
+
+REFERENCE           SEARCH_AND_DESTROY_CUSTOM
+LANG_RUSSIAN        "����� � ���������� (����)"
+
+REFERENCE           WAR
+LANG_RUSSIAN        "��������� ���"
+
+REFERENCE           DOMINATION
+LANG_RUSSIAN        "�������������"
+
+REFERENCE           KING_OF_THE_HILL
+LANG_RUSSIAN        "���� ����"
+
+REFERENCE           WAR_HARDCORE
+LANG_RUSSIAN        "�������: ��������� ���"
+
+REFERENCE           DM_HARDCORE
+LANG_RUSSIAN        "�������: ������ �� ����"
+
+REFERENCE           MAIN_MENU
+LANG_RUSSIAN        "������� ����"
+
+REFERENCE           TEAM
+LANG_RUSSIAN        "�������"
+
+REFERENCE           WEAPON
+LANG_RUSSIAN        "������"
+
+REFERENCE           VIEW_MAP
+LANG_RUSSIAN        "�����"
+
+REFERENCE           CALL_VOTE
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           AUTOASSIGN
+LANG_RUSSIAN        "���������"
+
+REFERENCE           AMERICAN
+LANG_RUSSIAN        "����������"
+
+REFERENCE           BRITISH
+LANG_RUSSIAN        "��������"
+
+REFERENCE           RUSSIAN
+LANG_RUSSIAN        "�������"
+
+REFERENCE           MARINES
+LANG_RUSSIAN        "�������� ��������"
+
+REFERENCE           SPETSNAZ
+LANG_RUSSIAN        "�������"
+
+REFERENCE           OPFOR
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           SAS
+LANG_RUSSIAN        "S.A.S."
+
+REFERENCE           MARINES_SHORT
+LANG_RUSSIAN        "�������"
+
+REFERENCE           SPETSNAZ_SHORT
+LANG_RUSSIAN        "�������"
+
+REFERENCE           OPFOR_SHORT
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           SAS_SHORT
+LANG_RUSSIAN        "S.A.S."
+
+REFERENCE           SPECTATE
+LANG_RUSSIAN        "����������"
+
+REFERENCE           MP44
+LANG_RUSSIAN        "MP44"
+
+REFERENCE           1_AMERICAN
+LANG_RUSSIAN        "1. ����������"
+
+REFERENCE           2_AMERICAN
+LANG_RUSSIAN        "2. ����������"
+
+REFERENCE           1_BRITISH
+LANG_RUSSIAN        "1. ��������"
+
+REFERENCE           2_BRITISH
+LANG_RUSSIAN        "2. ��������"
+
+REFERENCE           1_RUSSIAN
+LANG_RUSSIAN        "1. �������"
+
+REFERENCE           2_RUSSIAN
+LANG_RUSSIAN        "2. �������"
+
+REFERENCE           1_AUTOASSIGN
+LANG_RUSSIAN        "1. ���������"
+
+REFERENCE           2_AUTOASSIGN
+LANG_RUSSIAN        "2. ���������"
+
+REFERENCE           3_AUTOASSIGN
+LANG_RUSSIAN        "3. ���������"
+
+REFERENCE           2_SPECTATE
+LANG_RUSSIAN        "2. ����������"
+
+REFERENCE           4_SPECTATE
+LANG_RUSSIAN        "4. ����������"
+
+REFERENCE           CHANGE_MAP
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           3_CHANGE_MAP
+LANG_RUSSIAN        "3. ������� �����"
+
+REFERENCE           CHANGE_GAME_TYPEMAP
+LANG_RUSSIAN        "������� �����/�����"
+
+REFERENCE           4_CHANGE_GAME_TYPEMAP
+LANG_RUSSIAN        "4. ������� �����/�����"
+
+REFERENCE           CHANGE_GAME_TYPE
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           KICK_PLAYER
+LANG_RUSSIAN        "������� ������"
+
+REFERENCE           5_KICK_PLAYER
+LANG_RUSSIAN        "5. ������� ������"
+
+REFERENCE           OK
+LANG_RUSSIAN        "��"
+
+REFERENCE           TEMPORARY_BAN
+LANG_RUSSIAN        "��������� ���"
+
+REFERENCE           TEMPORARILY_BAN_PLAYER
+LANG_RUSSIAN        "�������� �������� ������"
+
+REFERENCE           NEXT_MAP
+LANG_RUSSIAN        "��������� �����"
+
+REFERENCE           2_NEXT_MAP
+LANG_RUSSIAN        "2. ��������� �����"
+
+REFERENCE           CHANGE_GAMETYPEMAP
+LANG_RUSSIAN        "������� �����/�����"
+
+REFERENCE           ON
+LANG_RUSSIAN        "���."
+
+REFERENCE           OFF
+LANG_RUSSIAN        "����."
+
+REFERENCE           REFLECT
+LANG_RUSSIAN        "���������"
+
+REFERENCE           ENABLE_VOTING
+LANG_RUSSIAN        "��������� �����������"
+
+REFERENCE           RECONNECT_LIMIT
+LANG_RUSSIAN        "����� ���������������"
+
+REFERENCE           RESTART_MAP
+LANG_RUSSIAN        "������������� �����"
+
+REFERENCE           1_RESTART_MAP
+LANG_RUSSIAN        "1. ������������� �����"
+
+REFERENCE           PLAYERSUSING
+LANG_RUSSIAN        "���������� ������:"
+
+REFERENCE           CLICK_TO_CONTINUE
+LANG_RUSSIAN        "ٸ������, ����� ����������"
+
+REFERENCE           PRESS_A_TO_CONTINUE
+LANG_RUSSIAN        "������� (A), ����� ����������"
+
+REFERENCE           PUNKBUSTER
+LANG_RUSSIAN        "PunkBuster"
+
+REFERENCE           ENABLEPUNKBUSTERTOCONNECT
+LANG_RUSSIAN        "����� ������������ � ������� � PunkBuster, �������� PunkBuster �� �������.\n�������� PunkBuster � ������������?"
+
+REFERENCE           SYNCPUNKBUSTERSTARTLISTENSERVER
+LANG_RUSSIAN        "����� �������� ������������� ������� �������� PunkBuster �� �������.\n�������� PunkBuster � ������?"
+
+REFERENCE           PUNKBUSTERWITHCOLON
+LANG_RUSSIAN        "PunkBuster:"
+
+REFERENCE           PUNKBUSTERWITHCOLONANDTWOSPACES
+LANG_RUSSIAN        "PunkBuster:  "
+
+REFERENCE           1_CHANGE_WEAPON
+LANG_RUSSIAN        "1. ������� ������"
+
+REFERENCE           2_CHANGE_TEAM
+LANG_RUSSIAN        "2. ������� �������"
+
+REFERENCE           3_MUTE_PLAYERS
+LANG_RUSSIAN        "3. ��������� �������"
+
+REFERENCE           4_CALL_VOTE
+LANG_RUSSIAN        "4. �����������"
+
+REFERENCE           5_LEAVE_GAME
+LANG_RUSSIAN        "5. �������� ����"
+
+REFERENCE           CHANGE_WEAPON
+LANG_RUSSIAN        "������� ������"
+
+REFERENCE           CHANGE_TEAM
+LANG_RUSSIAN        "^5�����"
+
+REFERENCE           LEAVE_GAME
+LANG_RUSSIAN        "�������� ����"
+
+REFERENCE           LEAVE_GAME1
+LANG_RUSSIAN        "�������� ����?"
+
+REFERENCE           THUMBSTICK_LAYOUT
+LANG_RUSSIAN        "��������� ������:"
+
+REFERENCE           BUTTON_LAYOUT
+LANG_RUSSIAN        "��������� ������:"
+
+REFERENCE           LOOK_SENSITIVITY
+LANG_RUSSIAN        "���������������� ������:"
+
+REFERENCE           LOOK_INVERSION
+LANG_RUSSIAN        "�������� ������:"
+
+REFERENCE           CONTROLLER_VIBRATION
+LANG_RUSSIAN        "�������� �����������:"
+
+REFERENCE           END_GAME
+LANG_RUSSIAN        "��������� ����"
+
+REFERENCE           END_GAME1
+LANG_RUSSIAN        "��������� ����?"
+
+REFERENCE           TEAMS
+LANG_RUSSIAN        "�������"
+
+REFERENCE           1_YES
+LANG_RUSSIAN        "1. ��"
+
+REFERENCE           2_NO
+LANG_RUSSIAN        "2. ���"
+
+REFERENCE           MUTE_PLAYERS
+LANG_RUSSIAN        "��������� �������"
+
+REFERENCE           ENABLE_VOICE_CHAT
+LANG_RUSSIAN        "�������� ��������� ���"
+
+REFERENCE           DISABLE_VOICE_CHAT
+LANG_RUSSIAN        "��������� ��������� ���"
+
+REFERENCE           SABOTAGE_COUNTDOWN
+LANG_RUSSIAN        "��������"
+
+REFERENCE           SEARCH_AND_DESTROY_MULTI
+LANG_RUSSIAN        "����� � ����������"
+
+REFERENCE           CRASH
+LANG_RUSSIAN        "��������"
+
+REFERENCE           FACILITY
+LANG_RUSSIAN        "��������"
+
+REFERENCE           ARGUN
+LANG_RUSSIAN        "�����"
+
+REFERENCE           STRIKE
+LANG_RUSSIAN        "����"
+
+REFERENCE           BACKLOT
+LANG_RUSSIAN        "��������"
+
+REFERENCE           DUSK
+LANG_RUSSIAN        "�������"
+
+REFERENCE           CONVOY
+LANG_RUSSIAN        "������"
+
+REFERENCE           CITYSTREETS
+LANG_RUSSIAN        "�����"
+
+REFERENCE           PIPELINE
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           CELLBLOCK
+LANG_RUSSIAN        "�������� ����"
+
+REFERENCE           MANSION
+LANG_RUSSIAN        "�������"
+
+REFERENCE           PALACE
+LANG_RUSSIAN        "������"
+
+REFERENCE           SHIPMENT
+LANG_RUSSIAN        "����"
+
+REFERENCE           SHIPMENTSS
+LANG_RUSSIAN        "���� (���������� �����)"
+
+REFERENCE           ENDROUND
+LANG_RUSSIAN        "��������� �����"
+
+REFERENCE           MENU
+LANG_RUSSIAN        "����"
+
+REFERENCE           SEARCH_AND_DESTROY_CLASSIC
+LANG_RUSSIAN        "����� � ����������"
+
+REFERENCE           SABOTAGE_HOTPOTATO
+LANG_RUSSIAN        "�������"
+
+REFERENCE           TEAM_HARDPOINT
+LANG_RUSSIAN        "��������� ���"
+
+REFERENCE           HARDPOINT
+LANG_RUSSIAN        "������ �� ����"
+
+REFERENCE           ROOFTOPS
+LANG_RUSSIAN        "�����"
+
+REFERENCE           OVERGROWN
+LANG_RUSSIAN        "�������"
+
+REFERENCE           OVERGROWN_NIGHT
+LANG_RUSSIAN        "������� (����)"
+
+REFERENCE           CITYSTREETS_NIGHT
+LANG_RUSSIAN        "����� ������ (����)"
+
+REFERENCE           STRIKE_NIGHT
+LANG_RUSSIAN        "���� (����)"
+
+REFERENCE           HILL
+LANG_RUSSIAN        "����"
+
+REFERENCE           CROSSFIRE
+LANG_RUSSIAN        "����������"
+
+REFERENCE           FARM
+LANG_RUSSIAN        "������"
+
+REFERENCE           VACANT
+LANG_RUSSIAN        "�������"
+
+REFERENCE           BLOC
+LANG_RUSSIAN        "����"
+
+REFERENCE           CARGOSHIP
+LANG_RUSSIAN        "������ ����"
+
+REFERENCE           COUNTDOWN
+LANG_RUSSIAN        "�������� ������"
+
+REFERENCE           SHOWDOWN
+LANG_RUSSIAN        "��������"
+
+REFERENCE           FIND_GAME
+LANG_RUSSIAN        "����� ����"
+
+REFERENCE           PRIVATE_MATCH
+LANG_RUSSIAN        "�������� ����"
+
+REFERENCE           CREATE_A_CLASS
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           BARRACKS
+LANG_RUSSIAN        "�������"
+
+REFERENCE           INVITE_FRIENDS
+LANG_RUSSIAN        "���������� ������"
+
+REFERENCE           PARTY_INVITE
+LANG_RUSSIAN        "����������� � ������"
+
+REFERENCE           CREATE_PARTY
+LANG_RUSSIAN        "������� ������"
+
+REFERENCE           GAME_SUMMARY
+LANG_RUSSIAN        "����� �����"
+
+REFERENCE           N_XP
+LANG_RUSSIAN        "&&1 �����"
+
+REFERENCE           RANK
+LANG_RUSSIAN        "������"
+
+REFERENCE           NAME
+LANG_RUSSIAN        "���"
+
+REFERENCE           X_SLASH_Y
+LANG_RUSSIAN        "&&1/&&2"
+
+REFERENCE           MATCHBONUS
+LANG_RUSSIAN        "����� �����"
+
+REFERENCE           SCORE_PRE
+LANG_RUSSIAN        "����:"
+
+REFERENCE           CHALLENGES_PRE
+LANG_RUSSIAN        "������� ���������:"
+
+REFERENCE           MATCHBONUS_PRE
+LANG_RUSSIAN        "����� �����:"
+
+REFERENCE           TOTALXP_PRE
+LANG_RUSSIAN        "����� �����:"
+
+REFERENCE           RANK_PRE
+LANG_RUSSIAN        "������:"
+
+REFERENCE           XP_REQUIRED_PRE
+LANG_RUSSIAN        "����� �����:"
+
+REFERENCE           NEXT_RANK_PRE
+LANG_RUSSIAN        "��������� ������:"
+
+REFERENCE           WEAPON_PRE
+LANG_RUSSIAN        "������:"
+
+REFERENCE           PERK_PRE
+LANG_RUSSIAN        "����:"
+
+REFERENCE           CHALLENGE_PRE
+LANG_RUSSIAN        "�������:"
+
+REFERENCE           CAMO_PRE
+LANG_RUSSIAN        "��������:"
+
+REFERENCE           XP_PRE
+LANG_RUSSIAN        "����:"
+
+REFERENCE           ATTACHMENT_PRE
+LANG_RUSSIAN        "������:"
+
+REFERENCE           FEATURE_PRE
+LANG_RUSSIAN        "�����������:"
+
+REFERENCE           START_MATCH
+LANG_RUSSIAN        "������ ����"
+
+REFERENCE           GAME_SETUP
+LANG_RUSSIAN        "��������� ����"
+
+REFERENCE           SCORE
+LANG_RUSSIAN        "����"
+
+REFERENCE           LEVEL_N
+LANG_RUSSIAN        "��. &&1"
+
+REFERENCE           KILLS_PRE
+LANG_RUSSIAN        "��������:"
+
+REFERENCE           ASSISTS_PRE
+LANG_RUSSIAN        "������:"
+
+REFERENCE           STREAK_PRE
+LANG_RUSSIAN        "�����:"
+
+REFERENCE           DEATHS_PRE
+LANG_RUSSIAN        "������:"
+
+REFERENCE           TIME_PLAYED_PRE
+LANG_RUSSIAN        "����� � ����:"
+
+REFERENCE           WINS
+LANG_RUSSIAN        "������"
+
+REFERENCE           LOSSES
+LANG_RUSSIAN        "���������"
+
+REFERENCE           RATIO
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           ACCURACY
+LANG_RUSSIAN        "��������"
+
+REFERENCE           KILLS
+LANG_RUSSIAN        "��������"
+
+REFERENCE           PLAYER
+LANG_RUSSIAN        "�����"
+
+REFERENCE           TIME_PLAYED
+LANG_RUSSIAN        "����� � ����"
+
+REFERENCE           LEVEL
+LANG_RUSSIAN        "�������"
+
+REFERENCE           MISSES
+LANG_RUSSIAN        "�������"
+
+REFERENCE           HITS
+LANG_RUSSIAN        "���������"
+
+REFERENCE           FRIENDS
+LANG_RUSSIAN        "������"
+
+REFERENCE           SCORE_GLOBAL
+LANG_RUSSIAN        "���� (���)"
+
+REFERENCE           SCORE_FRIENDS
+LANG_RUSSIAN        "���� (������)"
+
+REFERENCE           KILLS_GLOBAL
+LANG_RUSSIAN        "�������� (���)"
+
+REFERENCE           KILLS_FRIENDS
+LANG_RUSSIAN        "�������� (������)"
+
+REFERENCE           ACCURACY_GLOBAL
+LANG_RUSSIAN        "�������� (���)"
+
+REFERENCE           ACCURACY_FRIENDS
+LANG_RUSSIAN        "�������� (������)"
+
+REFERENCE           WINS_GLOBAL
+LANG_RUSSIAN        "������ (���)"
+
+REFERENCE           WINS_FRIENDS
+LANG_RUSSIAN        "������ (������)"
+
+REFERENCE           CLAN_TAG
+LANG_RUSSIAN        "��� �����"
+
+REFERENCE           PRESTIGE_MODE
+LANG_RUSSIAN        "����� ��������"
+
+REFERENCE           YOUR_CLASSES
+LANG_RUSSIAN        "���� ���� ������"
+
+REFERENCE           PERK1
+LANG_RUSSIAN        "������������� 1"
+
+REFERENCE           PERK2
+LANG_RUSSIAN        "������������� 2"
+
+REFERENCE           PERK3
+LANG_RUSSIAN        "������ �����������"
+
+REFERENCE           RENAME
+LANG_RUSSIAN        "�������������"
+
+REFERENCE           PRIMARY_WEAPON
+LANG_RUSSIAN        "�������� ������"
+
+REFERENCE           SECONDARY_WEAPON
+LANG_RUSSIAN        "�������������� ������"
+
+REFERENCE           SIDE_ARM
+LANG_RUSSIAN        "��������"
+
+REFERENCE           OFFHAND_GRENADE
+LANG_RUSSIAN        "�������"
+
+REFERENCE           TIME_LIMIT_PRE
+LANG_RUSSIAN        "����� �������:"
+
+REFERENCE           ROUND_LENGTH_PRE
+LANG_RUSSIAN        "����� ������:"
+
+REFERENCE           SCORE_LIMIT_PRE
+LANG_RUSSIAN        "����� �����:"
+
+REFERENCE           SPECTATING_PRE
+LANG_RUSSIAN        "����������:"
+
+REFERENCE           KILLCAM_PRE
+LANG_RUSSIAN        "������ ��������:"
+
+REFERENCE           FORCE_RESPAWN_PRE
+LANG_RUSSIAN        "�������������� �����������:"
+
+REFERENCE           FRIENDY_FIRE_PRE
+LANG_RUSSIAN        "����� �� �����:"
+
+REFERENCE           NUMLIVES_PRE
+LANG_RUSSIAN        "����� ������:"
+
+REFERENCE           RESPAWN_DELAY_PRE
+LANG_RUSSIAN        "�������� �����������:"
+
+REFERENCE           MAX_HEALTH_PRE
+LANG_RUSSIAN        "����. ��������:"
+
+REFERENCE           HEALTH_REGEN_PRE
+LANG_RUSSIAN        "����������� ��������:"
+
+REFERENCE           SPRINT_PRE
+LANG_RUSSIAN        "��������� ���:"
+
+REFERENCE           HEADSHOTS_PRE
+LANG_RUSSIAN        "�������� � ������:"
+
+REFERENCE           HEADSHOTS_ONLY_PRE
+LANG_RUSSIAN        "������ � ������:"
+
+REFERENCE           PERKS_PRE
+LANG_RUSSIAN        "��������� �����:"
+
+REFERENCE           OLDSCHOOL_PRE
+LANG_RUSSIAN        "����� ������ �����:"
+
+REFERENCE           HARDCORE_PRE
+LANG_RUSSIAN        "����� ��������:"
+
+REFERENCE           BOMB_TIMER_PRE
+LANG_RUSSIAN        "������ �����:"
+
+REFERENCE           PLANT_TIME_PRE
+LANG_RUSSIAN        "����� ��������� �����:"
+
+REFERENCE           DEFUSE_PRE
+LANG_RUSSIAN        "����� ��������������:"
+
+REFERENCE           MULTIBOMB_PRE
+LANG_RUSSIAN        "����� ���������� ����:"
+
+REFERENCE           HOT_POTATO_PRE
+LANG_RUSSIAN        "����� ������� ��������:"
+
+REFERENCE           ROUND_LIMIT_PRE
+LANG_RUSSIAN        "����� �������:"
+
+REFERENCE           ROUND_SWITCH_PRE
+LANG_RUSSIAN        "����� ������:"
+
+REFERENCE           CHANGE_RULES
+LANG_RUSSIAN        "�������� �������"
+
+REFERENCE           MOTD
+LANG_RUSSIAN        "��������� ���"
+
+REFERENCE           PLAYER_OPTIONS
+LANG_RUSSIAN        "��������� ������"
+
+REFERENCE           YES
+LANG_RUSSIAN        "��"
+
+REFERENCE           NO
+LANG_RUSSIAN        "���"
+
+REFERENCE           CHALLENGES
+LANG_RUSSIAN        "�������"
+
+REFERENCE           DESC_FIND_GAME
+LANG_RUSSIAN        "�������� ����� � ������ ������� ���� � ����."
+
+REFERENCE           DESC_FIND_GAME_LOCKED
+LANG_RUSSIAN        "������ ���� ����� ������ ������ ������."
+
+REFERENCE           DESC_PRIVATE_MATCH
+LANG_RUSSIAN        "�������� ���� ����, ����� ������ � ��������."
+
+REFERENCE           DESC_PRIVATE_MATCH_LOCKED
+LANG_RUSSIAN        "�������� ���� ����� ������ ������ ������ ������."
+
+REFERENCE           DESC_CREATE_A_CLASS_LOCKED
+LANG_RUSSIAN        "����������� �� ������ �������� ������� (��. 4)."
+
+REFERENCE           DESC_CREATE_A_CLASS
+LANG_RUSSIAN        "�������� ���� ������."
+
+REFERENCE           DESC_BARRACKS
+LANG_RUSSIAN        "�������, ��� �����, ���������� � ������� �������."
+
+REFERENCE           DESC_PARTY_INVITE
+LANG_RUSSIAN        "���������� ������ � ������."
+
+REFERENCE           DESC_PLAYER_OPTIONS
+LANG_RUSSIAN        "������� ���� ���������� ������."
+
+REFERENCE           DESC_START_MATCH
+LANG_RUSSIAN        "������ ����."
+
+REFERENCE           DESC_START_MATCH_LOCKED
+LANG_RUSSIAN        "���� ����� ������ ������ ������ �����."
+
+REFERENCE           DESC_GAME_SETUP
+LANG_RUSSIAN        "������� �����, ����� � �������."
+
+REFERENCE           DESC_GAME_SETUP_LOCKED
+LANG_RUSSIAN        "��������� ���� ����� ������ ������ ������ �����."
+
+REFERENCE           DESC_CHANGE_MAP
+LANG_RUSSIAN        "������� ������ �����."
+
+REFERENCE           DESC_CHANGE_GAMETYPE
+LANG_RUSSIAN        "������� ������ �����."
+
+REFERENCE           DESC_CHANGE_RULES
+LANG_RUSSIAN        "�������� ������� ����� �����."
+
+REFERENCE           DESC_INVITE_FRIENDS
+LANG_RUSSIAN        "���������� ������ � ����."
+
+REFERENCE           PRIVATE_MATCH_LOBBY
+LANG_RUSSIAN        "����� ��������� �����"
+
+REFERENCE           PUBLIC_MATCH_LOBBY
+LANG_RUSSIAN        "����� ��������� �����"
+
+REFERENCE           UNLOCKXP
+LANG_RUSSIAN        "�����������: &&1 (��. &&2)"
+
+REFERENCE           MAXPARTYSIZE
+LANG_RUSSIAN        "�������� ������� � ������: &&1"
+
+REFERENCE           NOPUNKBUSTER
+LANG_RUSSIAN        "�� ������� ��������� PunkBuster. PunkBuster ��������."
+
+REFERENCE           NONE
+LANG_RUSSIAN        "���"
+
+REFERENCE           PRESTIGE
+LANG_RUSSIAN        "�������"
+
+REFERENCE           PRESTIGE_READY
+LANG_RUSSIAN        "������� �����!"
+
+REFERENCE           CALLVOTE
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           VOTE
+LANG_RUSSIAN        "�����"
+
+REFERENCE           END_GAME2
+LANG_RUSSIAN        "��������� ����?"
+
+REFERENCE           PRIMARY_WEAPON1
+LANG_RUSSIAN        "�������� ������"
+
+REFERENCE           SPECTATOR
+LANG_RUSSIAN        "^3�����������"
+
+REFERENCE           CHOOSE_CLASS
+LANG_RUSSIAN        "^3������� ����"
+
+REFERENCE           CHANGE_GAME_MODE
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           GAME_RULES
+LANG_RUSSIAN        "������� ����"
+
+REFERENCE           JOININPROGRESS_ALLOWED
+LANG_RUSSIAN        "���� �� ����: ��������"
+
+REFERENCE           JOININPROGRESS_NOT_ALLOWED
+LANG_RUSSIAN        "���� �� ����: ��������"
+
+REFERENCE           SIDE_ARM1
+LANG_RUSSIAN        "��������"
+
+REFERENCE           SPECIAL_GRENADE
+LANG_RUSSIAN        "������ �������"
+
+REFERENCE           PERK_1
+LANG_RUSSIAN        "���� 1"
+
+REFERENCE           PERK_2
+LANG_RUSSIAN        "���� 2"
+
+REFERENCE           PERK_3
+LANG_RUSSIAN        "���� 3"
+
+REFERENCE           NO_ATTACHMENT
+LANG_RUSSIAN        "��� ������"
+
+REFERENCE           ACOG_SCOPE
+LANG_RUSSIAN        "������ ACOG"
+
+REFERENCE           RED_DOT_SIGHT
+LANG_RUSSIAN        "����������"
+
+REFERENCE           SILENCER
+LANG_RUSSIAN        "���������"
+
+REFERENCE           GRENADE_LAUNCHER
+LANG_RUSSIAN        "������������"
+
+REFERENCE           DESERT
+LANG_RUSSIAN        "�������"
+
+REFERENCE           WOODLAND
+LANG_RUSSIAN        "���"
+
+REFERENCE           DIGITAL
+LANG_RUSSIAN        "�����"
+
+REFERENCE           RED_TIGER
+LANG_RUSSIAN        "������� ����"
+
+REFERENCE           BLUE_TIGER
+LANG_RUSSIAN        "����� ����"
+
+REFERENCE           GOLDEN
+LANG_RUSSIAN        "�������"
+
+REFERENCE           PRESTIGE1
+LANG_RUSSIAN        "�������"
+
+REFERENCE           ASSAULT_RIFLES
+LANG_RUSSIAN        "��������� ��������"
+
+REFERENCE           SUB_MACHINE_GUNS
+LANG_RUSSIAN        "���������-�������"
+
+REFERENCE           LIGHT_MACHINE_GUNS
+LANG_RUSSIAN        "������ �������"
+
+REFERENCE           SHOTGUNS
+LANG_RUSSIAN        "���������"
+
+REFERENCE           SNIPER_RIFLES
+LANG_RUSSIAN        "����������� ��������"
+
+REFERENCE           RENAME_CLASS
+LANG_RUSSIAN        "������������� �����"
+
+REFERENCE           CHOOSE_TEAM
+LANG_RUSSIAN        "����� �������"
+
+REFERENCE           DESC_PRIVATE_JIP
+LANG_RUSSIAN        "��������� ������� ������� � ��� ������ ����."
+
+REFERENCE           PISTOL
+LANG_RUSSIAN        "��������"
+
+REFERENCE           SNIPER_RIFLE
+LANG_RUSSIAN        "����������� ��������"
+
+REFERENCE           ASSAULT_RIFLE
+LANG_RUSSIAN        "��������� ��������"
+
+REFERENCE           SUB_MACHINE_GUN
+LANG_RUSSIAN        "��������-������"
+
+REFERENCE           SHOTGUN
+LANG_RUSSIAN        "��������"
+
+REFERENCE           LIGHT_MACHINE_GUN
+LANG_RUSSIAN        "������ ������"
+
+REFERENCE           UNLOCKED
+LANG_RUSSIAN        "�� �������..."
+
+REFERENCE           NEW_CHALLENGES
+LANG_RUSSIAN        "����� �������"
+
+REFERENCE           DESC_LEADERBOARDS
+LANG_RUSSIAN        "�������� ���� ���������� � ��������� �����."
+
+REFERENCE           DESC_CHALLENGES
+LANG_RUSSIAN        "���������� �������, ����� �������� ���� � ������ ������."
+
+REFERENCE           DESC_CHALLENGES2
+LANG_RUSSIAN        "����������� �� ������ �������� ������� I (��. 5)."
+
+REFERENCE           DESC_CLANTAG
+LANG_RUSSIAN        "������� ��� �����."
+
+REFERENCE           DESC_CLANTAG2
+LANG_RUSSIAN        "����������� �� ������ �������� II (��. 12)."
+
+REFERENCE           DESC_PRESTIGE
+LANG_RUSSIAN        "�������� �������... �� ���� ����."
+
+REFERENCE           DESC_PRESTIGE2
+LANG_RUSSIAN        "����������� ����� ��������� (��. 55)."
+
+REFERENCE           DESC_LEADERBOARD_WINS
+LANG_RUSSIAN        "�������� ������ � ��������� � �������� � �����."
+
+REFERENCE           DESC_LEADERBOARD_KILLS
+LANG_RUSSIAN        "�������� ��������, ������, ����������� � ������ �����."
+
+REFERENCE           DESC_LEADERBOARD_ACCURACY
+LANG_RUSSIAN        "�������, ��������� ����� �� ���������."
+
+REFERENCE           GRIP
+LANG_RUSSIAN        "��������"
+
+REFERENCE           END_GAME_WARNING
+LANG_RUSSIAN        "����� ��������� ������ ��� ���� �������?"
+
+REFERENCE           CHOOSE_CLASS_CAP
+LANG_RUSSIAN        "����� ������"
+
+REFERENCE           CUSTOM_CLASSES
+LANG_RUSSIAN        "���� ������"
+
+REFERENCE           DEFAULT_CLASSES
+LANG_RUSSIAN        "��������� ������"
+
+REFERENCE           DEFAULT_CLASSES2
+LANG_RUSSIAN        "��������� �������������� ������"
+
+REFERENCE           PERKS_AND_INVENTORY
+LANG_RUSSIAN        "����� � ���������"
+
+REFERENCE           CREATE_A_CLASS_CAP
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           VOTE_TO_SKIP
+LANG_RUSSIAN        "����� �� �������"
+
+REFERENCE           DESC_VOTE_TO_SKIP
+LANG_RUSSIAN        "��������� �� ������� �������� ������. ���� ������, ��������� ���������� ������."
+
+REFERENCE           VOTE_CAST
+LANG_RUSSIAN        "����� ������"
+
+REFERENCE           LAST_STAND
+LANG_RUSSIAN        "��������� �����!"
+
+REFERENCE           DESC_MAP_BACKLOT
+LANG_RUSSIAN        "������� �������. �������� ����� ��� ������ ������."
+
+REFERENCE           DESC_MAP_BLOC
+LANG_RUSSIAN        "������� ���������� ����� ����. ���������� �������������."
+
+REFERENCE           DESC_MAP_BOG
+LANG_RUSSIAN        "��������� ��������� ������. �������� �����, ������ ��� ����� �����."
+
+REFERENCE           DESC_MAP_CARGOSHIP
+LANG_RUSSIAN        "������-������� �������� �����. ���������� ����� � ����������."
+
+REFERENCE           DESC_MAP_CITYSTREETS
+LANG_RUSSIAN        "������� ����� � ������ � ������. ������� ��� ��������� ���."
+
+REFERENCE           DESC_MAP_CONVOY
+LANG_RUSSIAN        "������� ��������� �����. ������� ��� ��������."
+
+REFERENCE           DESC_MAP_COUNTDOWN
+LANG_RUSSIAN        "�������� ��������� ��������. ������� ����� ������ � ������� �������."
+
+REFERENCE           DESC_MAP_CRASH
+LANG_RUSSIAN        "������ �� ���� � ��������� ������. �������� ��������� ����."
+
+REFERENCE           DESC_MAP_CROSSFIRE
+LANG_RUSSIAN        "��������� ��������� �����. ������ ��� � ���������� � �����������."
+
+REFERENCE           DESC_MAP_FARM
+LANG_RUSSIAN        "������� ��������� ������� �����. ������� ��� ��������."
+
+REFERENCE           DESC_MAP_OVERGROWN
+LANG_RUSSIAN        "������� �������� �������� ��������� � ������. ���������� ��������� ������ ������..."
+
+REFERENCE           DESC_PIPELINE
+LANG_RUSSIAN        "���������� ����. �������� ��������� ����."
+
+REFERENCE           DESC_MAP_SHIPMENT
+LANG_RUSSIAN        "��������� ���������� �����. ������� ���, ���������� �����."
+
+REFERENCE           DESC_MAP_SHOWDOWN
+LANG_RUSSIAN        "��������� ��������� �����. ������� ���� ��� ������ ����� �������."
+
+REFERENCE           DESC_MAP_STRIKE
+LANG_RUSSIAN        "������� ��������� �����. �������� ��������� ����."
+
+REFERENCE           DESC_MAP_VACANT
+LANG_RUSSIAN        "������ ���������� ����. ���������� ��� � ����������."
+
+REFERENCE           DESC_MAP_BROADCAST
+LANG_RUSSIAN        "�����������."
+
+REFERENCE           DESC_MAP_PIPELINE
+LANG_RUSSIAN        "���������� ����. �������� ��������� ����."
+
+REFERENCE           RULES_PLAYER_OPTIONS
+LANG_RUSSIAN        "��������� ������"
+
+REFERENCE           RULES_GAMEPLAY_OPTIONS
+LANG_RUSSIAN        "��������� ����"
+
+REFERENCE           RULES_TEAM_OPTIONS
+LANG_RUSSIAN        "��������� �������"
+
+REFERENCE           GAME_RULES_CAP
+LANG_RUSSIAN        "������� ����"
+
+REFERENCE           RULES_ITEM_2LIVES
+LANG_RUSSIAN        "2 �����"
+
+REFERENCE           RULES_ITEM_LIFE
+LANG_RUSSIAN        "1 �����"
+
+REFERENCE           RULES_UNLIMITED
+LANG_RUSSIAN        "��� �����������"
+
+REFERENCE           RULES_NUMBER_OF_LIVES
+LANG_RUSSIAN        "����� ������:"
+
+REFERENCE           RULES_RESPAWN_DELAY
+LANG_RUSSIAN        "�������� �����������:"
+
+REFERENCE           RULES_NONE
+LANG_RUSSIAN        "���"
+
+REFERENCE           RULES_5SECONDS
+LANG_RUSSIAN        "5 ������"
+
+REFERENCE           RULES_MAX_HEALTH
+LANG_RUSSIAN        "����. ��������:"
+
+REFERENCE           RULES_MINISCULE
+LANG_RUSSIAN        "���������"
+
+REFERENCE           RULES_HALF
+LANG_RUSSIAN        "��������"
+
+REFERENCE           RULES_NORMAL
+LANG_RUSSIAN        "����������"
+
+REFERENCE           RULES_DOUBLE
+LANG_RUSSIAN        "�������"
+
+REFERENCE           RULES_HEALTH_REGEN
+LANG_RUSSIAN        "����������� ��������:"
+
+REFERENCE           RULES_ALLOW_SPRINT
+LANG_RUSSIAN        "��������� ���:"
+
+REFERENCE           RULES_SLOW
+LANG_RUSSIAN        "��������"
+
+REFERENCE           RULES_SPECTATING
+LANG_RUSSIAN        "����������:"
+
+REFERENCE           RULES_ITEM_3LIVES
+LANG_RUSSIAN        "3 �����"
+
+REFERENCE           RULES_ITEM_5LIVES
+LANG_RUSSIAN        "5 ������"
+
+REFERENCE           RULES_ITEM_9LIVES
+LANG_RUSSIAN        "9 ������"
+
+REFERENCE           RULES_10SECONDS
+LANG_RUSSIAN        "10 ������"
+
+REFERENCE           RULES_15SECONDS
+LANG_RUSSIAN        "15 ������"
+
+REFERENCE           RULES_30SECONDS
+LANG_RUSSIAN        "30 ������"
+
+REFERENCE           RULES_TEAM_ONLY
+LANG_RUSSIAN        "������ �������"
+
+REFERENCE           RULES_FREE
+LANG_RUSSIAN        "��������"
+
+REFERENCE           RULES_PLAYERS_ONLY
+LANG_RUSSIAN        "������ ������"
+
+REFERENCE           RULES_RADAR_ALWAYS_ON
+LANG_RUSSIAN        "����� ������ �������:"
+
+REFERENCE           RULE_ALLOW_KILLCAM
+LANG_RUSSIAN        "������ ��������:"
+
+REFERENCE           RULES_FORCE_RESPAWN
+LANG_RUSSIAN        "�������������� �����������:"
+
+REFERENCE           RULES_FRIENDLY_FIRE
+LANG_RUSSIAN        "����� �� �����:"
+
+REFERENCE           RULES_REFLECT
+LANG_RUSSIAN        "���������"
+
+REFERENCE           RULES_SHARED
+LANG_RUSSIAN        "�����"
+
+REFERENCE           RULES_HEADSHOTS_ONLY
+LANG_RUSSIAN        "������ � ������:"
+
+REFERENCE           RULES_ALLOW_PERKS
+LANG_RUSSIAN        "��������� �����:"
+
+REFERENCE           RULES_OLDSCHOOL
+LANG_RUSSIAN        "����� ������ �����:"
+
+REFERENCE           RULES_HARDCORE
+LANG_RUSSIAN        "����� ��������:"
+
+REFERENCE           RULES_AIRSUPPORT
+LANG_RUSSIAN        "��������� �������������:"
+
+REFERENCE           RULES_TIME_LIMIT
+LANG_RUSSIAN        "����� �������:"
+
+REFERENCE           RULES_5MINUTES
+LANG_RUSSIAN        "5 �����"
+
+REFERENCE           RULES_10MINUTES
+LANG_RUSSIAN        "10 �����"
+
+REFERENCE           RULES_15MINUTES
+LANG_RUSSIAN        "15 �����"
+
+REFERENCE           RULES_20MINUTES
+LANG_RUSSIAN        "20 �����"
+
+REFERENCE           RULES_30MINUTES
+LANG_RUSSIAN        "30 �����"
+
+REFERENCE           RULES_SCORE_LIMIT
+LANG_RUSSIAN        "����� �����:"
+
+REFERENCE           RULES_3POINTS
+LANG_RUSSIAN        "3 ����"
+
+REFERENCE           RULES_5POINTS
+LANG_RUSSIAN        "5 �����"
+
+REFERENCE           RULES_10POINTS
+LANG_RUSSIAN        "10 �����"
+
+REFERENCE           RULES_20POINTS
+LANG_RUSSIAN        "20 �����"
+
+REFERENCE           RULES_30POINTS
+LANG_RUSSIAN        "30 �����"
+
+REFERENCE           RULES_100POINTS
+LANG_RUSSIAN        "100 �����"
+
+REFERENCE           RULES_200POINTS
+LANG_RUSSIAN        "200 �����"
+
+REFERENCE           RULES_300POINTS
+LANG_RUSSIAN        "300 �����"
+
+REFERENCE           RULES_500POINTS
+LANG_RUSSIAN        "500 �����"
+
+REFERENCE           RULES_700POINTS
+LANG_RUSSIAN        "700 �����"
+
+REFERENCE           RULES_1000POINTS
+LANG_RUSSIAN        "1000 �����"
+
+REFERENCE           RULES_50POINTS
+LANG_RUSSIAN        "50 �����"
+
+REFERENCE           RULES_750POINTS
+LANG_RUSSIAN        "750 �����"
+
+REFERENCE           RULES_250POINTS
+LANG_RUSSIAN        "250 �����"
+
+REFERENCE           RULES_1500POINTS
+LANG_RUSSIAN        "1500 �����"
+
+REFERENCE           RULES_HQ_HOLD_TIME
+LANG_RUSSIAN        "����� ����� �����:"
+
+REFERENCE           RULES_3MINUTES
+LANG_RUSSIAN        "3 ������"
+
+REFERENCE           RULES_2MINUTES
+LANG_RUSSIAN        "2 ������"
+
+REFERENCE           RULES_1_5MINUTES
+LANG_RUSSIAN        "1,5 ������"
+
+REFERENCE           RULES_1MINUTE
+LANG_RUSSIAN        "1 ������"
+
+REFERENCE           RULES_HQ_RESPAWN_DELAY
+LANG_RUSSIAN        "�������� ��������� �����:"
+
+REFERENCE           RULES_INSTANT
+LANG_RUSSIAN        "���������"
+
+REFERENCE           RULES_CLASSIC_HQ
+LANG_RUSSIAN        "������������ ����:"
+
+REFERENCE           RULES_45SECONDS
+LANG_RUSSIAN        "45 ������"
+
+REFERENCE           RULES_BOMB_TIMER
+LANG_RUSSIAN        "������ �����:"
+
+REFERENCE           RULES_PLANT_TIME
+LANG_RUSSIAN        "����� ���������:"
+
+REFERENCE           RULES_1SECOND
+LANG_RUSSIAN        "1 �������"
+
+REFERENCE           RULES_2_5SECONDS
+LANG_RUSSIAN        "2,5 �������"
+
+REFERENCE           RULES_7_5SECONDS
+LANG_RUSSIAN        "7,5 �������"
+
+REFERENCE           RULES_DEFUSE_TIME
+LANG_RUSSIAN        "����� ��������������:"
+
+REFERENCE           RULES_HOT_POTATO
+LANG_RUSSIAN        "������� ��������:"
+
+REFERENCE           RULES_ROUND_LIMIT
+LANG_RUSSIAN        "����� �������:"
+
+REFERENCE           RULES_1ROUND
+LANG_RUSSIAN        "1 �����"
+
+REFERENCE           RULES_2ROUNDS
+LANG_RUSSIAN        "2 ������"
+
+REFERENCE           RULES_4ROUNDS
+LANG_RUSSIAN        "4 ������"
+
+REFERENCE           RULES_6ROUNDS
+LANG_RUSSIAN        "6 �������"
+
+REFERENCE           RULES_8ROUNDS
+LANG_RUSSIAN        "8 �������"
+
+REFERENCE           RULES_ROUND_SWITCH
+LANG_RUSSIAN        "����� ������:"
+
+REFERENCE           RULES_NEVER
+LANG_RUSSIAN        "�������"
+
+REFERENCE           RULES_EVERY_ROUND
+LANG_RUSSIAN        "������ �����"
+
+REFERENCE           RULES_EVERY_2ROUNDS
+LANG_RUSSIAN        "������ 2 ������"
+
+REFERENCE           RULES_EVERY_3ROUNDS
+LANG_RUSSIAN        "������ 3 ������"
+
+REFERENCE           RULES_EVERY_4ROUNDS
+LANG_RUSSIAN        "������ 4 ������"
+
+REFERENCE           RULES_ROUND_LENGTH
+LANG_RUSSIAN        "����� ������:"
+
+REFERENCE           RULES_2_5MINUTES
+LANG_RUSSIAN        "2,5 ������"
+
+REFERENCE           RULES_8MINUTES
+LANG_RUSSIAN        "8 �����"
+
+REFERENCE           RULES_MULTI_BOMB
+LANG_RUSSIAN        "��������� ����:"
+
+REFERENCE           RULES_150POINTS
+LANG_RUSSIAN        "150 �����"
+
+REFERENCE           RULES_FAST
+LANG_RUSSIAN        "������"
+
+REFERENCE           BARRACKS_CAP
+LANG_RUSSIAN        "�������"
+
+REFERENCE           RECOMMENDEDPLAYERS
+LANG_RUSSIAN        "������������� �������� �������: &&1"
+
+REFERENCE           RULES_WAVE_DELAY
+LANG_RUSSIAN        "�������� �����:"
+
+REFERENCE           RULES_1POINT
+LANG_RUSSIAN        "1 ����"
+
+REFERENCE           RULES_4POINTS
+LANG_RUSSIAN        "4 ����"
+
+REFERENCE           RULES_8POINTS
+LANG_RUSSIAN        "8 �����"
+
+REFERENCE           RULES_12POINTS
+LANG_RUSSIAN        "12 �����"
+
+REFERENCE           RULES_24POINTS
+LANG_RUSSIAN        "24 ����"
+
+REFERENCE           RULES_SHARE_BOMB_TIMER
+LANG_RUSSIAN        "����� ������ �����:"
+
+REFERENCE           DESC_INVITE_FRIENDS_FULL
+LANG_RUSSIAN        "����� ���������."
+
+REFERENCE           MUTEPLAYERS
+LANG_RUSSIAN        "��������� �������"
+
+REFERENCE           RULES_2POINTS
+LANG_RUSSIAN        "2 ����"
+
+REFERENCE           FIND_MATCH
+LANG_RUSSIAN        "����� ����"
+
+ENDMARKER

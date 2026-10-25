@@ -29,3 +29,5 @@ LANG_ENGLISH		"Press^3 [{+activate}] ^7to teleport!"
 REFERENCE			TURRET
 LANG_ENGLISH		"Press^3 [{+activate}] ^7to pick up turret!"
 
+ENDMARKER
+

@@ -1,0 +1,50 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE			CHOOSE_ROLE
+LANG_RUSSIAN		"^3������� ����"
+
+REFERENCE			JOIN
+LANG_RUSSIAN		"^5�����"
+
+REFERENCE			GOSPEC
+LANG_RUSSIAN		"^3���������"
+
+REFERENCE			STOPQUEUE
+LANG_RUSSIAN		"^1�������� ����"
+
+REFERENCE			RESTORING_HEALTH
+LANG_RUSSIAN		"�������������� ^2��������^7!"
+
+REFERENCE			RESTORING_HEALTH
+LANG_RUSSIAN		"�������������� ^2��������^7!"
+
+REFERENCE			ALREADY_AT_FULL_HEALTH
+LANG_RUSSIAN		"^2�������� ��� ������"
+
+REFERENCE			AMMO_RESTORED
+LANG_RUSSIAN		"^3������� ^7�������������"
+
+REFERENCE			ALREADY_AT_MAX_AMMO
+LANG_RUSSIAN		"���� ^3������� ^7��� ������!"
+
+REFERENCE			N_IS_NO_LONGER_INFECTED
+LANG_RUSSIAN		"^2&&1 ������ �� ������!"
+
+REFERENCE			YOU_HAVE_BEEN_CURED
+LANG_RUSSIAN		"^2������ ��������!"
+
+REFERENCE			YOU_ARE_NOT_INFECTED
+LANG_RUSSIAN		"^2�� �� ��������"
+
+REFERENCE			MAXIMUM_OF_N_BARRELS
+LANG_RUSSIAN		"��������! �������� �����: &&1!"
+
+REFERENCE			MAXIMUM_OF_N_TURRETS_PER_PLAYER
+LANG_RUSSIAN		"��������! �������� ������� �� ������: &&1!"
+
+REFERENCE			MAXIMUM_OF_N_TURRETS
+LANG_RUSSIAN		"��������! �������� ������� �����: &&1!"
+
+ENDMARKER

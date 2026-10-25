@@ -1,0 +1,128 @@
+// Description text of the vending machine (Upgrade Shop)
+REFERENCE           TITLE
+LANG_RUSSIAN        "�������� �������"
+
+REFERENCE           DESC_DEFAULT
+LANG_RUSSIAN        "�������� ������ �� ��������� �������, ����� ������ � ��� ������."
+
+REFERENCE           RESTOREHEALTH
+LANG_RUSSIAN        "������������ ��������"
+
+REFERENCE           DESC_RESTOREHEALTH
+LANG_RUSSIAN        "�������� ����� �������� �����, ���� �� ���������� ���������."
+
+REFERENCE           DESC_RESTOREHEALTH_TITLE
+LANG_RUSSIAN        "������������ ��������"
+
+REFERENCE           RESTOREAMMO
+LANG_RUSSIAN        "������������ �������"
+
+REFERENCE           DESC_RESTOREAMMO
+LANG_RUSSIAN        "������� ���������? ���� ������� ��������� �������� �� ������, ������� �� �����! (����� ������� ������!)"
+
+REFERENCE           DESC_RESTOREAMMO_TITLE
+LANG_RUSSIAN        "������������ �������"
+
+REFERENCE           CUREINFECTION
+LANG_RUSSIAN        "�������� ������"
+
+REFERENCE           DESC_CUREINFECTION
+LANG_RUSSIAN        "�����������? ������� ��������! ��������� ������� ���� ������� �����-���������� ������ ���!"
+
+REFERENCE           DESC_CUREINFECTION_TITLE
+LANG_RUSSIAN        "�������� ������"
+
+REFERENCE           FRAG
+LANG_RUSSIAN        "���������� �������"
+
+REFERENCE           DESC_FRAG
+LANG_RUSSIAN        "���������� ������� ��� �������� ��������� �����. ����� �������� ��� ���������� ������ �����."
+
+REFERENCE           DESC_FRAG_TITLE
+LANG_RUSSIAN        "���������� �������"
+
+REFERENCE           CLAYMORE
+LANG_RUSSIAN        "��������"
+
+REFERENCE           DESC_CLAYMORE
+LANG_RUSSIAN        "�������� ����� ������� �� ���� �����. ��� ����������, ����� ����� �������� ����� ��� ����."
+
+REFERENCE           DESC_CLAYMORE_TITLE
+LANG_RUSSIAN        "��������"
+
+REFERENCE           C4
+LANG_RUSSIAN        "C4"
+
+REFERENCE           DESC_C4
+LANG_RUSSIAN        "C4 �������� ������ �������� ��� ����� � ������� � ��� � �������."
+
+REFERENCE           DESC_C4_TITLE
+LANG_RUSSIAN        "C4"
+
+REFERENCE           RAYGUN
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           DESC_RAYGUN
+LANG_RUSSIAN        "������� �����, ��������� �� WaW � ����� �����-������� CoD, - ������ ������ ������ ����� �����. ��� ������� ���� �� ������� � ������ ����������.\nŸ ����� ^3�������� ^7� ����� ���������!"
+
+REFERENCE           DESC_RAYGUN_TITLE
+LANG_RUSSIAN        "������� �����"
+
+REFERENCE           BARREL
+LANG_RUSSIAN        "�����"
+
+REFERENCE           DESC_BARREL
+LANG_RUSSIAN        "����� ����������� �������� �����. ������ ���� ����� ������ ����, ����� ��������� ������ �����, ����� ��������� ������."
+
+REFERENCE           DESC_BARREL_TITLE
+LANG_RUSSIAN        "�����"
+
+REFERENCE           EXPLODINGBARREL
+LANG_RUSSIAN        "�������� �����"
+
+REFERENCE           DESC_EXPLODINGBARREL
+LANG_RUSSIAN        "�������� ��� ������� �����, �� ��� ����������� ���������� � ����� �����������. ����� ������� ���� ������."
+
+REFERENCE           DESC_EXPLODINGBARREL_TITLE
+LANG_RUSSIAN        "�������� �����"
+
+REFERENCE           SENTRYTURRET
+LANG_RUSSIAN        "������-�������"
+
+REFERENCE           DESC_SENTRYTURRET
+LANG_RUSSIAN        "����� ��� ����������� ���������� ��������������� ������-�������, ������� ��������� �� ����� ����� ������.\n^1������ ^1��������� ^1�� ^1����� ^1����� ^1����� ^1�����^1!"
+
+REFERENCE           DESC_SENTRYTURRET_TITLE
+LANG_RUSSIAN        "������-�������"
+
+REFERENCE           GLTURRET
+LANG_RUSSIAN        "������ GL"
+
+REFERENCE           DESC_GLTURRET
+LANG_RUSSIAN        "������ GL ������� ������� ������-�������� � ������� ���� �� �������. ����� ���������� ������ ������� ���!\n^1������ ^1��������� ^1�� ^1����� ^1����� ^1����� ^1�����^1!"
+
+REFERENCE           DESC_GLTURRET_TITLE
+LANG_RUSSIAN        "������ GL"
+
+REFERENCE           MGBARREL
+LANG_RUSSIAN        "����� + ������"
+
+REFERENCE           DESC_MGBARREL
+LANG_RUSSIAN        "��������� ����� ��� ��������������� ������, ������� ����� ��������� ����� ��� ������. �� ������� ������ ����������� - � ����� ��������� ����� ����� ����� �����!"
+
+REFERENCE           DESC_MGBARREL_TITLE
+LANG_RUSSIAN        "��������� �����"
+
+REFERENCE           PORTAL
+LANG_RUSSIAN        "������"
+
+REFERENCE           DESC_PORTAL
+LANG_RUSSIAN        "������ ������ ������� �� ����� � � ����� � ��� �� � �� �����? �������������� ������ MK IV ��������� ������� ������� �� ����� ����� � ������!"
+
+REFERENCE           DESC_PORTAL_TITLE
+LANG_RUSSIAN        "������"
+
+REFERENCE           EXIT
+LANG_RUSSIAN        "�����"
+
+ENDMARKER

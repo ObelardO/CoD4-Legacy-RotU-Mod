@@ -1,0 +1,254 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE			STREAK
+LANG_RUSSIAN		"X&&1"
+
+REFERENCE           4_PLAYERMENU
+LANG_RUSSIAN        "4. ���� ������"
+
+REFERENCE           5_ADMINMENU
+LANG_RUSSIAN        "5. ���� ������"
+
+REFERENCE           SURV
+LANG_RUSSIAN        "Reign of the Undead-^1���������"
+
+REFERENCE           PROMOTION
+LANG_RUSSIAN        "����� ������!"
+
+REFERENCE           SOLDIER
+LANG_RUSSIAN        "������"
+
+REFERENCE           SOLDIER_FULL
+LANG_RUSSIAN        "������ (^1�����^7)"
+
+REFERENCE           SPECIALIST
+LANG_RUSSIAN        "����������"
+
+REFERENCE           SPECIALIST_FULL
+LANG_RUSSIAN        "���������� (^1�����^7)"
+
+REFERENCE           ARMORED
+LANG_RUSSIAN        "��������"
+
+REFERENCE           ARMORED_FULL
+LANG_RUSSIAN        "�������� (^1�����^7)"
+
+REFERENCE           ENGINEER
+LANG_RUSSIAN        "�������"
+
+REFERENCE           ENGINEER_FULL
+LANG_RUSSIAN        "������� (^1�����^7)"
+
+REFERENCE           MEDIC
+LANG_RUSSIAN        "�����"
+
+REFERENCE           MEDIC_FULL
+LANG_RUSSIAN        "����� (^1�����^7)"
+
+REFERENCE           About
+LANG_RUSSIAN        "� RotU-R"
+
+REFERENCE           ZOMCOUNT
+LANG_RUSSIAN        "����� �����:"
+
+REFERENCE           HEALTH
+LANG_RUSSIAN        "�������� �����:"
+
+REFERENCE			AVAILABLE_SKILLPOINTS
+LANG_RUSSIAN		"� ��� &&1 ����� �������. [{mp_QuickMessage}] + 1 - ���� �������"
+
+REFERENCE           DIFFICULTY
+LANG_RUSSIAN        "���������:"
+
+REFERENCE           EASY
+LANG_RUSSIAN        "�����"
+
+REFERENCE           NORMAL
+LANG_RUSSIAN        "���������"
+
+REFERENCE           HARD
+LANG_RUSSIAN        "������"
+
+REFERENCE           VERYHARD
+LANG_RUSSIAN        "����� ������"
+
+REFERENCE           1_FLASHLIGHT
+LANG_RUSSIAN        "1. �������"
+
+REFERENCE           2_THIRDPERSON
+LANG_RUSSIAN        "2. ��� �� 3-�� ����"
+
+REFERENCE           3_RESPAWN
+LANG_RUSSIAN        "3. �����������"
+
+REFERENCE           TOGGLECONTROLS
+LANG_RUSSIAN        "4. ����������"
+
+REFERENCE           LAST_MAN_STANDING
+LANG_RUSSIAN        "�� ��������� �����!"
+
+REFERENCE           JOIN_TESTSERVER
+LANG_RUSSIAN        "����� ^2������ ^7(����������� ������)"
+
+REFERENCE           JOIN_SERVER
+LANG_RUSSIAN        "����� ^2������"
+
+REFERENCE           PLAYERMENU
+LANG_RUSSIAN        "���� ������"
+
+REFERENCE           CONTROLS
+LANG_RUSSIAN        "���������� �����"
+
+REFERENCE           BIND_FLASHLIGHT
+LANG_RUSSIAN        "�������"
+
+REFERENCE           BIND_THIRDPERSON
+LANG_RUSSIAN        "��� �� 3-�� ����"
+
+REFERENCE			INVENTORY
+LANG_RUSSIAN        "���������"
+
+REFERENCE			MYINVENTORY
+LANG_RUSSIAN        "��� ���������"
+
+REFERENCE			WEIGHT
+LANG_RUSSIAN        "^3���"
+
+REFERENCE			ITEMS
+LANG_RUSSIAN        "�������� ^3(&&1/&&2)"
+
+REFERENCE			DESCRIPTION
+LANG_RUSSIAN        "��������"
+
+REFERENCE			ABILITIES
+LANG_RUSSIAN        "�����������"
+
+REFERENCE			ACCEPT
+LANG_RUSSIAN        "�������"
+
+REFERENCE			SHOW
+LANG_RUSSIAN        "��������"
+
+REFERENCE			NONE
+LANG_RUSSIAN        "���"
+
+REFERENCE           ATTACHMENTS
+LANG_RUSSIAN        "��������� ������:"
+
+REFERENCE           NEWWAVEIN
+LANG_RUSSIAN        "���������� � ����� #&&1:"
+
+REFERENCE           FINALWAVEIN
+LANG_RUSSIAN        "���������� � �������� ������:"
+
+REFERENCE           NEWWAVE0
+LANG_RUSSIAN        "���������: ������������ &&1 �����!"
+
+REFERENCE           NEWWAVE1
+LANG_RUSSIAN        "����� �����! � ��� &&1 �����!"
+
+REFERENCE           NEWWAVE2
+LANG_RUSSIAN        "��������� ����� ����� �� &&1 �����!"
+
+REFERENCE           SCARYWAVE
+LANG_RUSSIAN        "������� �����! &&1 ����� �����!"
+
+REFERENCE           SCARYWAVE_AFTER0
+LANG_RUSSIAN        "^1���������� �������� � ����"
+
+REFERENCE           SCARYWAVE_AFTER1
+LANG_RUSSIAN        "^1������ ���������"
+
+REFERENCE           SCARYWAVE_AFTER2
+LANG_RUSSIAN        "^1������ ����� �� �����"
+
+REFERENCE           NEWSPECIALWAVE
+LANG_RUSSIAN        "������ �����: &&1 �� �������!"
+
+REFERENCE           NEWBOSSWAVE
+LANG_RUSSIAN        "��������! �Ĩ� ^1����-����� ^7!"
+
+REFERENCE           BOSS_CATCHED_FIRE
+LANG_RUSSIAN        "���������! ����� ����������!"
+
+REFERENCE           BOSS_EXPLOSIVES0
+LANG_RUSSIAN        "�������� ��� ���� �����������! &&1%"
+
+REFERENCE           BOSS_EXPLOSIVES1
+LANG_RUSSIAN        "�������� � ���� C4 � �������! &&1%"
+
+REFERENCE           BOSS_EXPLOSIVES2
+LANG_RUSSIAN        "����������� �����-�����! &&1%"
+
+REFERENCE           BOSS_KNIFE0
+LANG_RUSSIAN        "������� ������ �������! &&1%"
+
+REFERENCE           BOSS_KNIFE1
+LANG_RUSSIAN        "������ ���, �������! &&1%"
+
+REFERENCE           BOSS_KNIFE2
+LANG_RUSSIAN        "�������� ������ �� ����! &&1%"
+
+REFERENCE           BOSS_GUNS0
+LANG_RUSSIAN        "������� ��� ������� ����! &&1%"
+
+REFERENCE           BOSS_GUNS1
+LANG_RUSSIAN        "��������� � ���� ��� ����! &&1%"
+
+REFERENCE           BOSS_GUNS2
+LANG_RUSSIAN        "������ � ��������, �����! &&1%"
+
+REFERENCE           INFECTED
+LANG_RUSSIAN        "�� ��������! ����������!"
+
+REFERENCE			DAMMOD
+LANG_RUSSIAN		"^1����������� �����: &&1"
+
+REFERENCE           SPEND_SKILLPOINTS
+LANG_RUSSIAN        "��������� ���� �������"
+
+REFERENCE			SURV_LEFT
+LANG_RUSSIAN		"����� ��������: &&1"
+
+REFERENCE			ZOMB_ALIVE
+LANG_RUSSIAN		"����� �����: &&1"
+
+REFERENCE			SURV_DOWN
+LANG_RUSSIAN		"�������� � ��������: &&1"
+
+REFERENCE			MAPVOTE_WAIT4VOTES
+LANG_RUSSIAN		"�������� �������"
+
+REFERENCE			MAPVOTE_PRESSFIRE
+LANG_RUSSIAN		"������� ^3[{+attack}] ^7��� ^3[{+melee}] ^7��� ������!"
+
+REFERENCE			WAVE_NUMBER
+LANG_RUSSIAN		"����� #&&1"
+
+REFERENCE			ARMOREDFORCEFIELD_IN
+LANG_RUSSIAN		"�������� ���� �����:"
+
+REFERENCE			MEDKIT_IN
+LANG_RUSSIAN		"������� �����:"
+
+REFERENCE			AMMOBOX_IN
+LANG_RUSSIAN		"���� �������� �����:"
+
+REFERENCE			MONKEY_IN
+LANG_RUSSIAN		"��������� ����� �����:"
+
+REFERENCE			INVISIBILITY_IN
+LANG_RUSSIAN		"����������� �����:"
+
+REFERENCE			DIFFICULTY_INCREASED
+LANG_RUSSIAN		"��������� ^1��������^7!"
+
+REFERENCE			SHOP_COSTS_INCREASED
+LANG_RUSSIAN		"���� � �������� ������� �� &&1%!"
+
+REFERENCE			PLAYER_N_LASTSTAND
+LANG_RUSSIAN		"&&1 ^7������!"
+
+ENDMARKER

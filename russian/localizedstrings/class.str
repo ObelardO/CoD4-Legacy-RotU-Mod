@@ -1,0 +1,124 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE           CLASS
+LANG_RUSSIAN        "�����"
+
+REFERENCE           CLASS1
+LANG_RUSSIAN        "������"
+
+REFERENCE           CLASS2
+LANG_RUSSIAN        "����������"
+
+REFERENCE           CLASS3
+LANG_RUSSIAN        "��������"
+
+REFERENCE           CLASS4
+LANG_RUSSIAN        "�������"
+
+REFERENCE           CLASS5
+LANG_RUSSIAN        "�����"
+
+REFERENCE           DEFAULT_ASSAULT
+LANG_RUSSIAN        "����������� ���������"
+
+REFERENCE           DEFAULT_SPECOPS
+LANG_RUSSIAN        "����������� �������"
+
+REFERENCE           DEFAULT_HEAVYGUNNER
+LANG_RUSSIAN        "����������� ���������"
+
+REFERENCE           DEFAULT_DEMOLITIONS
+LANG_RUSSIAN        "����������� ���������"
+
+REFERENCE           DEFAULT_SNIPER
+LANG_RUSSIAN        "����������� �������"
+
+REFERENCE           MARINES_CLASSES
+LANG_RUSSIAN        "������ ��������"
+
+REFERENCE           OPFOR_CLASSES
+LANG_RUSSIAN        "������ ������������"
+
+REFERENCE           SAS_CLASSES
+LANG_RUSSIAN        "������ SAS"
+
+REFERENCE           SPETSNAZ_CLASSES
+LANG_RUSSIAN        "������ ��������"
+
+REFERENCE           GRENADIER
+LANG_RUSSIAN        "��������"
+
+REFERENCE           CUSTOM1
+LANG_RUSSIAN        "��� ���������"
+
+REFERENCE           CUSTOM2
+LANG_RUSSIAN        "��� �������"
+
+REFERENCE           CUSTOM3
+LANG_RUSSIAN        "��� ���������"
+
+REFERENCE           CUSTOM5
+LANG_RUSSIAN        "��� �������"
+
+REFERENCE           CUSTOM4
+LANG_RUSSIAN        "��� ���������"
+
+REFERENCE           SLOT1
+LANG_RUSSIAN        "���� ���� 1"
+
+REFERENCE           SLOT2
+LANG_RUSSIAN        "���� ���� 2"
+
+REFERENCE           SLOT3
+LANG_RUSSIAN        "���� ���� 3"
+
+REFERENCE           SLOT4
+LANG_RUSSIAN        "���� ���� 4"
+
+REFERENCE           SLOT5
+LANG_RUSSIAN        "���� ���� 5"
+
+REFERENCE           OFFLINE_CLASS1
+LANG_RUSSIAN        "��������"
+
+REFERENCE           OFFLINE_CLASS2
+LANG_RUSSIAN        "�������"
+
+REFERENCE           OFFLINE_CLASS3
+LANG_RUSSIAN        "�����������"
+
+REFERENCE           OFFLINE_CLASS4
+LANG_RUSSIAN        "���������"
+
+REFERENCE           OFFLINE_CLASS5
+LANG_RUSSIAN        "�������"
+
+REFERENCE           OFFLINE_CLASS6
+LANG_RUSSIAN        "����"
+
+REFERENCE           OFFLINE_CLASS7
+LANG_RUSSIAN        "������� ���"
+
+REFERENCE           OFFLINE_CLASS8
+LANG_RUSSIAN        "���������"
+
+REFERENCE           OFFLINE_CLASS9
+LANG_RUSSIAN        "��������"
+
+REFERENCE           OFFLINE_CLASS10
+LANG_RUSSIAN        "������ �������"
+
+ENDMARKER

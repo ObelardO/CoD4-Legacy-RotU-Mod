@@ -1,0 +1,23 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE			SPEND_FIRE
+LANG_RUSSIAN		"�������^3 [{+attack}] (�����) ^7����� �������� &&1!"
+
+REFERENCE			SPEND_FIRE_YOURSELF
+LANG_RUSSIAN		"�������^3 [{+attack}] (�����) ^7����� ����������!"
+
+REFERENCE			TIMER
+LANG_RUSSIAN		"������� �������� ������������� �������?"
+
+REFERENCE			SPEND_AMOUNT
+LANG_RUSSIAN		"����� ��� ����� �� ������: ^3&&1"
+
+REFERENCE			SPEND_AMOUNT_CANT_PAY
+LANG_RUSSIAN		"� ��� ��� ^3&&1^7 �����, ����� ���������!"
+
+REFERENCE			YOU_GOT_SAVED_BY
+LANG_RUSSIAN		"^2�������! ^3&&1 ^7�������� �� ���!"
+
+ENDMARKER

@@ -1,0 +1,521 @@
+// ABILITIES -- LOT OF STRINGS
+
+REFERENCE			TITLE
+LANG_RUSSIAN        "����������� ����"
+
+REFERENCE			ABILITY1
+LANG_RUSSIAN        "�������� �����������"
+
+REFERENCE			ABILITY2
+LANG_RUSSIAN        "�������������� �����������"
+
+REFERENCE			ABILITY3
+LANG_RUSSIAN        "���������� �����������"
+
+///////////////
+//	SOLDIER  //
+///////////////
+
+	//PRIMARY
+	
+		// ABILITY 1 //
+REFERENCE			SOLDIER_PR_AB1
+LANG_RUSSIAN        "������ ����"
+
+REFERENCE			SOLDIER_PR_AB1D
+LANG_RUSSIAN        "������ ���� (^3��. 5^7)"
+
+REFERENCE			DES_SOLDIER_PR_AB1
+LANG_RUSSIAN		"������ ���� ������ ����, ������� ��������� ����� ������ � �������� �����."
+
+REFERENCE			DES_SOLDIERD_PR_AB1
+LANG_RUSSIAN		"������ ���� ������ ����, ������� ��������� ����� ������ � �������� �����. ^3����������� �� 5 ������ �������."
+
+			// ABILITY 2 //
+REFERENCE			SOLDIER_PR_AB2
+LANG_RUSSIAN        "������"
+
+REFERENCE			SOLDIER_PR_AB2D
+LANG_RUSSIAN        "������ (^3��. 15^7)"
+
+REFERENCE			DES_SOLDIER_PR_AB2
+LANG_RUSSIAN		"������ ��������� ����� �������� � �������������� �������."
+
+REFERENCE			DES_SOLDIERD_PR_AB2
+LANG_RUSSIAN		"������ ��������� ����� �������� � �������������� �������. ^3����������� �� 15 ������ �������."
+
+		// ABILITY 3 //
+REFERENCE			SOLDIER_PR_AB3
+LANG_RUSSIAN     	"���������� ��������"
+
+REFERENCE			SOLDIER_PR_AB3D
+LANG_RUSSIAN      	"���������� �������� (^3��. 25^7)"
+
+REFERENCE			DES_SOLDIER_PR_AB3
+LANG_RUSSIAN		"� ��� ����� ������ ���������� ��������� �������. ��� ������ ����� �� 100% �����, ��� ��������!"
+
+REFERENCE			DES_SOLDIERD_PR_AB3
+LANG_RUSSIAN		"� ��� ����� ������ ���������� ��������� �������. ��� ������ ����� �� 100% �����, ��� ��������! ^3����������� �� 25 ������ �������."
+
+	//PASSIVE
+		// ABILITY 1 //
+REFERENCE			SOLDIER_PS_AB1
+LANG_RUSSIAN        "������ ��������"
+
+REFERENCE			DES_SOLDIER_PS_AB1
+LANG_RUSSIAN		"������ ������� �� ^210%^7 ������ ����� �� ��������� ��������."
+
+		// ABILITY 2 //
+REFERENCE			SOLDIER_PS_AB2
+LANG_RUSSIAN        "������ ������"
+
+REFERENCE			SOLDIER_PS_AB2D
+LANG_RUSSIAN        "������ ������ (^3��. 10^7)"
+
+REFERENCE			DES_SOLDIER_PS_AB2
+LANG_RUSSIAN		"��������� ������� ����� �� �������� ������ �������������� �������."
+
+REFERENCE			DES_SOLDIER_PS_AB2D
+LANG_RUSSIAN		"��������� ������� ����� �� �������� ������ �������������� �������. ^3����������� �� 10 ������ �������."
+
+		// ABILITY 3 //
+REFERENCE			SOLDIER_PS_AB3
+LANG_RUSSIAN        "�����������"
+
+REFERENCE			SOLDIER_PS_AB3D
+LANG_RUSSIAN        "����������� (^3��. 20^7)"
+
+REFERENCE			DES_SOLDIER_PS_AB3
+LANG_RUSSIAN		"������� ���� � �������� ������� ���������� �������� �������� �����������������."
+
+REFERENCE			DES_SOLDIER_PS_AB3D
+LANG_RUSSIAN		"������� ���� � �������� ������� ���������� �������� �������� �����������������. ^3����������� �� 20 ������ �������."
+
+		// ABILITY 4 //
+REFERENCE			SOLDIER_PS_AB4
+LANG_RUSSIAN        "���������"
+
+REFERENCE			SOLDIER_PS_AB4D
+LANG_RUSSIAN        "��������� (^3��. 30^7)"
+
+REFERENCE			DES_SOLDIER_PS_AB4
+LANG_RUSSIAN		"������ � ������� ������� ���� �������������� ������ �����, � �� ���������� � ���� �������������."
+
+REFERENCE			DES_SOLDIER_PS_AB4D
+LANG_RUSSIAN		"������ � ������� ������� ���� �������������� ������ �����, � �� ���������� � ���� �������������. ^3����������� �� ^3������ ������� 30."
+
+///////////////
+//	SPECIALIST  //
+///////////////
+
+	//PRIMARY
+		// ABILITY 1 //
+REFERENCE			SPECIALIST_PR_AB1
+LANG_RUSSIAN        "�������"
+
+REFERENCE			SPECIALIST_PR_AB1D
+LANG_RUSSIAN        "������� (^3��. 5^7)"
+
+REFERENCE			DES_SPECIALIST_PR_AB1
+LANG_RUSSIAN		"���������� ����� � ����� ������������ �������."
+
+REFERENCE			DES_SPECIALIST_PR_AB1D
+LANG_RUSSIAN		"���������� ����� � ����� ������������ �������. ^3����������� �� 5 ������ �����������."
+
+		// ABILITY 2 //
+REFERENCE			SPECIALIST_PR_AB2
+LANG_RUSSIAN        "������ ������"
+
+REFERENCE			SPECIALIST_PR_AB2D
+LANG_RUSSIAN        "������ ������ (^3��. 15^7)"
+
+REFERENCE			DES_SPECIALIST_PR_AB2
+LANG_RUSSIAN		"���������� ����� ������������ ������, � ����� ����� ��� ������������."
+
+REFERENCE			DES_SPECIALIST_PR_AB2D
+LANG_RUSSIAN		"���������� ����� ������������ ������, � ����� ����� ��� ������������. ^3����������� �� ������ �����������^3 15."
+
+		// ABILITY 3 //
+REFERENCE			SPECIALIST_PR_AB3
+LANG_RUSSIAN        "������� ����"
+
+REFERENCE			SPECIALIST_PR_AB3D
+LANG_RUSSIAN        "������� ���� (^3��. 25^7)"
+
+REFERENCE			DES_SPECIALIST_PR_AB3
+LANG_RUSSIAN		"����� �������� ����������� ������ ���� 25%, �� ���������� ��������� ��� ����� � �������� ��������� ������� ��������. ����� ��������� ������ ������ ��������."
+
+REFERENCE			DES_SPECIALIST_PR_AB3D
+LANG_RUSSIAN		"����� �������� ����������� ������ ���� 25%, �� ���������� ��������� ��� ����� � �������� ��������� ������� ��������. ����� ��������� ������ ������ ��������.  ^3����������� �� ������ ����������� ^325."
+
+	//PASSIVE
+		// ABILITY 1 //
+REFERENCE			SPECIALIST_PS_AB1
+LANG_RUSSIAN        "���� ������"
+
+REFERENCE			DES_SPECIALIST_PS_AB1
+LANG_RUSSIAN		"���������� �������� ����� � ����� ^115%^7 ��� ��������������� ������ � ����� ��� ���������, ��� ���������� ������ ����� ^210%^7 � ����� ^230%^7 � ����� ����� � ���������."
+
+		// ABILITY 2 //
+REFERENCE			SPECIALIST_PS_AB2
+LANG_RUSSIAN        "������ ������"
+
+REFERENCE			SPECIALIST_PS_AB2D
+LANG_RUSSIAN        "������ ������ (^3��. 10^7)"
+
+REFERENCE			DES_SPECIALIST_PS_AB2
+LANG_RUSSIAN		"�� ������� ������ ���� � ����� ������ ������� � ������� ������ ����� ����� ����� � ������� ������� ����������."
+
+REFERENCE			DES_SPECIALIST_PS_AB2D
+LANG_RUSSIAN		"�� ������� ������ ���� � ����� ������ ������� � ������� ������ ����� ����� ����� � ������� ������� ����������. ^3����������� �� 10 ������ �����������."
+
+		// ABILITY 3 //
+REFERENCE			SPECIALIST_PS_AB3
+LANG_RUSSIAN        "����� �������"
+
+REFERENCE			SPECIALIST_PS_AB3D
+LANG_RUSSIAN        "����� ������� (^3��. 20^7)"
+
+REFERENCE			DES_SPECIALIST_PS_AB3
+LANG_RUSSIAN		"��������� ������ ��������� ����������� ���������� ������������ ��� �����, ���� �� �� ����� ������ ������ (�������, ��������, ������ ��������� � �. �.)."
+
+REFERENCE			DES_SPECIALIST_PS_AB3D
+LANG_RUSSIAN		"��������� ������ ��������� ����������� ���������� ������������ ��� �����, ���� �� �� ����� ������ ������ (�������, ��������, ������ ��������� � �. �.). ^3����������� ^3�� 20 ������ �����������."
+
+		// ABILITY 4 //
+REFERENCE			SPECIALIST_PS_AB4
+LANG_RUSSIAN        "�������� �������"
+
+REFERENCE			SPECIALIST_PS_AB4D
+LANG_RUSSIAN        "�������� ������� (^3��. 30^7)"
+
+REFERENCE			DES_SPECIALIST_PS_AB4
+LANG_RUSSIAN		"���������� ������ ������� ������� �� ������������ ��������."
+
+REFERENCE			DES_SPECIALIST_PS_AB4D
+LANG_RUSSIAN		"���������� ������ ������� ������� �� ������������ ��������. ^3����������� �� ^3������ ����������� 30."
+
+///////////////
+//	MEDIC  //
+///////////////
+
+	//PRIMARY
+		// ABILITY 1 //
+REFERENCE			MEDIC_PR_AB1
+LANG_RUSSIAN        "�������"
+
+REFERENCE			MEDIC_PR_AB1D
+LANG_RUSSIAN        "������� (^3��. 5^7)"
+
+REFERENCE			DES_MEDIC_PR_AB1
+LANG_RUSSIAN		"����� ���� � ����� �������. �������������, ��� ��������� ����� ��������� �����!"
+
+REFERENCE			DES_MEDIC_PR_AB1D
+LANG_RUSSIAN		"����� ���� � ����� �������. �������������, ��� ��������� ����� ��������� �����! ^3����������� �� 5 ������ ������."
+
+		// ABILITY 2 //
+REFERENCE			MEDIC_PR_AB2
+LANG_RUSSIAN        "���� �������"
+
+REFERENCE			MEDIC_PR_AB2D
+LANG_RUSSIAN        "���� ������� (^3��. 15^7)"
+
+REFERENCE			DES_MEDIC_PR_AB2
+LANG_RUSSIAN		"����� ����� �������� ������ ���� �������, ������� ����� ���� ������."
+
+REFERENCE			DES_MEDIC_PR_AB2D
+LANG_RUSSIAN		"����� ����� �������� ������ ���� �������, ������� ����� ���� ������. ^3����������� �� ������ ������^3 15."
+
+		// ABILITY 3 //
+REFERENCE			MEDIC_PR_AB3
+LANG_RUSSIAN        "����������� ��������"
+
+REFERENCE			MEDIC_PR_AB3D
+LANG_RUSSIAN        "����������� �������� (^3��. 25^7)"
+
+REFERENCE			DES_MEDIC_PR_AB3
+LANG_RUSSIAN		"� ������ 20% ����� ����� �������� � ����� � ������ ������� ��������������� ^23%^7 ������������ ��������."
+
+REFERENCE			DES_MEDIC_PR_AB3D
+LANG_RUSSIAN		"� ������ 20% ����� ����� �������� � ����� � ������ ������� ��������������� ^23%^7 ������������ ��������. ^3����������� �� ������ ������ ^325."
+
+	//PASSIVE
+		// ABILITY 1 //
+REFERENCE			MEDIC_PS_AB1
+LANG_RUSSIAN        "��������"
+
+REFERENCE			DES_MEDIC_PS_AB1
+LANG_RUSSIAN		"����� ��������� ��������� ����� �������."
+
+		// ABILITY 2 //
+REFERENCE			MEDIC_PS_AB2
+LANG_RUSSIAN        "�������� �������"
+
+REFERENCE			MEDIC_PS_AB2D
+LANG_RUSSIAN        "�������� ������� (^3��. 10^7)"
+
+REFERENCE			DES_MEDIC_PS_AB2
+LANG_RUSSIAN		"����� ����� ������ ������ ���������. ���������� ����� ������� ��� �� 10% ������� ������."
+
+REFERENCE			DES_MEDIC_PS_AB2D
+LANG_RUSSIAN		"����� ����� ������ ������ ���������. ���������� ����� ������� ��� �� 10% ������� ������. ^3����������� �� 10 ������ ������."
+
+		// ABILITY 3 //
+REFERENCE			MEDIC_PS_AB3
+LANG_RUSSIAN        "������ ������"
+
+REFERENCE			MEDIC_PS_AB3D
+LANG_RUSSIAN        "������ ������ (^3��. 20^7)"
+
+REFERENCE			DES_MEDIC_PS_AB3
+LANG_RUSSIAN		"����� �������� �������� �������, ���� ���� ���� �������� �����. ��� ������� �������� �� �������� �������� ��� � �������� �� 50% ������ �����."
+
+REFERENCE			DES_MEDIC_PS_AB3D
+LANG_RUSSIAN		"����� �������� �������� �������, ���� ���� ���� �������� �����. ��� ������� �������� �� �������� �������� ��� � �������� �� 50% ������ �����. ^3����������� ^3�� 20 ������ ������."
+
+		// ABILITY 4 //
+REFERENCE			MEDIC_PS_AB4
+LANG_RUSSIAN        "�������� ����"
+
+REFERENCE			MEDIC_PS_AB4D
+LANG_RUSSIAN        "�������� ���� (^3��. 30^7)"
+
+REFERENCE			DES_MEDIC_PS_AB4
+LANG_RUSSIAN		"���� � ��������� ������ ������� � �������� ����. ���� ����� ����� �� �������."
+
+REFERENCE			DES_MEDIC_PS_AB4D
+LANG_RUSSIAN		"���� � ��������� ������ ������� � �������� ����. ���� ����� ����� �� �������. ^3����������� �� ^3������ ������ 30."
+
+///////////////
+//	ENGINEER  //
+///////////////
+
+	//PRIMARY
+		// ABILITY 1 //
+REFERENCE			ENGINEER_PR_AB1
+LANG_RUSSIAN        "���� ��������"
+
+REFERENCE			ENGINEER_PR_AB1D
+LANG_RUSSIAN        "���� �������� (^3��. 5^7)"
+
+REFERENCE			DES_ENGINEER_PR_AB1
+LANG_RUSSIAN		"������� ���� ���� �������� ��� ���� � ���������. �������� ����� ��������� �������� � �����!"
+
+REFERENCE			DES_ENGINEER_PR_AB1D
+LANG_RUSSIAN		"������� ���� ���� �������� ��� ���� � ���������. �������� ����� ��������� �������� � �����! ^3����������� �� ������ �������� ^325."
+
+		// ABILITY 2 //
+REFERENCE			ENGINEER_PR_AB2
+LANG_RUSSIAN        "��������� ������"
+
+REFERENCE			ENGINEER_PR_AB2D
+LANG_RUSSIAN        "��������� ������ (^3��. 15^7)"
+
+REFERENCE			DES_ENGINEER_PR_AB2
+LANG_RUSSIAN		"��� ������ �������� �������� ��������! ������ GL �������� ����� �������, � ������-������� ��������� ����� ������ ��������!"
+
+REFERENCE			DES_ENGINEER_PR_AB2D
+LANG_RUSSIAN		"��� ������ �������� �������� ��������! ������ GL �������� ����� �������, � ������-������� ��������� ����� ������ ��������! ^3����������� �� ������ ��������^3 15."
+
+		// ABILITY 3 //
+REFERENCE			ENGINEER_PR_AB3
+LANG_RUSSIAN        "��������� �������"
+
+REFERENCE			ENGINEER_PR_AB3D
+LANG_RUSSIAN        "��������� ������� (^3��. 25^7)"
+
+REFERENCE			DES_ENGINEER_PR_AB3
+LANG_RUSSIAN		"� ���� � ����� ��� ������ �������. �������� ��� �������������� ������. ������ ��� �������� �� ���� �� 40% ������."
+
+REFERENCE			DES_ENGINEER_PR_AB3D
+LANG_RUSSIAN		"� ���� � ����� ��� ������ �������. �������� ��� �������������� ������. ������ ��� �������� �� ���� �� 40% ������."
+
+	//PASSIVE
+		// ABILITY 1 //
+REFERENCE			ENGINEER_PS_AB1
+LANG_RUSSIAN        "��������� ��������"
+
+REFERENCE			DES_ENGINEER_PS_AB1
+LANG_RUSSIAN		"������� �������� ����� � ����� ^25%^7 ��� ��������� �������� � ������ �������� � ����� ^210%^7 ��� ���������� � ����������. �� ����� ������� ����� ���������."
+
+		// ABILITY 2 //
+REFERENCE			ENGINEER_PS_AB2
+LANG_RUSSIAN        "����������"
+
+REFERENCE			ENGINEER_PS_AB2D
+LANG_RUSSIAN        "���������� (^3��. 10^7)"
+
+REFERENCE			DES_ENGINEER_PS_AB2
+LANG_RUSSIAN		"������� ������ ��������� ����� �������� ��� ��� ������, ������� ������� ����� ���������� � ������������� � ����� ������."
+
+REFERENCE			DES_ENGINEER_PS_AB2D
+LANG_RUSSIAN		"������� ������ ��������� ����� �������� ��� ��� ������, ������� ������� ����� ���������� � ������������� � ����� ������. ^3����������� �� 10 ������ ��������."
+
+		// ABILITY 3 //
+REFERENCE			ENGINEER_PS_AB3
+LANG_RUSSIAN        "����������� �������"
+
+REFERENCE			ENGINEER_PS_AB3D
+LANG_RUSSIAN        "����������� ������� (^3��. 20^7)"
+
+REFERENCE			DES_ENGINEER_PS_AB3
+LANG_RUSSIAN		"[^1�� �����������^7] ������� ����� ������ ������ � �������."
+
+REFERENCE			DES_ENGINEER_PS_AB3D
+LANG_RUSSIAN		"[^1�� �����������^7] ������� ����� ������ ������ � �������. ^3����������� ^3�� 20 ������ ��������."
+
+		// ABILITY 4 //
+REFERENCE			ENGINEER_PS_AB4
+LANG_RUSSIAN        "������������� �������"
+
+REFERENCE			ENGINEER_PS_AB4D
+LANG_RUSSIAN        "������������� ������� (^3��. 30^7)"
+
+REFERENCE			DES_ENGINEER_PS_AB4
+LANG_RUSSIAN		"���� �������� � ������ 5% ��������� ����."
+
+REFERENCE			DES_ENGINEER_PS_AB4D
+LANG_RUSSIAN		"���� �������� � ������ 5% ��������� ����. ^3����������� �� ^3������ �������� 30."
+
+///////////////
+//	ARMORED  //
+///////////////
+
+	//PRIMARY
+		// ABILITY 1 //
+REFERENCE			ARMORED_PR_AB1
+LANG_RUSSIAN        "������ �������� ���"
+
+REFERENCE			ARMORED_PR_AB1D
+LANG_RUSSIAN        "������ �������� ��� (^3��. 5^7)"
+
+REFERENCE			DES_ARMORED_PR_AB1
+LANG_RUSSIAN		"�������� �� ������ �������� ���. �� ��������� ������� ���� � ����� �����."
+
+REFERENCE			DES_ARMORED_PR_AB1D
+LANG_RUSSIAN		"�������� �� ������ �������� ���. �� ��������� ������� ���� � ����� �����. ^3����������� �� ������ ���������^3 5."
+
+		// ABILITY 2 //
+REFERENCE			ARMORED_PR_AB2
+LANG_RUSSIAN        "������������"
+
+REFERENCE			ARMORED_PR_AB2D
+LANG_RUSSIAN        "������������ (^3��. 15^7)"
+
+REFERENCE			DES_ARMORED_PR_AB2
+LANG_RUSSIAN		"�������� ����� �� ��������� ������ ����� ����������."
+
+REFERENCE			DES_ARMORED_PR_AB2D
+LANG_RUSSIAN		"�������� ����� �� ��������� ������ ����� ����������. ^3����������� �� ������ ���������^3 15."
+
+		// ABILITY 3 //
+REFERENCE			ARMORED_PR_AB3
+LANG_RUSSIAN        "������ �����"
+
+REFERENCE			ARMORED_PR_AB3D
+LANG_RUSSIAN        "������ ����� (^3��. 5^7)"
+
+REFERENCE			DES_ARMORED_PR_AB3
+LANG_RUSSIAN		"���� �������� ��������� ���� 65%, ���������� ���� ����������� �����."
+
+REFERENCE			DES_ARMORED_PR_AB3D
+LANG_RUSSIAN		"���� �������� ��������� ���� 65%, ���������� ���� ����������� �����. ^3����������� �� 25 ������ ���������."
+
+	//PASSIVE
+		// ABILITY 1 //
+REFERENCE			ARMORED_PS_AB1
+LANG_RUSSIAN        "���������"
+
+REFERENCE			DES_ARMORED_PS_AB1
+LANG_RUSSIAN		"�������� �������� ����� � ����� ^215%^7 �� ������ �������� � ����� ^115%^7 ��� ����������-��������, ����������� �������� � ����������."
+
+		// ABILITY 2 //
+REFERENCE			ARMORED_PS_AB2
+LANG_RUSSIAN        "����������� ����"
+
+REFERENCE			ARMORED_PS_AB2D
+LANG_RUSSIAN        "����������� ���� (^3��. 10^7)"
+
+REFERENCE			DES_ARMORED_PS_AB2
+LANG_RUSSIAN		"������ ��������� �� ������: �� �������� �� ����� ��� ������ �������� � ������� �� ^235%^7 ������ ����� � ������� ���."
+
+REFERENCE			DES_ARMORED_PS_AB2D
+LANG_RUSSIAN		"������ ��������� �� ������: �� �������� �� ����� ��� ������ �������� � ������� �� ^235%^7 ������ ����� � ������� ���. ^3����������� �� 10 ������ ���������."
+
+		// ABILITY 3 //
+REFERENCE			ARMORED_PS_AB3
+LANG_RUSSIAN        "������� �� �������"
+
+REFERENCE			ARMORED_PS_AB3D
+LANG_RUSSIAN        "������� �� ������� (^3��. 20^7)"
+
+REFERENCE			DES_ARMORED_PS_AB3
+LANG_RUSSIAN		"�������� ������� ������������ ������ ������� � ������� �� ��� ��� �� ^25%^7 ������ �����."
+
+REFERENCE			DES_ARMORED_PS_AB3D
+LANG_RUSSIAN		"�������� ������� ������������ ������ ������� � ������� �� ��� ��� �� ^25%^7 ������ �����. ^3����������� ^3�� 20 ������ ���������."
+
+		// ABILITY 4 //
+REFERENCE			ARMORED_PS_AB4
+LANG_RUSSIAN        "������� ����"
+
+REFERENCE			ARMORED_PS_AB4D
+LANG_RUSSIAN        "������� ���� (^3��. 30^7)"
+
+REFERENCE			DES_ARMORED_PS_AB4
+LANG_RUSSIAN		"�������� �������� �� ^210%^7 ������ ����� � ���� ����������."
+
+REFERENCE			DES_ARMORED_PS_AB4D
+LANG_RUSSIAN		"�������� �������� �� ^210%^7 ������ ����� � ���� ����������. ^3����������� �� ^3������ ��������� 30."
+
+// SELECTABLE ABILITIES
+
+REFERENCE			COMMON_CM_AB1
+LANG_RUSSIAN        "����� ����������� 1"
+
+REFERENCE			COMMON_CM_AB1D
+LANG_RUSSIAN        "����� ����������� 1 (�������!)"
+
+REFERENCE			DES_COMMON_CM_AB1
+LANG_RUSSIAN		"�������� ����� ����������� 1"
+
+REFERENCE			DES_COMMON_CM_AB1D
+LANG_RUSSIAN		"�������� ����� ����������� 1 (�������!)"
+
+REFERENCE			COMMON_CM_AB2
+LANG_RUSSIAN        "����� ����������� 2"
+
+REFERENCE			COMMON_CM_AB2D
+LANG_RUSSIAN        "����� ����������� 2 (�������!)"
+
+REFERENCE			DES_COMMON_CM_AB2
+LANG_RUSSIAN		"�������� ����� ����������� 2"
+
+REFERENCE			DES_COMMON_CM_AB2D
+LANG_RUSSIAN		"�������� ����� ����������� 2 (�������!)"
+
+REFERENCE			COMMON_CM_AB3
+LANG_RUSSIAN        "����� ����������� 3"
+
+REFERENCE			COMMON_CM_AB3D
+LANG_RUSSIAN        "����� ����������� 3 (�������!)"
+
+REFERENCE			DES_COMMON_CM_AB3
+LANG_RUSSIAN		"�������� ����� ����������� 3"
+
+REFERENCE			DES_COMMON_CM_AB3D
+LANG_RUSSIAN		"�������� ����� ����������� 3 (�������!)"
+
+REFERENCE			COMMON_CM_AB4
+LANG_RUSSIAN        "����� ����������� 4"
+
+REFERENCE			COMMON_CM_AB4D
+LANG_RUSSIAN        "����� ����������� 4 (�������!)"
+
+REFERENCE			DES_COMMON_CM_AB4
+LANG_RUSSIAN		"�������� ����� ����������� 4"
+
+REFERENCE			DES_COMMON_CM_AB4D
+LANG_RUSSIAN		"�������� ����� ����������� 4 (�������!)"
+
+ENDMARKER

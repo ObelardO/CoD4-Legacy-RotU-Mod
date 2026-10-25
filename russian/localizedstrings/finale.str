@@ -1,0 +1,104 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE 0_0
+LANG_RUSSIAN		"^7���������� ���� � ������������, ��?"
+
+REFERENCE 0_1
+LANG_RUSSIAN		"^7���� ���� ������..."
+
+REFERENCE 0_2
+LANG_RUSSIAN		"^7���������, �����?"
+
+REFERENCE 0_3
+LANG_RUSSIAN		"^7��..."
+
+REFERENCE 0_4
+LANG_RUSSIAN		"��� �٨ ^1�� ^7�����"
+
+REFERENCE 0_5
+LANG_RUSSIAN		"^7�������� ^6�������� ^7�� ^1�����"
+
+REFERENCE 0_6
+LANG_RUSSIAN		"^1������ �� ^5����������^1, ��"
+
+REFERENCE 0_7
+LANG_RUSSIAN		"^3� ���� ����� �������� ��������?"
+
+REFERENCE 1_0
+LANG_RUSSIAN		"^7�������, ����� ��������!"
+
+REFERENCE 1_1
+LANG_RUSSIAN		"^1���"
+
+REFERENCE 1_2
+LANG_RUSSIAN		"^7������, ��..."
+
+REFERENCE 1_3
+LANG_RUSSIAN		"^7...^1��������"
+
+REFERENCE 1_4
+LANG_RUSSIAN		"^7����� �������� ��������"
+
+REFERENCE 1_5
+LANG_RUSSIAN		"^1���������� ����� ����ר�"
+
+REFERENCE 1_6
+LANG_RUSSIAN		"^7������� �� ����, ��� ����������?"
+
+REFERENCE 1_7
+LANG_RUSSIAN		"^1� �� ���� ������!"
+
+REFERENCE 2_0
+LANG_RUSSIAN		"^5�����!"
+
+REFERENCE 2_1
+LANG_RUSSIAN		"^7�� ��� �� ������ ��� �����!"
+
+REFERENCE 2_2
+LANG_RUSSIAN		"^7�, � ����, �� ��������?"
+
+REFERENCE 2_3
+LANG_RUSSIAN		"^7����� ����������, ��� � ���� ���..."
+
+REFERENCE 2_4
+LANG_RUSSIAN		"^7��, ���� ^1�����^7 ��� ��� >:D"
+
+REFERENCE 2_5
+LANG_RUSSIAN		"^7����� ^3�������������� ^7!"
+
+REFERENCE 2_6
+LANG_RUSSIAN		"^7������������� �������..."
+
+REFERENCE 2_7
+LANG_RUSSIAN		"...^1������ ����� ����� �����"
+
+REFERENCE 3_0
+LANG_RUSSIAN		"^7���� ������ ��������� �����?!"
+
+REFERENCE 3_1
+LANG_RUSSIAN		"^7��� � ���� ������1D3A3=7%%"
+
+REFERENCE 3_2
+LANG_RUSSIAN		"^2���������� ��������!"
+
+REFERENCE 3_3
+LANG_RUSSIAN		"^7�����, ������ � ^1���^7, ������."
+
+REFERENCE 3_4
+LANG_RUSSIAN		"^1�� �����, ����� �� ����������!"
+
+REFERENCE 3_5
+LANG_RUSSIAN		"^7��� ��������� ������� ^1��������^7 ���"
+
+REFERENCE 3_6
+LANG_RUSSIAN		"^7���� ^1���� ^7��� ����, �����..."
+
+REFERENCE 3_7
+LANG_RUSSIAN		"^1...��������� ����� ����� ����"
+
+REFERENCE LAST
+LANG_RUSSIAN		"^1���������� � �������� ������"
+
+ENDMARKER

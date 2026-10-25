@@ -16,3 +16,5 @@ LANG_ENGLISH		"Pending spawn:\nEngineer"
 
 REFERENCE			AWAITING_SPAWN_MEDIC
 LANG_ENGLISH		"Pending spawn:\nMedic"
+
+ENDMARKER

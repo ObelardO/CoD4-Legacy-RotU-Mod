@@ -1,0 +1,32 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE			GETWEAPON
+LANG_RUSSIAN		"�������^3 [{+activate}] ^7����� ����� ������!"
+
+REFERENCE			UPGRADEWEAPON
+LANG_RUSSIAN		"�������^3 [{+activate}] ^7����� �������� ������!"
+
+REFERENCE			GETAMMO
+LANG_RUSSIAN		"�����������^3 [{+activate}] ^7����� ��������� �������!"
+
+REFERENCE			BUYUPGRADES
+LANG_RUSSIAN		"�������^3 [{+activate}] ^7����� ������ ���������!"
+
+REFERENCE			REBUILDBARRIER
+LANG_RUSSIAN		"�����������^3 [{+activate}] ^7����� ��������!"
+
+REFERENCE			REVIVE
+LANG_RUSSIAN		"�����������^3 [{+activate}] ^7����� �������!"
+
+REFERENCE			CURE
+LANG_RUSSIAN		"�������^3 [{+activate}] ^7����� �������� ������!"
+
+REFERENCE			PORTAL
+LANG_RUSSIAN		"�������^3 [{+activate}] ^7����� �����������������!"
+
+REFERENCE			TURRET
+LANG_RUSSIAN		"�������^3 [{+activate}] ^7����� ��������� ������!"
+
+ENDMARKER

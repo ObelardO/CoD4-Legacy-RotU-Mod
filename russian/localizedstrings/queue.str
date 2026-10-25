@@ -1,0 +1,20 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE			AWAITING_SPAWN_SOLDIER
+LANG_RUSSIAN		"�������� �����������:\n������"
+
+REFERENCE			AWAITING_SPAWN_SPECIALIST
+LANG_RUSSIAN		"�������� �����������:\n����������"
+
+REFERENCE			AWAITING_SPAWN_ARMORED
+LANG_RUSSIAN		"�������� �����������:\n��������"
+
+REFERENCE			AWAITING_SPAWN_ENGINEER
+LANG_RUSSIAN		"�������� �����������:\n�������"
+
+REFERENCE			AWAITING_SPAWN_MEDIC
+LANG_RUSSIAN		"�������� �����������:\n�����"
+
+ENDMARKER
