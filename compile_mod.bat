@@ -155,11 +155,11 @@ echo  Building z_svr_scripts.iwd
 echo  Deleting old z_svr_scripts.iwd...
 del z_svr_scripts.iwd
 echo  Adding maps\mp folder...
-7z a -r -tzip z_svr_scripts.iwd maps\mp\*.* > NUL
+7za a -r -tzip z_svr_scripts.iwd maps\mp\*.* > NUL
 echo  Adding scripts folder...
-7z a -r -tzip z_svr_scripts.iwd scripts\*.* > NUL
+7za a -r -tzip z_svr_scripts.iwd scripts\*.* > NUL
 echo  Adding common_scripts folder...
-7z a -r -tzip z_svr_scripts.iwd common_scripts\*.* > NUL
+7za a -r -tzip z_svr_scripts.iwd common_scripts\*.* > NUL
 echo  New z_svr_scripts.iwd file successfully built!
 if "%iwd_option%"=="1" goto BUILD_IMAGES_IWD
 if "%main_option%"=="1" goto BUILD_IMAGES_IWD
@@ -172,7 +172,7 @@ echo  Building zz_images.iwd
 echo  Deleting old zz_images.iwd...
 del zz_images.iwd
 echo  Adding images...
-7z a -r -tzip zz_images.iwd images\*.iwi > NUL
+7za a -r -tzip zz_images.iwd images\*.iwi > NUL
 echo  New zz_images.iwd file successfully built!
 if "%iwd_option%"=="1" goto BUILD_SOUNDS_IWD
 if "%main_option%"=="1" goto BUILD_SOUNDS_IWD
@@ -185,7 +185,7 @@ echo  Building zz_sounds.iwd
 echo  Deleting old zz_sounds.iwd...
 del zz_sounds.iwd
 echo  Adding sounds...
-7z a -r -tzip zz_sounds.iwd sound\*.* > NUL
+7za a -r -tzip zz_sounds.iwd sound\*.* > NUL
 echo  New zz_sounds.iwd file successfully built!
 if "%iwd_option%"=="1" goto BUILD_MOD_IWD
 if "%main_option%"=="1" goto BUILD_MOD_IWD
@@ -198,11 +198,11 @@ echo  Building zz_%modName%.iwd
 echo  Deleting old zz_%modName%.iwd...
 del zz_%modName%.iwd
 echo  Adding weapons folder...
-7z a -r -tzip zz_%modName%.iwd weapons\mp\* > NUL
+7za a -r -tzip zz_%modName%.iwd weapons\mp\* > NUL
 echo  Adding character folder...
-7z a -r -tzip zz_%modName%.iwd character\*.* > NUL
+7za a -r -tzip zz_%modName%.iwd character\*.* > NUL
 echo  Adding mptype folder...
-7z a -r -tzip zz_%modName%.iwd mptype\*.* > NUL
+7za a -r -tzip zz_%modName%.iwd mptype\*.* > NUL
 echo  New zz_%modName%.iwd file successfully built!
 if "%main_option%"=="1" goto MAKE_MOD_FF
 goto END
