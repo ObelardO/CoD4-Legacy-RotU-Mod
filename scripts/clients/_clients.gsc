@@ -48,7 +48,9 @@ catchBot()
 	if(self getStat(512) == 100) //RELOADING ZOMBIE :]
 	{
 		level.loadBots = 0;
-		self.isBot = true;
+		// #region agent log
+		println("DBG bc209c H-B catchBot isBot=" + self.isBot + " ent=" + self getEntityNumber());
+		// #endregion
 		self thread scripts\bots\_bots::loadBot();
 
 		return 1;
@@ -59,7 +61,10 @@ catchBot()
 
 Callback_PlayerConnect()
 {
-	self.isBot = false;
+	// isBot is an engine read-only field on CoD4X 21.x. Writing it aborts this thread.
+	// #region agent log
+	println("DBG bc209c H-B connect isBot=" + self.isBot + " ent=" + self getEntityNumber());
+	// #endregion
 	
 	self catchBot();
 

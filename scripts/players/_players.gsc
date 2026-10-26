@@ -457,7 +457,9 @@ spawnPlayer(forceSpawn)
 	self.trance = "";
 	self.isDown = false;
 	self.isZombie = false;
-	self.isBot = false;
+	// #region agent log
+	println("DBG bc209c H-B spawnPlayer isBot=" + self.isBot + " ent=" + self getEntityNumber());
+	// #endregion
 	self.isBusy = false;
 	self.hasParachute = false;
 	self.isObj = false;

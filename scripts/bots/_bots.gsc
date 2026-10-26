@@ -194,7 +194,10 @@ loadBot()
 {
 	level.bots[level.bots.size] = self;
 
-	self.isBot = true;
+	// isBot is engine read-only; addTestClient already sets it.
+	// #region agent log
+	println("DBG bc209c H-B loadBot isBot=" + self.isBot + " ent=" + self getEntityNumber());
+	// #endregion
 	self.hasSpawned = false;
 	self.spawnPoint  = undefined;
 	
