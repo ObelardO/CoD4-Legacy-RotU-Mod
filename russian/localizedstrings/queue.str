@@ -3,18 +3,18 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE			AWAITING_SPAWN_SOLDIER
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:\nпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Ожидание возрождения:\nСолдат"
 
 REFERENCE			AWAITING_SPAWN_SPECIALIST
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:\nпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Ожидание возрождения:\nСпециалист"
 
 REFERENCE			AWAITING_SPAWN_ARMORED
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:\nпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Ожидание возрождения:\nБроневик"
 
 REFERENCE			AWAITING_SPAWN_ENGINEER
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:\nпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Ожидание возрождения:\nИнженер"
 
 REFERENCE			AWAITING_SPAWN_MEDIC
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:\nпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Ожидание возрождения:\nМедик"
 
 ENDMARKER

@@ -14,251 +14,252 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE           BOG
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Болото"
 
 REFERENCE           SABOTAGE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Саботаж"
 
 REFERENCE           SABOTAGE_CUSTOM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Саботаж (свой)"
 
 REFERENCE           ZOMB
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Зомби: кооператив"
 
 REFERENCE           SURV
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Выживание среди зомби"
 
 REFERENCE           INITIALZOMBS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Начальные зомби"
 
 REFERENCE           PREPARETIME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Время подготовки"
 
 REFERENCE           SPAWNSPEED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Скорость появления"
 
 REFERENCE           HEALTHINCREASE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Рост здоровья зомби"
+
 
 
 REFERENCE           STORY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Кампания зомби"
 
 REFERENCE           BRIDGE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мост"
 
 REFERENCE           CRASHED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Авария"
 
 REFERENCE           HOSPITAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Госпиталь"
 
 REFERENCE           SWAMP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Трясина"
 
 REFERENCE           VILLAGE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Деревня"
 
 REFERENCE           DEATHMATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Каждый за себя"
 
 REFERENCE           TEAM_DEATHMATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Командный бой"
 
 REFERENCE           CAPTURE_THE_FLAG
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Захват флага"
 
 REFERENCE           HEADQUARTERS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Штаб"
 
 REFERENCE           SEARCH_AND_DESTROY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Найти и уничтожить"
 
 REFERENCE           SEARCH_AND_DESTROY_CUSTOM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Найти и уничтожить (свой)"
 
 REFERENCE           WAR
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Командный бой"
 
 REFERENCE           DOMINATION
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Превосходство"
 
 REFERENCE           KING_OF_THE_HILL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Царь горы"
 
 REFERENCE           WAR_HARDCORE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Хардкор: командный бой"
 
 REFERENCE           DM_HARDCORE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Хардкор: каждый за себя"
 
 REFERENCE           MAIN_MENU
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Главное меню"
 
 REFERENCE           TEAM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Команда"
 
 REFERENCE           WEAPON
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Оружие"
 
 REFERENCE           VIEW_MAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Карта"
 
 REFERENCE           CALL_VOTE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Голосование"
 
 REFERENCE           AUTOASSIGN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Автовыбор"
 
 REFERENCE           AMERICAN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Американец"
 
 REFERENCE           BRITISH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Британец"
 
 REFERENCE           RUSSIAN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Русский"
 
 REFERENCE           MARINES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Разведка морпехов"
 
 REFERENCE           SPETSNAZ
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Спецназ"
 
 REFERENCE           OPFOR
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сепаратисты"
 
 REFERENCE           SAS
 LANG_RUSSIAN        "S.A.S."
 
 REFERENCE           MARINES_SHORT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Морпехи"
 
 REFERENCE           SPETSNAZ_SHORT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Спецназ"
 
 REFERENCE           OPFOR_SHORT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сепаратисты"
 
 REFERENCE           SAS_SHORT
 LANG_RUSSIAN        "S.A.S."
 
 REFERENCE           SPECTATE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Наблюдение"
 
 REFERENCE           MP44
 LANG_RUSSIAN        "MP44"
 
 REFERENCE           1_AMERICAN
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Американец"
 
 REFERENCE           2_AMERICAN
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Американец"
 
 REFERENCE           1_BRITISH
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Британец"
 
 REFERENCE           2_BRITISH
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Британец"
 
 REFERENCE           1_RUSSIAN
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Русский"
 
 REFERENCE           2_RUSSIAN
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Русский"
 
 REFERENCE           1_AUTOASSIGN
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Автовыбор"
 
 REFERENCE           2_AUTOASSIGN
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Автовыбор"
 
 REFERENCE           3_AUTOASSIGN
-LANG_RUSSIAN        "3. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3. Автовыбор"
 
 REFERENCE           2_SPECTATE
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Наблюдение"
 
 REFERENCE           4_SPECTATE
-LANG_RUSSIAN        "4. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4. Наблюдение"
 
 REFERENCE           CHANGE_MAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сменить карту"
 
 REFERENCE           3_CHANGE_MAP
-LANG_RUSSIAN        "3. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3. Сменить карту"
 
 REFERENCE           CHANGE_GAME_TYPEMAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сменить режим/карту"
 
 REFERENCE           4_CHANGE_GAME_TYPEMAP
-LANG_RUSSIAN        "4. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4. Сменить режим/карту"
 
 REFERENCE           CHANGE_GAME_TYPE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сменить режим"
 
 REFERENCE           KICK_PLAYER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Выгнать игрока"
 
 REFERENCE           5_KICK_PLAYER
-LANG_RUSSIAN        "5. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5. Выгнать игрока"
 
 REFERENCE           OK
-LANG_RUSSIAN        "пїЅпїЅ"
+LANG_RUSSIAN        "ОК"
 
 REFERENCE           TEMPORARY_BAN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Временный бан"
 
 REFERENCE           TEMPORARILY_BAN_PLAYER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Временно забанить игрока"
 
 REFERENCE           NEXT_MAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Следующая карта"
 
 REFERENCE           2_NEXT_MAP
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Следующая карта"
 
 REFERENCE           CHANGE_GAMETYPEMAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сменить режим/карту"
 
 REFERENCE           ON
-LANG_RUSSIAN        "пїЅпїЅпїЅ."
+LANG_RUSSIAN        "Вкл."
 
 REFERENCE           OFF
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Выкл."
 
 REFERENCE           REFLECT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Отражение"
 
 REFERENCE           ENABLE_VOTING
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Разрешить голосование"
 
 REFERENCE           RECONNECT_LIMIT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Лимит переподключений"
 
 REFERENCE           RESTART_MAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Перезапустить карту"
 
 REFERENCE           1_RESTART_MAP
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Перезапустить карту"
 
 REFERENCE           PLAYERSUSING
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Используют игроки:"
 
 REFERENCE           CLICK_TO_CONTINUE
-LANG_RUSSIAN        "ЩёпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Щёлкните, чтобы продолжить"
 
 REFERENCE           PRESS_A_TO_CONTINUE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (A), пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нажмите (A), чтобы продолжить"
 
 REFERENCE           PUNKBUSTER
 LANG_RUSSIAN        "PunkBuster"
 
 REFERENCE           ENABLEPUNKBUSTERTOCONNECT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ PunkBuster, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PunkBuster пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\nпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PunkBuster пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ?"
+LANG_RUSSIAN        "Чтобы подключиться к серверу с PunkBuster, включите PunkBuster на клиенте.\nВключить PunkBuster и подключиться?"
 
 REFERENCE           SYNCPUNKBUSTERSTARTLISTENSERVER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PunkBuster пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\nпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PunkBuster пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ?"
+LANG_RUSSIAN        "Перед запуском невыделенного сервера включите PunkBuster на клиенте.\nВключить PunkBuster и начать?"
 
 REFERENCE           PUNKBUSTERWITHCOLON
 LANG_RUSSIAN        "PunkBuster:"
@@ -267,1113 +268,1114 @@ REFERENCE           PUNKBUSTERWITHCOLONANDTWOSPACES
 LANG_RUSSIAN        "PunkBuster:  "
 
 REFERENCE           1_CHANGE_WEAPON
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Сменить оружие"
 
 REFERENCE           2_CHANGE_TEAM
-LANG_RUSSIAN        "2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Сменить команду"
 
 REFERENCE           3_MUTE_PLAYERS
-LANG_RUSSIAN        "3. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3. Заглушить игроков"
 
 REFERENCE           4_CALL_VOTE
-LANG_RUSSIAN        "4. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4. Голосование"
 
 REFERENCE           5_LEAVE_GAME
-LANG_RUSSIAN        "5. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5. Покинуть игру"
 
 REFERENCE           CHANGE_WEAPON
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сменить оружие"
 
 REFERENCE           CHANGE_TEAM
-LANG_RUSSIAN        "^5пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "^5Войти"
 
 REFERENCE           LEAVE_GAME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Покинуть игру"
 
 REFERENCE           LEAVE_GAME1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ?"
+LANG_RUSSIAN        "Покинуть игру?"
 
 REFERENCE           THUMBSTICK_LAYOUT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Раскладка стиков:"
 
 REFERENCE           BUTTON_LAYOUT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Раскладка кнопок:"
 
 REFERENCE           LOOK_SENSITIVITY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Чувствительность обзора:"
 
 REFERENCE           LOOK_INVERSION
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Инверсия обзора:"
 
 REFERENCE           CONTROLLER_VIBRATION
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Вибрация контроллера:"
 
 REFERENCE           END_GAME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Завершить игру"
 
 REFERENCE           END_GAME1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ?"
+LANG_RUSSIAN        "Завершить игру?"
 
 REFERENCE           TEAMS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Команды"
 
 REFERENCE           1_YES
-LANG_RUSSIAN        "1. пїЅпїЅ"
+LANG_RUSSIAN        "1. Да"
 
 REFERENCE           2_NO
-LANG_RUSSIAN        "2. пїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Нет"
 
 REFERENCE           MUTE_PLAYERS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Заглушить игроков"
 
 REFERENCE           ENABLE_VOICE_CHAT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Включить голосовой чат"
 
 REFERENCE           DISABLE_VOICE_CHAT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Выключить голосовой чат"
 
 REFERENCE           SABOTAGE_COUNTDOWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Гридирон"
 
 REFERENCE           SEARCH_AND_DESTROY_MULTI
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Найти и уничтожить"
 
 REFERENCE           CRASH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Крушение"
 
 REFERENCE           FACILITY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Комплекс"
 
 REFERENCE           ARGUN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Аргун"
 
 REFERENCE           STRIKE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Удар"
 
 REFERENCE           BACKLOT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Задворки"
 
 REFERENCE           DUSK
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сумерки"
 
 REFERENCE           CONVOY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Засада"
 
 REFERENCE           CITYSTREETS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Район"
 
 REFERENCE           PIPELINE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Трубопровод"
 
 REFERENCE           CELLBLOCK
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Тюремный блок"
 
 REFERENCE           MANSION
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Особняк"
 
 REFERENCE           PALACE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Дворец"
 
 REFERENCE           SHIPMENT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Груз"
 
 REFERENCE           SHIPMENTSS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Груз (разделённый экран)"
 
 REFERENCE           ENDROUND
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Завершить раунд"
 
 REFERENCE           MENU
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Меню"
 
 REFERENCE           SEARCH_AND_DESTROY_CLASSIC
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Найти и уничтожить"
 
 REFERENCE           SABOTAGE_HOTPOTATO
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Саботаж"
 
 REFERENCE           TEAM_HARDPOINT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Командный бой"
 
 REFERENCE           HARDPOINT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Каждый за себя"
 
 REFERENCE           ROOFTOPS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Крыши"
 
 REFERENCE           OVERGROWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Заросли"
 
 REFERENCE           OVERGROWN_NIGHT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Заросли (ночь)"
 
 REFERENCE           CITYSTREETS_NIGHT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Улицы города (ночь)"
 
 REFERENCE           STRIKE_NIGHT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Удар (ночь)"
 
 REFERENCE           HILL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Холм"
 
 REFERENCE           CROSSFIRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Перекрёсток"
 
 REFERENCE           FARM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Ливень"
 
 REFERENCE           VACANT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пустырь"
 
 REFERENCE           BLOC
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Блок"
 
 REFERENCE           CARGOSHIP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мокрое дело"
 
 REFERENCE           COUNTDOWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Обратный отсчёт"
 
 REFERENCE           SHOWDOWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Разборка"
 
 REFERENCE           FIND_GAME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Найти игру"
 
 REFERENCE           PRIVATE_MATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Закрытый матч"
 
 REFERENCE           CREATE_A_CLASS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Создать класс"
 
 REFERENCE           BARRACKS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Казарма"
 
 REFERENCE           INVITE_FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пригласить друзей"
 
 REFERENCE           PARTY_INVITE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Приглашение в группу"
 
 REFERENCE           CREATE_PARTY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Создать группу"
 
 REFERENCE           GAME_SUMMARY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Итоги матча"
 
 REFERENCE           N_XP
-LANG_RUSSIAN        "&&1 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "&&1 опыта"
 
 REFERENCE           RANK
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Звание"
 
 REFERENCE           NAME
-LANG_RUSSIAN        "пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Имя"
 
 REFERENCE           X_SLASH_Y
 LANG_RUSSIAN        "&&1/&&2"
 
 REFERENCE           MATCHBONUS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Бонус матча"
 
 REFERENCE           SCORE_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Счёт:"
 
 REFERENCE           CHALLENGES_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Задание выполнено:"
 
 REFERENCE           MATCHBONUS_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Бонус матча:"
 
 REFERENCE           TOTALXP_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Всего опыта:"
 
 REFERENCE           RANK_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Звание:"
 
 REFERENCE           XP_REQUIRED_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Нужно опыта:"
 
 REFERENCE           NEXT_RANK_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Следующее звание:"
 
 REFERENCE           WEAPON_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Оружие:"
 
 REFERENCE           PERK_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Перк:"
 
 REFERENCE           CHALLENGE_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Задание:"
 
 REFERENCE           CAMO_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Камуфляж:"
 
 REFERENCE           XP_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Опыт:"
 
 REFERENCE           ATTACHMENT_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Модуль:"
 
 REFERENCE           FEATURE_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Особенность:"
 
 REFERENCE           START_MATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Начать матч"
 
 REFERENCE           GAME_SETUP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Настройки игры"
 
 REFERENCE           SCORE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Счёт"
 
 REFERENCE           LEVEL_N
-LANG_RUSSIAN        "пїЅпїЅ. &&1"
+LANG_RUSSIAN        "Ур. &&1"
 
 REFERENCE           KILLS_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Убийства:"
 
 REFERENCE           ASSISTS_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Помощи:"
 
 REFERENCE           STREAK_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Серия:"
 
 REFERENCE           DEATHS_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Смерти:"
 
 REFERENCE           TIME_PLAYED_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Время в игре:"
 
 REFERENCE           WINS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Победы"
 
 REFERENCE           LOSSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Поражения"
 
 REFERENCE           RATIO
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Соотношение"
 
 REFERENCE           ACCURACY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Точность"
 
 REFERENCE           KILLS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Убийства"
 
 REFERENCE           PLAYER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Игрок"
 
 REFERENCE           TIME_PLAYED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Время в игре"
 
 REFERENCE           LEVEL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Уровень"
 
 REFERENCE           MISSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Промахи"
 
 REFERENCE           HITS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Попадания"
 
 REFERENCE           FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Друзья"
 
 REFERENCE           SCORE_GLOBAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Счёт (мир)"
 
 REFERENCE           SCORE_FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Счёт (друзья)"
 
 REFERENCE           KILLS_GLOBAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Убийства (мир)"
 
 REFERENCE           KILLS_FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Убийства (друзья)"
 
 REFERENCE           ACCURACY_GLOBAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Точность (мир)"
 
 REFERENCE           ACCURACY_FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Точность (друзья)"
 
 REFERENCE           WINS_GLOBAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Победы (мир)"
 
 REFERENCE           WINS_FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Победы (друзья)"
 
 REFERENCE           CLAN_TAG
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Тег клана"
 
 REFERENCE           PRESTIGE_MODE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Режим престижа"
 
 REFERENCE           YOUR_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Ваши свои классы"
 
 REFERENCE           PERK1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 1"
+LANG_RUSSIAN        "Специальность 1"
 
 REFERENCE           PERK2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2"
+LANG_RUSSIAN        "Специальность 2"
 
 REFERENCE           PERK3
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Особая способность"
 
 REFERENCE           RENAME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Переименовать"
 
 REFERENCE           PRIMARY_WEAPON
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Основное оружие"
 
 REFERENCE           SECONDARY_WEAPON
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Дополнительное оружие"
 
 REFERENCE           SIDE_ARM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пистолет"
 
 REFERENCE           OFFHAND_GRENADE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Гранаты"
 
 REFERENCE           TIME_LIMIT_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Лимит времени:"
 
 REFERENCE           ROUND_LENGTH_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Длина раунда:"
 
 REFERENCE           SCORE_LIMIT_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Лимит счёта:"
 
 REFERENCE           SPECTATING_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Наблюдение:"
 
 REFERENCE           KILLCAM_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Повтор убийства:"
 
 REFERENCE           FORCE_RESPAWN_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Принудительное возрождение:"
 
 REFERENCE           FRIENDY_FIRE_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Огонь по своим:"
 
 REFERENCE           NUMLIVES_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Число жизней:"
 
 REFERENCE           RESPAWN_DELAY_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Задержка возрождения:"
 
 REFERENCE           MAX_HEALTH_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Макс. здоровье:"
 
 REFERENCE           HEALTH_REGEN_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Регенерация здоровья:"
 
 REFERENCE           SPRINT_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Разрешить бег:"
 
 REFERENCE           HEADSHOTS_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Выстрелы в голову:"
 
 REFERENCE           HEADSHOTS_ONLY_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Только в голову:"
 
 REFERENCE           PERKS_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Разрешить перки:"
 
 REFERENCE           OLDSCHOOL_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Режим старой школы:"
 
 REFERENCE           HARDCORE_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Режим хардкора:"
 
 REFERENCE           BOMB_TIMER_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Таймер бомбы:"
 
 REFERENCE           PLANT_TIME_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Время установки бомбы:"
 
 REFERENCE           DEFUSE_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Время обезвреживания:"
 
 REFERENCE           MULTIBOMB_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Режим нескольких бомб:"
 
 REFERENCE           HOT_POTATO_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Режим горячей картошки:"
 
 REFERENCE           ROUND_LIMIT_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Число раундов:"
 
 REFERENCE           ROUND_SWITCH_PRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Смена сторон:"
 
 REFERENCE           CHANGE_RULES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Изменить правила"
 
 REFERENCE           MOTD
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сообщение дня"
 
 REFERENCE           PLAYER_OPTIONS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Параметры игрока"
 
 REFERENCE           YES
-LANG_RUSSIAN        "пїЅпїЅ"
+LANG_RUSSIAN        "Да"
 
 REFERENCE           NO
-LANG_RUSSIAN        "пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нет"
 
 REFERENCE           CHALLENGES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Задания"
 
 REFERENCE           DESC_FIND_GAME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Выберите режим и быстро найдите игру в сети."
 
 REFERENCE           DESC_FIND_GAME_LOCKED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Искать игры может только хозяин группы."
 
 REFERENCE           DESC_PRIVATE_MATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Создайте свою игру, чтобы играть с друзьями."
 
 REFERENCE           DESC_PRIVATE_MATCH_LOCKED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Закрытый матч может начать только хозяин группы."
 
 REFERENCE           DESC_CREATE_A_CLASS_LOCKED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ. 4)."
+LANG_RUSSIAN        "Открывается на звании младшего капрала (ур. 4)."
 
 REFERENCE           DESC_CREATE_A_CLASS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Создайте свои классы."
 
 REFERENCE           DESC_BARRACKS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Задания, тег клана, статистика и таблицы лидеров."
 
 REFERENCE           DESC_PARTY_INVITE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Пригласите друзей в группу."
 
 REFERENCE           DESC_PLAYER_OPTIONS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Открыть меню параметров игрока."
 
 REFERENCE           DESC_START_MATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Начать матч."
 
 REFERENCE           DESC_START_MATCH_LOCKED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Матч может начать только хозяин лобби."
 
 REFERENCE           DESC_GAME_SETUP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Сменить карту, режим и правила."
 
 REFERENCE           DESC_GAME_SETUP_LOCKED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Параметры игры может менять только хозяин лобби."
 
 REFERENCE           DESC_CHANGE_MAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Выбрать другую карту."
 
 REFERENCE           DESC_CHANGE_GAMETYPE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Выбрать другой режим."
 
 REFERENCE           DESC_CHANGE_RULES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Изменить правила этого матча."
 
 REFERENCE           DESC_INVITE_FRIENDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Пригласить друзей в игру."
 
 REFERENCE           PRIVATE_MATCH_LOBBY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ЛОББИ ЗАКРЫТОГО МАТЧА"
 
 REFERENCE           PUBLIC_MATCH_LOBBY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ЛОББИ ОТКРЫТОГО МАТЧА"
 
 REFERENCE           UNLOCKXP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: &&1 (пїЅпїЅ. &&2)"
+LANG_RUSSIAN        "Открывается: &&1 (ур. &&2)"
 
 REFERENCE           MAXPARTYSIZE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: &&1"
+LANG_RUSSIAN        "Максимум игроков в группе: &&1"
 
 REFERENCE           NOPUNKBUSTER
-LANG_RUSSIAN        "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ PunkBuster. PunkBuster пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Не удалось запустить PunkBuster. PunkBuster отключён."
 
 REFERENCE           NONE
-LANG_RUSSIAN        "пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нет"
 
 REFERENCE           PRESTIGE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Престиж"
 
 REFERENCE           PRESTIGE_READY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Престиж готов!"
 
 REFERENCE           CALLVOTE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ГОЛОСОВАНИЕ"
 
 REFERENCE           VOTE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Голос"
 
 REFERENCE           END_GAME2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ?"
+LANG_RUSSIAN        "Завершить игру?"
 
 REFERENCE           PRIMARY_WEAPON1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Основное оружие"
 
 REFERENCE           SPECTATOR
-LANG_RUSSIAN        "^3пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "^3Наблюдатель"
 
 REFERENCE           CHOOSE_CLASS
-LANG_RUSSIAN        "^3пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "^3Выбрать роль"
 
 REFERENCE           CHANGE_GAME_MODE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сменить режим"
 
 REFERENCE           GAME_RULES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Правила игры"
 
 REFERENCE           JOININPROGRESS_ALLOWED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Вход по ходу: разрешён"
 
 REFERENCE           JOININPROGRESS_NOT_ALLOWED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Вход по ходу: запрещён"
 
 REFERENCE           SIDE_ARM1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пистолет"
 
 REFERENCE           SPECIAL_GRENADE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Особая граната"
 
 REFERENCE           PERK_1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ 1"
+LANG_RUSSIAN        "Перк 1"
 
 REFERENCE           PERK_2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ 2"
+LANG_RUSSIAN        "Перк 2"
 
 REFERENCE           PERK_3
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ 3"
+LANG_RUSSIAN        "Перк 3"
 
 REFERENCE           NO_ATTACHMENT
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Без модуля"
 
 REFERENCE           ACOG_SCOPE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ ACOG"
+LANG_RUSSIAN        "Прицел ACOG"
 
 REFERENCE           RED_DOT_SIGHT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Коллиматор"
 
 REFERENCE           SILENCER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Глушитель"
 
 REFERENCE           GRENADE_LAUNCHER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Подствольник"
 
 REFERENCE           DESERT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пустыня"
 
 REFERENCE           WOODLAND
-LANG_RUSSIAN        "пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Лес"
 
 REFERENCE           DIGITAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Цифра"
 
 REFERENCE           RED_TIGER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Красный тигр"
 
 REFERENCE           BLUE_TIGER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Синий тигр"
 
 REFERENCE           GOLDEN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Золотой"
 
 REFERENCE           PRESTIGE1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Престиж"
 
 REFERENCE           ASSAULT_RIFLES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Штурмовые винтовки"
 
 REFERENCE           SUB_MACHINE_GUNS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пистолеты-пулемёты"
 
 REFERENCE           LIGHT_MACHINE_GUNS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Ручные пулемёты"
 
 REFERENCE           SHOTGUNS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Дробовики"
 
 REFERENCE           SNIPER_RIFLES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Снайперские винтовки"
 
 REFERENCE           RENAME_CLASS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Переименовать класс"
 
 REFERENCE           CHOOSE_TEAM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ВЫБОР КОМАНДЫ"
 
 REFERENCE           DESC_PRIVATE_JIP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Разрешить друзьям входить в уже идущую игру."
 
 REFERENCE           PISTOL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пистолет"
 
 REFERENCE           SNIPER_RIFLE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Снайперская винтовка"
 
 REFERENCE           ASSAULT_RIFLE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Штурмовая винтовка"
 
 REFERENCE           SUB_MACHINE_GUN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Пистолет-пулемёт"
 
 REFERENCE           SHOTGUN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Дробовик"
 
 REFERENCE           LIGHT_MACHINE_GUN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Ручной пулемёт"
 
 REFERENCE           UNLOCKED
-LANG_RUSSIAN        "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ..."
+LANG_RUSSIAN        "Вы открыли..."
 
 REFERENCE           NEW_CHALLENGES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Новые задания"
 
 REFERENCE           DESC_LEADERBOARDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Сравните свою статистику с остальным миром."
 
 REFERENCE           DESC_CHALLENGES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Выполняйте задания, чтобы получить опыт и модули оружия."
 
 REFERENCE           DESC_CHALLENGES2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ I (пїЅпїЅ. 5)."
+LANG_RUSSIAN        "Открывается на звании младшего капрала I (ур. 5)."
 
 REFERENCE           DESC_CLANTAG
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Задайте тег клана."
 
 REFERENCE           DESC_CLANTAG2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ II (пїЅпїЅ. 12)."
+LANG_RUSSIAN        "Открывается на звании сержанта II (ур. 12)."
 
 REFERENCE           DESC_PRESTIGE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ... пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Получите престиж... за свою цену."
 
 REFERENCE           DESC_PRESTIGE2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ. 55)."
+LANG_RUSSIAN        "Открывается после командира (ур. 55)."
 
 REFERENCE           DESC_LEADERBOARD_WINS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Сравните победы и поражения с друзьями и миром."
 
 REFERENCE           DESC_LEADERBOARD_KILLS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Смотрите убийства, смерти, соотношение и лучшую серию."
 
 REFERENCE           DESC_LEADERBOARD_ACCURACY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Узнайте, насколько точно вы стреляете."
 
 REFERENCE           GRIP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Рукоятка"
 
 REFERENCE           END_GAME_WARNING
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ?"
+LANG_RUSSIAN        "Точно завершить сессию для всех игроков?"
 
 REFERENCE           CHOOSE_CLASS_CAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ВЫБОР КЛАССА"
 
 REFERENCE           CUSTOM_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Свои классы"
 
 REFERENCE           DEFAULT_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Доступные классы"
 
 REFERENCE           DEFAULT_CLASSES2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Доступные дополнительные классы"
 
 REFERENCE           PERKS_AND_INVENTORY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Перки и инвентарь"
 
 REFERENCE           CREATE_A_CLASS_CAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "СОЗДАТЬ КЛАСС"
 
 REFERENCE           VOTE_TO_SKIP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Голос за пропуск"
 
 REFERENCE           DESC_VOTE_TO_SKIP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Голосуйте за пропуск текущего выбора. Если пройдёт, следующий пропустить нельзя."
 
 REFERENCE           VOTE_CAST
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Голос принят"
 
 REFERENCE           LAST_STAND
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Последний рубеж!"
 
 REFERENCE           DESC_MAP_BACKLOT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Средняя стройка. Отличная карта для любого режима."
 
 REFERENCE           DESC_MAP_BLOC
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Большой российский жилой блок. Напряжённое Превосходство."
 
 REFERENCE           DESC_MAP_BOG
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Небольшое пустынное болото. Открытая карта, хороша для малых групп."
 
 REFERENCE           DESC_MAP_CARGOSHIP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Средне-большое грузовое судно. Динамичное Найти и уничтожить."
 
 REFERENCE           DESC_MAP_CITYSTREETS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ."
+LANG_RUSSIAN        "Большой город с рынком в центре. Отлично для командных игр."
 
 REFERENCE           DESC_MAP_CONVOY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Большой пустынный город. Отлично для Саботажа."
 
 REFERENCE           DESC_MAP_COUNTDOWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Открытая стартовая площадка. Дальние линии обзора и опасные манёвры."
 
 REFERENCE           DESC_MAP_CRASH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Сбитый Си Найт в пустынном городе. Отличные командные игры."
 
 REFERENCE           DESC_MAP_CROSSFIRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Небольшой пустынный город. Жаркие бои в помещениях и перестрелки."
 
 REFERENCE           DESC_MAP_FARM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Большая дождливая русская ферма. Отлично для Саботажа."
 
 REFERENCE           DESC_MAP_OVERGROWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ..."
+LANG_RUSSIAN        "Большая заросшая сельская местность в России. Маскхалаты снайперов хорошо прячут..."
 
 REFERENCE           DESC_PIPELINE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Российское депо. Отличные командные игры."
 
 REFERENCE           DESC_MAP_SHIPMENT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Крошечная российская верфь. Быстрый бой, спрятаться негде."
 
 REFERENCE           DESC_MAP_SHOWDOWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Небольшая пустынная арена. Быстрая игра для малого числа игроков."
 
 REFERENCE           DESC_MAP_STRIKE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Большой пустынный город. Отличные командные игры."
 
 REFERENCE           DESC_MAP_VACANT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Пустой российский офис. Напряжённые бои в помещениях."
 
 REFERENCE           DESC_MAP_BROADCAST
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Телестанция."
 
 REFERENCE           DESC_MAP_PIPELINE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Российское депо. Отличные командные игры."
 
 REFERENCE           RULES_PLAYER_OPTIONS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Параметры игрока"
 
 REFERENCE           RULES_GAMEPLAY_OPTIONS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Параметры игры"
 
 REFERENCE           RULES_TEAM_OPTIONS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Параметры команды"
 
 REFERENCE           GAME_RULES_CAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ПРАВИЛА ИГРЫ"
 
 REFERENCE           RULES_ITEM_2LIVES
-LANG_RUSSIAN        "2 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2 жизни"
 
 REFERENCE           RULES_ITEM_LIFE
-LANG_RUSSIAN        "1 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1 жизнь"
 
 REFERENCE           RULES_UNLIMITED
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Без ограничений"
 
 REFERENCE           RULES_NUMBER_OF_LIVES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Число жизней:"
 
 REFERENCE           RULES_RESPAWN_DELAY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Задержка возрождения:"
 
 REFERENCE           RULES_NONE
-LANG_RUSSIAN        "пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нет"
 
 REFERENCE           RULES_5SECONDS
-LANG_RUSSIAN        "5 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5 секунд"
 
 REFERENCE           RULES_MAX_HEALTH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Макс. здоровье:"
 
 REFERENCE           RULES_MINISCULE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Крошечное"
 
 REFERENCE           RULES_HALF
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Половина"
 
 REFERENCE           RULES_NORMAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нормальное"
 
 REFERENCE           RULES_DOUBLE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Двойное"
 
 REFERENCE           RULES_HEALTH_REGEN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Регенерация здоровья:"
 
 REFERENCE           RULES_ALLOW_SPRINT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Разрешить бег:"
 
 REFERENCE           RULES_SLOW
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Медленно"
 
 REFERENCE           RULES_SPECTATING
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Наблюдение:"
 
 REFERENCE           RULES_ITEM_3LIVES
-LANG_RUSSIAN        "3 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3 жизни"
 
 REFERENCE           RULES_ITEM_5LIVES
-LANG_RUSSIAN        "5 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5 жизней"
 
 REFERENCE           RULES_ITEM_9LIVES
-LANG_RUSSIAN        "9 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "9 жизней"
 
 REFERENCE           RULES_10SECONDS
-LANG_RUSSIAN        "10 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "10 секунд"
 
 REFERENCE           RULES_15SECONDS
-LANG_RUSSIAN        "15 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "15 секунд"
 
 REFERENCE           RULES_30SECONDS
-LANG_RUSSIAN        "30 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "30 секунд"
 
 REFERENCE           RULES_TEAM_ONLY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Только команда"
 
 REFERENCE           RULES_FREE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Свободно"
 
 REFERENCE           RULES_PLAYERS_ONLY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Только игроки"
 
 REFERENCE           RULES_RADAR_ALWAYS_ON
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Радар всегда включён:"
 
 REFERENCE           RULE_ALLOW_KILLCAM
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Повтор убийства:"
 
 REFERENCE           RULES_FORCE_RESPAWN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Принудительное возрождение:"
 
 REFERENCE           RULES_FRIENDLY_FIRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Огонь по своим:"
 
 REFERENCE           RULES_REFLECT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Отражение"
 
 REFERENCE           RULES_SHARED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Общий"
 
 REFERENCE           RULES_HEADSHOTS_ONLY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Только в голову:"
 
 REFERENCE           RULES_ALLOW_PERKS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Разрешить перки:"
 
 REFERENCE           RULES_OLDSCHOOL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Режим старой школы:"
 
 REFERENCE           RULES_HARDCORE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Режим хардкора:"
 
 REFERENCE           RULES_AIRSUPPORT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Разрешить авиаподдержку:"
 
 REFERENCE           RULES_TIME_LIMIT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Лимит времени:"
 
 REFERENCE           RULES_5MINUTES
-LANG_RUSSIAN        "5 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5 минут"
 
 REFERENCE           RULES_10MINUTES
-LANG_RUSSIAN        "10 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "10 минут"
 
 REFERENCE           RULES_15MINUTES
-LANG_RUSSIAN        "15 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "15 минут"
 
 REFERENCE           RULES_20MINUTES
-LANG_RUSSIAN        "20 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "20 минут"
 
 REFERENCE           RULES_30MINUTES
-LANG_RUSSIAN        "30 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "30 минут"
 
 REFERENCE           RULES_SCORE_LIMIT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Лимит счёта:"
 
 REFERENCE           RULES_3POINTS
-LANG_RUSSIAN        "3 пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3 очка"
 
 REFERENCE           RULES_5POINTS
-LANG_RUSSIAN        "5 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5 очков"
 
 REFERENCE           RULES_10POINTS
-LANG_RUSSIAN        "10 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "10 очков"
 
 REFERENCE           RULES_20POINTS
-LANG_RUSSIAN        "20 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "20 очков"
 
 REFERENCE           RULES_30POINTS
-LANG_RUSSIAN        "30 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "30 очков"
 
 REFERENCE           RULES_100POINTS
-LANG_RUSSIAN        "100 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "100 очков"
 
 REFERENCE           RULES_200POINTS
-LANG_RUSSIAN        "200 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "200 очков"
 
 REFERENCE           RULES_300POINTS
-LANG_RUSSIAN        "300 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "300 очков"
 
 REFERENCE           RULES_500POINTS
-LANG_RUSSIAN        "500 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "500 очков"
 
 REFERENCE           RULES_700POINTS
-LANG_RUSSIAN        "700 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "700 очков"
 
 REFERENCE           RULES_1000POINTS
-LANG_RUSSIAN        "1000 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1000 очков"
 
 REFERENCE           RULES_50POINTS
-LANG_RUSSIAN        "50 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "50 очков"
 
 REFERENCE           RULES_750POINTS
-LANG_RUSSIAN        "750 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "750 очков"
 
 REFERENCE           RULES_250POINTS
-LANG_RUSSIAN        "250 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "250 очков"
 
 REFERENCE           RULES_1500POINTS
-LANG_RUSSIAN        "1500 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1500 очков"
 
 REFERENCE           RULES_HQ_HOLD_TIME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Время жизни штаба:"
 
 REFERENCE           RULES_3MINUTES
-LANG_RUSSIAN        "3 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3 минуты"
 
 REFERENCE           RULES_2MINUTES
-LANG_RUSSIAN        "2 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2 минуты"
 
 REFERENCE           RULES_1_5MINUTES
-LANG_RUSSIAN        "1,5 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1,5 минуты"
 
 REFERENCE           RULES_1MINUTE
-LANG_RUSSIAN        "1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1 минута"
 
 REFERENCE           RULES_HQ_RESPAWN_DELAY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Задержка активации штаба:"
 
 REFERENCE           RULES_INSTANT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мгновенно"
 
 REFERENCE           RULES_CLASSIC_HQ
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Классический штаб:"
 
 REFERENCE           RULES_45SECONDS
-LANG_RUSSIAN        "45 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "45 секунд"
 
 REFERENCE           RULES_BOMB_TIMER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Таймер бомбы:"
 
 REFERENCE           RULES_PLANT_TIME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Время установки:"
 
 REFERENCE           RULES_1SECOND
-LANG_RUSSIAN        "1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1 секунда"
 
 REFERENCE           RULES_2_5SECONDS
-LANG_RUSSIAN        "2,5 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2,5 секунды"
 
 REFERENCE           RULES_7_5SECONDS
-LANG_RUSSIAN        "7,5 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "7,5 секунды"
 
 REFERENCE           RULES_DEFUSE_TIME
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Время обезвреживания:"
 
 REFERENCE           RULES_HOT_POTATO
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Горячая картошка:"
 
 REFERENCE           RULES_ROUND_LIMIT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Лимит раундов:"
 
 REFERENCE           RULES_1ROUND
-LANG_RUSSIAN        "1 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1 раунд"
 
 REFERENCE           RULES_2ROUNDS
-LANG_RUSSIAN        "2 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2 раунда"
 
 REFERENCE           RULES_4ROUNDS
-LANG_RUSSIAN        "4 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4 раунда"
 
 REFERENCE           RULES_6ROUNDS
-LANG_RUSSIAN        "6 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "6 раундов"
 
 REFERENCE           RULES_8ROUNDS
-LANG_RUSSIAN        "8 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "8 раундов"
 
 REFERENCE           RULES_ROUND_SWITCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Смена сторон:"
 
 REFERENCE           RULES_NEVER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Никогда"
 
 REFERENCE           RULES_EVERY_ROUND
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Каждый раунд"
 
 REFERENCE           RULES_EVERY_2ROUNDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ 2 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Каждые 2 раунда"
 
 REFERENCE           RULES_EVERY_3ROUNDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ 3 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Каждые 3 раунда"
 
 REFERENCE           RULES_EVERY_4ROUNDS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ 4 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Каждые 4 раунда"
 
 REFERENCE           RULES_ROUND_LENGTH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Длина раунда:"
 
 REFERENCE           RULES_2_5MINUTES
-LANG_RUSSIAN        "2,5 пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2,5 минуты"
 
 REFERENCE           RULES_8MINUTES
-LANG_RUSSIAN        "8 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "8 минут"
 
 REFERENCE           RULES_MULTI_BOMB
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Несколько бомб:"
 
 REFERENCE           RULES_150POINTS
-LANG_RUSSIAN        "150 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "150 очков"
 
 REFERENCE           RULES_FAST
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Быстро"
 
 REFERENCE           BARRACKS_CAP
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "КАЗАРМА"
 
 REFERENCE           RECOMMENDEDPLAYERS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: &&1"
+LANG_RUSSIAN        "Рекомендуемый максимум игроков: &&1"
 
 REFERENCE           RULES_WAVE_DELAY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Задержка волны:"
 
 REFERENCE           RULES_1POINT
-LANG_RUSSIAN        "1 пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1 очко"
 
 REFERENCE           RULES_4POINTS
-LANG_RUSSIAN        "4 пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4 очка"
 
 REFERENCE           RULES_8POINTS
-LANG_RUSSIAN        "8 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "8 очков"
 
 REFERENCE           RULES_12POINTS
-LANG_RUSSIAN        "12 пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "12 очков"
 
 REFERENCE           RULES_24POINTS
-LANG_RUSSIAN        "24 пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "24 очка"
 
 REFERENCE           RULES_SHARE_BOMB_TIMER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Общий таймер бомбы:"
 
 REFERENCE           DESC_INVITE_FRIENDS_FULL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
+LANG_RUSSIAN        "Лобби заполнено."
 
 REFERENCE           MUTEPLAYERS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "ЗАГЛУШИТЬ ИГРОКОВ"
 
 REFERENCE           RULES_2POINTS
-LANG_RUSSIAN        "2 пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2 очка"
 
 REFERENCE           FIND_MATCH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Найти матч"
+
 
 ENDMARKER

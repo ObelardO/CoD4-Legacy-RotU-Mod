@@ -14,111 +14,112 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE           CLASS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Класс"
 
 REFERENCE           CLASS1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Солдат"
 
 REFERENCE           CLASS2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Специалист"
 
 REFERENCE           CLASS3
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Броневик"
 
 REFERENCE           CLASS4
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Инженер"
 
 REFERENCE           CLASS5
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Медик"
 
 REFERENCE           DEFAULT_ASSAULT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Стандартный штурмовик"
 
 REFERENCE           DEFAULT_SPECOPS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Стандартный спецназ"
 
 REFERENCE           DEFAULT_HEAVYGUNNER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Стандартный пулемётчик"
 
 REFERENCE           DEFAULT_DEMOLITIONS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Стандартный подрывник"
 
 REFERENCE           DEFAULT_SNIPER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Стандартный снайпер"
 
 REFERENCE           MARINES_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "КЛАССЫ МОРПЕХОВ"
 
 REFERENCE           OPFOR_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "КЛАССЫ СЕПАРАТИСТОВ"
 
 REFERENCE           SAS_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ SAS"
+LANG_RUSSIAN        "КЛАССЫ SAS"
 
 REFERENCE           SPETSNAZ_CLASSES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "КЛАССЫ СПЕЦНАЗА"
 
 REFERENCE           GRENADIER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Гренадер"
 
 REFERENCE           CUSTOM1
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мой штурмовик"
 
 REFERENCE           CUSTOM2
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мой спецназ"
 
 REFERENCE           CUSTOM3
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мой пулемётчик"
 
 REFERENCE           CUSTOM5
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мой снайпер"
 
 REFERENCE           CUSTOM4
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мой подрывник"
 
 REFERENCE           SLOT1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 1"
+LANG_RUSSIAN        "Свой слот 1"
 
 REFERENCE           SLOT2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 2"
+LANG_RUSSIAN        "Свой слот 2"
 
 REFERENCE           SLOT3
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 3"
+LANG_RUSSIAN        "Свой слот 3"
 
 REFERENCE           SLOT4
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 4"
+LANG_RUSSIAN        "Свой слот 4"
 
 REFERENCE           SLOT5
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 5"
+LANG_RUSSIAN        "Свой слот 5"
 
 REFERENCE           OFFLINE_CLASS1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Гренадер"
 
 REFERENCE           OFFLINE_CLASS2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Призрак"
 
 REFERENCE           OFFLINE_CLASS3
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Выживальщик"
 
 REFERENCE           OFFLINE_CLASS4
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Передовой"
 
 REFERENCE           OFFLINE_CLASS5
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Стрелок"
 
 REFERENCE           OFFLINE_CLASS6
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Боец"
 
 REFERENCE           OFFLINE_CLASS7
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Ближний бой"
 
 REFERENCE           OFFLINE_CLASS8
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Прикрытие"
 
 REFERENCE           OFFLINE_CLASS9
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Защитник"
 
 REFERENCE           OFFLINE_CLASS10
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Меткий стрелок"
+
 
 ENDMARKER

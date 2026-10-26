@@ -14,10 +14,10 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           "Strings used in the weapon settings go in this file."
 
 REFERENCE           AMMOBOX
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Ящик патронов"
 
 REFERENCE           MEDKIT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Аптечка"
 
 REFERENCE           MAGNUM
 LANG_RUSSIAN        ".44 Magnum"
@@ -49,15 +49,15 @@ REFERENCE           USAS12
 LANG_RUSSIAN        "USAS-12"
 
 REFERENCE			RAYGUN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Лучевая пушка"
 
 REFERENCE			RAYGUN_MK2
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Mk. 2"
+LANG_RUSSIAN		"Лучевая пушка Mk. 2"
 
 REFERENCE           TESLA
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ DG-2"
+LANG_RUSSIAN        "Чудо-вафля DG-2"
 
 REFERENCE           MINIGUN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Машина смерти"
 
 ENDMARKER

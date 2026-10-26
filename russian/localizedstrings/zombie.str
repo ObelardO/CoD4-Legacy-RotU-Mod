@@ -6,249 +6,249 @@ REFERENCE			STREAK
 LANG_RUSSIAN		"X&&1"
 
 REFERENCE           4_PLAYERMENU
-LANG_RUSSIAN        "4. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4. Меню игрока"
 
 REFERENCE           5_ADMINMENU
-LANG_RUSSIAN        "5. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "5. Меню админа"
 
 REFERENCE           SURV
-LANG_RUSSIAN        "Reign of the Undead-^1пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Reign of the Undead-^1Революция"
 
 REFERENCE           PROMOTION
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Новое звание!"
 
 REFERENCE           SOLDIER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Солдат"
 
 REFERENCE           SOLDIER_FULL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ (^1пїЅпїЅпїЅпїЅпїЅ^7)"
+LANG_RUSSIAN        "Солдат (^1ПОЛОН^7)"
 
 REFERENCE           SPECIALIST
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Специалист"
 
 REFERENCE           SPECIALIST_FULL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (^1пїЅпїЅпїЅпїЅпїЅ^7)"
+LANG_RUSSIAN        "Специалист (^1ПОЛОН^7)"
 
 REFERENCE           ARMORED
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Броневик"
 
 REFERENCE           ARMORED_FULL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (^1пїЅпїЅпїЅпїЅпїЅ^7)"
+LANG_RUSSIAN        "Броневик (^1ПОЛОН^7)"
 
 REFERENCE           ENGINEER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Инженер"
 
 REFERENCE           ENGINEER_FULL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (^1пїЅпїЅпїЅпїЅпїЅ^7)"
+LANG_RUSSIAN        "Инженер (^1ПОЛОН^7)"
 
 REFERENCE           MEDIC
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Медик"
 
 REFERENCE           MEDIC_FULL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ (^1пїЅпїЅпїЅпїЅпїЅ^7)"
+LANG_RUSSIAN        "Медик (^1ПОЛОН^7)"
 
 REFERENCE           About
-LANG_RUSSIAN        "пїЅ RotU-R"
+LANG_RUSSIAN        "О RotU-R"
 
 REFERENCE           ZOMCOUNT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Число ботов:"
 
 REFERENCE           HEALTH
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Здоровье зомби:"
 
 REFERENCE			AVAILABLE_SKILLPOINTS
-LANG_RUSSIAN		"пїЅ пїЅпїЅпїЅ &&1 пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. [{mp_QuickMessage}] + 1 - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"У вас &&1 очков навыков. [{mp_QuickMessage}] + 1 - меню навыков"
 
 REFERENCE           DIFFICULTY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Сложность:"
 
 REFERENCE           EASY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Легко"
 
 REFERENCE           NORMAL
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нормально"
 
 REFERENCE           HARD
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Сложно"
 
 REFERENCE           VERYHARD
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Очень сложно"
 
 REFERENCE           1_FLASHLIGHT
-LANG_RUSSIAN        "1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "1. Фонарик"
 
 REFERENCE           2_THIRDPERSON
-LANG_RUSSIAN        "2. пїЅпїЅпїЅ пїЅпїЅ 3-пїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "2. Вид от 3-го лица"
 
 REFERENCE           3_RESPAWN
-LANG_RUSSIAN        "3. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "3. Возродиться"
 
 REFERENCE           TOGGLECONTROLS
-LANG_RUSSIAN        "4. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "4. Управление"
 
 REFERENCE           LAST_MAN_STANDING
-LANG_RUSSIAN        "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Вы последний живой!"
 
 REFERENCE           JOIN_TESTSERVER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ ^2пїЅпїЅпїЅпїЅпїЅпїЅ ^7(пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ)"
+LANG_RUSSIAN        "Зайти ^2СЕЙЧАС ^7(официальный сервер)"
 
 REFERENCE           JOIN_SERVER
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ ^2пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Зайти ^2СЕЙЧАС"
 
 REFERENCE           PLAYERMENU
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Меню игрока"
 
 REFERENCE           CONTROLS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Управление зомби"
 
 REFERENCE           BIND_FLASHLIGHT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Фонарик"
 
 REFERENCE           BIND_THIRDPERSON
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅ 3-пїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Вид от 3-го лица"
 
 REFERENCE			INVENTORY
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Инвентарь"
 
 REFERENCE			MYINVENTORY
-LANG_RUSSIAN        "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Мой инвентарь"
 
 REFERENCE			WEIGHT
-LANG_RUSSIAN        "^3пїЅпїЅпїЅ"
+LANG_RUSSIAN        "^3Вес"
 
 REFERENCE			ITEMS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^3(&&1/&&2)"
+LANG_RUSSIAN        "Предметы ^3(&&1/&&2)"
 
 REFERENCE			DESCRIPTION
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Описание"
 
 REFERENCE			ABILITIES
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Способности"
 
 REFERENCE			ACCEPT
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Принять"
 
 REFERENCE			SHOW
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Показать"
 
 REFERENCE			NONE
-LANG_RUSSIAN        "пїЅпїЅпїЅ"
+LANG_RUSSIAN        "Нет"
 
 REFERENCE           ATTACHMENTS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "Возможные модули:"
 
 REFERENCE           NEWWAVEIN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ #&&1:"
+LANG_RUSSIAN        "Готовьтесь к волне #&&1:"
 
 REFERENCE           FINALWAVEIN
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN        "ГОТОВЬТЕСЬ К ВЕЛИКОМУ ФИНАЛУ:"
 
 REFERENCE           NEWWAVE0
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ &&1 пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Осторожно: приближается &&1 зомби!"
 
 REFERENCE           NEWWAVE1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ! пїЅ пїЅпїЅпїЅ &&1 пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Новая волна! В ней &&1 зомби!"
 
 REFERENCE           NEWWAVE2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ &&1 пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Наступает новая волна из &&1 зомби!"
 
 REFERENCE           SCARYWAVE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ! &&1 пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Системы сбоят! &&1 зомби рядом!"
 
 REFERENCE           SCARYWAVE_AFTER0
-LANG_RUSSIAN        "^1пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "^1УСТРОЙСТВА СООБЩАЮТ О СБОЕ"
 
 REFERENCE           SCARYWAVE_AFTER1
-LANG_RUSSIAN        "^1пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "^1МАШИНЫ ЗАКЛИНИЛО"
 
 REFERENCE           SCARYWAVE_AFTER2
-LANG_RUSSIAN        "^1пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "^1ТУРЕЛИ ВЫШЛИ ИЗ СТРОЯ"
 
 REFERENCE           NEWSPECIALWAVE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: &&1 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Особая волна: &&1 на подходе!"
 
 REFERENCE           NEWBOSSWAVE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅДЁпїЅ ^1пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ ^7!"
+LANG_RUSSIAN        "БЕРЕГИСЬ! ИДЁТ ^1БОСС-ЗОМБИ ^7!"
 
 REFERENCE           BOSS_CATCHED_FIRE
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Осторожно! Тварь загорелась!"
 
 REFERENCE           BOSS_EXPLOSIVES0
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Ослабьте эту тушу взрывчаткой! &&1%"
 
 REFERENCE           BOSS_EXPLOSIVES1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ C4 пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Бросайте в него C4 и гранаты! &&1%"
 
 REFERENCE           BOSS_EXPLOSIVES2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Используйте БАБАХ-штуки! &&1%"
 
 REFERENCE           BOSS_KNIFE0
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Быстрее режьте гиганта! &&1%"
 
 REFERENCE           BOSS_KNIFE1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Рубите его, быстрее! &&1%"
 
 REFERENCE           BOSS_KNIFE2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Наточите клинок об него! &&1%"
 
 REFERENCE           BOSS_GUNS0
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Вложите всю огневую мощь! &&1%"
 
 REFERENCE           BOSS_GUNS1
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Выпустите в него все пули! &&1%"
 
 REFERENCE           BOSS_GUNS2
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ! &&1%"
+LANG_RUSSIAN        "Стволы и винтовки, вперёд! &&1%"
 
 REFERENCE           INFECTED
-LANG_RUSSIAN        "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN        "Вы заражены! Вылечитесь!"
 
 REFERENCE			DAMMOD
-LANG_RUSSIAN		"^1пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: &&1"
+LANG_RUSSIAN		"^1Модификатор урона: &&1"
 
 REFERENCE           SPEND_SKILLPOINTS
-LANG_RUSSIAN        "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN        "Потратить очки навыков"
 
 REFERENCE			SURV_LEFT
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: &&1"
+LANG_RUSSIAN		"Живых выживших: &&1"
 
 REFERENCE			ZOMB_ALIVE
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: &&1"
+LANG_RUSSIAN		"Живых зомби: &&1"
 
 REFERENCE			SURV_DOWN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: &&1"
+LANG_RUSSIAN		"Выживших в нокдауне: &&1"
 
 REFERENCE			MAPVOTE_WAIT4VOTES
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"Ожидание голосов"
 
 REFERENCE			MAPVOTE_PRESSFIRE
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^3[{+attack}] ^7пїЅпїЅпїЅ ^3[{+melee}] ^7пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите ^3[{+attack}] ^7или ^3[{+melee}] ^7для голоса!"
 
 REFERENCE			WAVE_NUMBER
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅ #&&1"
+LANG_RUSSIAN		"Волна #&&1"
 
 REFERENCE			ARMOREDFORCEFIELD_IN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN		"Защитное поле через:"
 
 REFERENCE			MEDKIT_IN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN		"Аптечка через:"
 
 REFERENCE			AMMOBOX_IN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN		"Ящик патронов через:"
 
 REFERENCE			MONKEY_IN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN		"Обезьянья бомба через:"
 
 REFERENCE			INVISIBILITY_IN
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:"
+LANG_RUSSIAN		"Невидимость через:"
 
 REFERENCE			DIFFICULTY_INCREASED
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^1пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ^7!"
+LANG_RUSSIAN		"Сложность ^1ПОВЫШЕНА^7!"
 
 REFERENCE			SHOP_COSTS_INCREASED
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ &&1%!"
+LANG_RUSSIAN		"Цены в магазине выросли на &&1%!"
 
 REFERENCE			PLAYER_N_LASTSTAND
-LANG_RUSSIAN		"&&1 ^7пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"&&1 ^7падает!"
 
 ENDMARKER

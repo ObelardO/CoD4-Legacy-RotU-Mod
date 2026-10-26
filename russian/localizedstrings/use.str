@@ -3,30 +3,30 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE			GETWEAPON
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы взять оружие!"
 
 REFERENCE			UPGRADEWEAPON
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы улучшить оружие!"
 
 REFERENCE			GETAMMO
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Удерживайте^3 [{+activate}] ^7чтобы пополнить патроны!"
 
 REFERENCE			BUYUPGRADES
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы купить улучшения!"
 
 REFERENCE			REBUILDBARRIER
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Удерживайте^3 [{+activate}] ^7чтобы починить!"
 
 REFERENCE			REVIVE
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Удерживайте^3 [{+activate}] ^7чтобы поднять!"
 
 REFERENCE			CURE
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы вылечить заразу!"
 
 REFERENCE			PORTAL
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы телепортироваться!"
 
 REFERENCE			TURRET
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ^3 [{+activate}] ^7пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы подобрать турель!"
 
 ENDMARKER

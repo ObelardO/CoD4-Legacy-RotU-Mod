@@ -3,48 +3,48 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE			CHOOSE_ROLE
-LANG_RUSSIAN		"^3пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^3Сменить роль"
 
 REFERENCE			JOIN
-LANG_RUSSIAN		"^5пїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^5Войти"
 
 REFERENCE			GOSPEC
-LANG_RUSSIAN		"^3пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^3Наблюдать"
 
 REFERENCE			STOPQUEUE
-LANG_RUSSIAN		"^1пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^1Отменить вход"
 
 REFERENCE			RESTORING_HEALTH
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^2пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ^7!"
+LANG_RUSSIAN		"Восстановление ^2здоровья^7!"
 
 REFERENCE			RESTORING_HEALTH
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^2пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ^7!"
+LANG_RUSSIAN		"Восстановление ^2здоровья^7!"
 
 REFERENCE			ALREADY_AT_FULL_HEALTH
-LANG_RUSSIAN		"^2пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^2Здоровье уже полное"
 
 REFERENCE			AMMO_RESTORED
-LANG_RUSSIAN		"^3пїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^7пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^3Патроны ^7восстановлены"
 
 REFERENCE			ALREADY_AT_MAX_AMMO
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅ ^3пїЅпїЅпїЅпїЅпїЅпїЅпїЅ ^7пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"Ваши ^3патроны ^7уже полные!"
 
 REFERENCE			N_IS_NO_LONGER_INFECTED
-LANG_RUSSIAN		"^2&&1 пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"^2&&1 больше не заражён!"
 
 REFERENCE			YOU_HAVE_BEEN_CURED
-LANG_RUSSIAN		"^2пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!"
+LANG_RUSSIAN		"^2Зараза вылечена!"
 
 REFERENCE			YOU_ARE_NOT_INFECTED
-LANG_RUSSIAN		"^2пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+LANG_RUSSIAN		"^2Вы не заражены"
 
 REFERENCE			MAXIMUM_OF_N_BARRELS
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: &&1!"
+LANG_RUSSIAN		"Извините! Максимум бочек: &&1!"
 
 REFERENCE			MAXIMUM_OF_N_TURRETS_PER_PLAYER
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: &&1!"
+LANG_RUSSIAN		"Извините! Максимум турелей на игрока: &&1!"
 
 REFERENCE			MAXIMUM_OF_N_TURRETS
-LANG_RUSSIAN		"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: &&1!"
+LANG_RUSSIAN		"Извините! Максимум турелей всего: &&1!"
 
 ENDMARKER
