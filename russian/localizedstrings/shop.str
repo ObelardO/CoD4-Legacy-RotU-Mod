@@ -6,7 +6,7 @@ REFERENCE           DESC_DEFAULT
 LANG_RUSSIAN        "Наведите курсор на доступный предмет, чтобы узнать о нём больше."
 
 REFERENCE           RESTOREHEALTH
-LANG_RUSSIAN        "Восстановить здоровье"
+LANG_RUSSIAN        "Здоровье"
 
 REFERENCE           DESC_RESTOREHEALTH
 LANG_RUSSIAN        "Здоровье будет медленно расти, пока не заполнится полностью."
@@ -15,7 +15,7 @@ REFERENCE           DESC_RESTOREHEALTH_TITLE
 LANG_RUSSIAN        "Восстановить здоровье"
 
 REFERENCE           RESTOREAMMO
-LANG_RUSSIAN        "Восстановить патроны"
+LANG_RUSSIAN        "Патроны"
 
 REFERENCE           DESC_RESTOREAMMO
 LANG_RUSSIAN        "Патроны кончились? Этот предмет полностью заполнит всё оружие, которое вы несёте! (Кроме особого оружия!)"
@@ -24,7 +24,7 @@ REFERENCE           DESC_RESTOREAMMO_TITLE
 LANG_RUSSIAN        "Восстановить патроны"
 
 REFERENCE           CUREINFECTION
-LANG_RUSSIAN        "Вылечить заразу"
+LANG_RUSSIAN        "Вакцина"
 
 REFERENCE           DESC_CUREINFECTION
 LANG_RUSSIAN        "Температура? Держите таблетки! Мгновенно убивает всех злобных зомби-кристаллов внутри вас!"
@@ -33,7 +33,7 @@ REFERENCE           DESC_CUREINFECTION_TITLE
 LANG_RUSSIAN        "Вылечить заразу"
 
 REFERENCE           FRAG
-LANG_RUSSIAN        "Осколочные гранаты"
+LANG_RUSSIAN        "Гранаты"
 
 REFERENCE           DESC_FRAG
 LANG_RUSSIAN        "Осколочные гранаты для большего побочного урона. Также работают как взрывчатка против босса."

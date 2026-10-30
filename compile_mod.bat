@@ -236,8 +236,11 @@ robocopy soundaliases ..\..\raw\soundaliases /E /NS /NC /NFL /NDL /NJH /NJS > NU
 robocopy ui ..\..\raw\ui /E /NS /NC /NFL /NDL /NJH /NJS > NUL
 robocopy ui_mp ..\..\raw\ui_mp /E /NS /NC /NFL /NDL /NJH /NJS > NUL
 robocopy vision ..\..\raw\vision /E /NS /NC /NFL /NDL /NJH /NJS > NUL
+REM Weapons listed in mod.csv are compiled into mod.ff from raw\weapons\mp.
+REM weapons_fake is stock M40A3 stubs and must not be copied here: it shares
+REM filenames with weapons\mp and would replace the real files before the link.
+echo  Copying weapons for the fastfile...
 robocopy weapons\mp ..\..\raw\weapons\mp /E /NS /NC /NFL /NDL /NJH /NJS > NUL
-robocopy weapons_fake\mp ..\..\raw\weapons\mp /E /NS /NC /NFL /NDL /NJH /NJS > NUL
 robocopy xanim ..\..\raw\xanim /E /NS /NC /NFL /NDL /NJH /NJS > NUL
 robocopy xmodel ..\..\raw\xmodel /E /NS /NC /NFL /NDL /NJH /NJS > NUL
 robocopy xmodelparts ..\..\raw\xmodelparts /E /NS /NC /NFL /NDL /NJH /NJS > NUL

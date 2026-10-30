@@ -1,16 +1,16 @@
 // While selecting your class, you get a display about how many players are playing each class
 // + on-hover description of it
 REFERENCE           CHOOSE_ROLE
-LANG_RUSSIAN        "ВЫБЕРИТЕ РОЛЬ"
+LANG_RUSSIAN        "СПЕЦИАЛЬНОСТЬ"
 
 REFERENCE           AVAILABLE_ROLES
-LANG_RUSSIAN        "Доступные роли"
+LANG_RUSSIAN        "Доступные специальности"
 
 REFERENCE           CLASS_PLAYERCOUNT
 LANG_RUSSIAN        "Число игроков"
 
 REFERENCE           CLASS_DESCRIPTION_DEFAULT
-LANG_RUSSIAN        "Наведите курсор на роль слева, чтобы увидеть подробности."
+LANG_RUSSIAN        "Наведите курсор на специальность слева, чтобы увидеть подробности."
 
 REFERENCE           CLASS_DISPLAY_PLAYER
 LANG_RUSSIAN        "Игрок"

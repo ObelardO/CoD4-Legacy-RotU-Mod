@@ -1,16 +1,16 @@
 // ABILITIES -- LOT OF STRINGS
 
 REFERENCE			TITLE
-LANG_RUSSIAN        "СПОСОБНОСТИ РОЛИ"
+LANG_RUSSIAN        "СПОСОБНОСТИ"
 
 REFERENCE			ABILITY1
-LANG_RUSSIAN        "Основные способности"
+LANG_RUSSIAN        "Основные"
 
 REFERENCE			ABILITY2
-LANG_RUSSIAN        "Дополнительные способности"
+LANG_RUSSIAN        "Дополнительные"
 
 REFERENCE			ABILITY3
-LANG_RUSSIAN        "Выбираемая способность"
+LANG_RUSSIAN        "Опциональные"
 
 ///////////////
 //	SOLDIER  //

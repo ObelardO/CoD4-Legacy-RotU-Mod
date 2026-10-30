@@ -756,3 +756,40 @@ xmodel,com_vending_can_new1_lit
 // Seasonal xmodels
 xmodel,santa_hat
 
+// FIX: stock weapon overrides from weapons/mp were only zipped into the IWD.
+// The linker ignores them unless they are listed here, so the game kept the
+// stock fastfile versions (raygun came out as defaultweapon_mp, etc.).
+// Only the Raygun is enabled for now. The rest hit the 128 weapon asset limit.
+// weapon,mp/defaultweapon_mp
+// weapon,mp/artillery_mp
+// weapon,mp/brick_blaster_mp
+// weapon,mp/location_selector_mp
+// weapon,mp/briefcase_bomb_mp
+// weapon,mp/briefcase_bomb_defuse_mp
+// weapon,mp/ak47_gl_mp
+// weapon,mp/gl_ak47_mp
+// weapon,mp/m16_gl_mp
+// weapon,mp/gl_m16_mp
+// weapon,mp/m4_gl_mp
+// weapon,mp/gl_m4_mp
+// weapon,mp/m14_gl_mp
+// weapon,mp/gl_m14_mp
+// weapon,mp/g3_gl_mp
+// weapon,mp/gl_g3_mp
+// weapon,mp/g36c_gl_mp
+// weapon,mp/gl_g36c_mp
+// weapon,mp/gl_mp
+// weapon,mp/deserteaglegold_mp
+// weapon,mp/mp5_acog_mp
+// weapon,mp/skorpion_acog_mp
+// weapon,mp/uzi_acog_mp
+// weapon,mp/rpg_mp
+// weapon,mp/c4_mp
+// weapon,mp/radar_mp
+// weapon,mp/airstrike_mp
+// weapon,mp/helicopter_mp
+// weapon,mp/winchester1200_reflex_mp
+// weapon,mp/m1014_reflex_mp
+// weapon,mp/flash_grenade_mp
+// weapon,mp/concussion_grenade_mp
+

@@ -12,7 +12,7 @@ REFERENCE           5_ADMINMENU
 LANG_RUSSIAN        "5. Меню админа"
 
 REFERENCE           SURV
-LANG_RUSSIAN        "Reign of the Undead-^1Революция"
+LANG_RUSSIAN        "Reign of the Undead-^1Revolution"
 
 REFERENCE           PROMOTION
 LANG_RUSSIAN        "Новое звание!"
@@ -57,7 +57,7 @@ REFERENCE           HEALTH
 LANG_RUSSIAN        "Здоровье зомби:"
 
 REFERENCE			AVAILABLE_SKILLPOINTS
-LANG_RUSSIAN		"У вас &&1 очков навыков. [{mp_QuickMessage}] + 1 - меню навыков"
+LANG_RUSSIAN		"У вас &&1 очков навыков. [{mp_QuickMessage}] + 1 - меню прокачки"
 
 REFERENCE           DIFFICULTY
 LANG_RUSSIAN        "Сложность:"

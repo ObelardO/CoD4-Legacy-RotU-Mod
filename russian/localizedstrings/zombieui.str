@@ -3,7 +3,7 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE			CHOOSE_ROLE
-LANG_RUSSIAN		"^3Сменить роль"
+LANG_RUSSIAN		"^3Сменить специальность"
 
 REFERENCE			JOIN
 LANG_RUSSIAN		"^5Войти"
