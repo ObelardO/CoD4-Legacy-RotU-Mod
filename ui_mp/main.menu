@@ -76,7 +76,7 @@
 
 		// Menu items -------------------------------------------
 		#include "ui/bg.inc"
-		#include "ui/rotulogo.inc"
+		//#include "ui/rotulogo.inc"
 		
 		#define SETUP_ACTION_CREATEACLASS \				
 				execnow "statset 260 1"; \
@@ -115,11 +115,13 @@
 		CHOICE_BUTTON_VIS( 7, "@MENU_MODS", close self; open mods_menu;, when( !localvarBool( ui_hideBack ) ) )
 		// TODO: READD CREDITS AND EXTEND THEM
 		CHOICE_BUTTON_VIS( 8, "@MENU_QUIT", open quit_popmenu;, when( !localvarBool( ui_hideBack ) ) )
-		CHOICE_SEPARATOR_VIS( CHOICE_SEP_3, when( !localvarBool( ui_hideBack ) ) )
-		CHOICE_BUTTON_VIS( 9, "@ZOMBIE_ABOUT", open single_popmenu;, when( !localvarBool( ui_hideBack ) ) )
+		//CHOICE_SEPARATOR_VIS( CHOICE_SEP_3, when( !localvarBool( ui_hideBack ) ) )
+		//CHOICE_BUTTON_VIS( 9, "@ZOMBIE_ABOUT", open single_popmenu;, when( !localvarBool( ui_hideBack ) ) )
 
-		CHOICE_FOOTNOTE_VIS_EXPTEXT( ("Rei" + "gn of " + "the U" + "ndead" + " - ^1Revo" + "lution^7 made by" + " L" + "uk & " + "3aGl" + "3\nV" + "isit rotu-" + "revo" + "lution.com for more informat" + "ion/help!"), 40, 420, when( !localvarBool( ui_hideBack ) ) )
+		//CHOICE_FOOTNOTE_VIS_EXPTEXT( ("Rei" + "gn of " + "the U" + "ndead" + " - ^1Revo" + "lution^7 made by" + " L" + "uk & " + "3aGl" + "3\nV" + "isit rotu-" + "revo" + "lution.com for more informat" + "ion/help!"), 40, 420, when( !localvarBool( ui_hideBack ) ) )
 		
+
+		/*
 		itemDef // Displaying "Welcome back, <name>!"
 		{
 			rect		0 (ROTU_LOGO_Y_OFFSET+ROTU_LOGO_Y_SIZE+10) 350 200 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
@@ -143,7 +145,7 @@
 			forecolor	0.5 0.5 0.5 1
 			visible 	when ( !localvarBool( ui_hideBack ) && dvarString("ui_mainmenu_version") != "0" )
 		}
-		
+		*/
 		
 	}
 	

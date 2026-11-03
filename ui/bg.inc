@@ -13,18 +13,32 @@
 #define THUNDER_DURATION_MIN 120
 #define THUNDER_DURATION_MAX_ADD 100
 
+
+
 itemDef
 {
 	style			WINDOW_STYLE_SHADER
 	rect			FULLSCREEN_WIDE
-	// rect			-107 0 854 480
-	background		"animbg_front"
-	forecolor		1 1 1 1
-	visible			when( dvarString( fs_game ) != ""  )
+	background		"animbg_back"
+	forecolor		0.9 0.9 1 1
+	visible			1
+	decoration
+}
+itemDef
+{
+	style			WINDOW_STYLE_SHADER
+	rect			-107 0 1708 480
+	exp				rect X((-107) - ((float(milliseconds() % FOG_SCROLL_TIME) / FOG_SCROLL_TIME) * (854)))
+	forecolor		0.9 0.9 1 1
+	background		"animbg_fogscroll"
+	visible			1
 	decoration
 }
 
-// -- 
+
+
+
+
 itemDef
 {
 	style			WINDOW_STYLE_SHADER
@@ -65,18 +79,13 @@ itemDef
 	visible			when( ( milliseconds() % STEP_4 < (THUNDER_DURATION_MIN + (milliseconds() % THUNDER_DURATION_MAX_ADD)) ) && dvarString("ui_mainmenu_thunder") != "0" )
 	decoration
 }
-// --
- 
-itemDef
-{
-	style			WINDOW_STYLE_SHADER
-	rect			-107 0 1708 480
-	exp				rect X((-107) - ((float(milliseconds() % FOG_SCROLL_TIME) / FOG_SCROLL_TIME) * (854)))
-	forecolor		1 0.6 0.6 0.2
-	background		"animbg_fogscroll"
-	visible			when( dvarString( fs_game ) != "" )
-	decoration
-}
+
+
+
+
+
+
+
 
 itemDef
 {
@@ -84,19 +93,25 @@ itemDef
 	rect			-107 0 1708 480
 	exp				rect X((-961) + ((float(milliseconds() % THINFOG_SCROLL_TIME) / THINFOG_SCROLL_TIME) * (854)))
 	background		"animbg_fogscrollthin"
-	forecolor		1 0.6 0.6 0.9
-	visible			when( dvarString( fs_game ) != "" )
+	forecolor		0.9 0.9 1 1
+	visible			1
 	decoration
 }
-
-// itemDef // DEBUG
-// {
-	// rect		0 0 0 0 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
-	// exp text	( "Alpha: " + ( 1 - ( (milliseconds() % STEP_1) / (THUNDER_DURATION_MIN + (milliseconds() % THUNDER_DURATION_MAX_ADD) ) ) ) );
-	// textfont	UI_FONT_DEFAULT
-	// textscale	0.4
-	// textalign	ITEM_ALIGN_CENTER
-	// textstyle	ITEM_TEXTSTYLE_SHADOWEDMORE
-	// forecolor	1 1 1 1
-	// visible 	when ( 1 )
-// }
+itemDef
+{
+	style			WINDOW_STYLE_SHADER
+	rect			FULLSCREEN_WIDE
+	background		"animbg_front"
+	forecolor		0.9 0.9 1 1
+	visible			1
+	decoration
+}
+itemDef
+{
+	style			WINDOW_STYLE_SHADER
+	rect			FULLSCREEN_WIDE
+	background		"animbg_front2"
+	forecolor		0.9 0.9 1 1
+	visible			1
+	decoration
+}
