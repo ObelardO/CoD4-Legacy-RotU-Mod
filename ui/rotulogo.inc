@@ -1,9 +1,9 @@
 #ifndef ROTU_LOGO_X
-	#define ROTU_LOGO_X 0
+	#define ROTU_LOGO_X 60
 #endif
 	
 #ifndef ROTU_LOGO_Y_OFFSET
-	#define ROTU_LOGO_Y_OFFSET -146
+	#define ROTU_LOGO_Y_OFFSET -186
 #endif
 
 #ifndef ROTU_LOGO_Y
@@ -11,15 +11,15 @@
 #endif
 
 #ifndef ROTU_LOGO_X_SIZE
-	#define ROTU_LOGO_X_SIZE 350
+	#define ROTU_LOGO_X_SIZE 228
 #endif
 
 #ifndef ROTU_LOGO_Y_SIZE
-	#define ROTU_LOGO_Y_SIZE 292
+	#define ROTU_LOGO_Y_SIZE 228
 #endif
 
 #ifndef ROTU_LOGO_HORIZONTAL_ALIGN
-	#define ROTU_LOGO_HORIZONTAL_ALIGN HORIZONTAL_ALIGN_CENTER
+	#define ROTU_LOGO_HORIZONTAL_ALIGN HORIZONTAL_ALIGN_LEFT
 #endif
 
 #ifndef ROTU_LOGO_VERTICAL_ALIGN
