@@ -27,10 +27,10 @@ LANG_RUSSIAN        "Описание солдата"
 
 
 REFERENCE           SPECIALIST_DESCRIPTION
-LANG_RUSSIAN        "НЕ ГОТОВО: описание специалиста"
+LANG_RUSSIAN        "Ассасин славится бесшумным передвижением и смертоносным арбалетом.\nЕго ^3спецприём ^7позволяет притвориться мёртвым, и зомби его не замечают!"
 
 REFERENCE           SPECIALIST_DESCRIPTION_TITLE
-LANG_RUSSIAN        "НЕ ГОТОВО: заголовок описания специалиста"
+LANG_RUSSIAN        "Описание ассасина"
 
 
 REFERENCE           ARMORED_DESCRIPTION

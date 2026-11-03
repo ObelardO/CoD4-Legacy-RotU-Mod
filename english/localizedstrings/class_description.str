@@ -27,10 +27,10 @@ LANG_ENGLISH        "Soldier Description"
 
 
 REFERENCE           SPECIALIST_DESCRIPTION
-LANG_ENGLISH        "TODO: SPECIALIST_DESCRIPTION"
+LANG_ENGLISH        "The Specialist is known for moving quietly and for his deadly crossbow.\nHis ^3Special ^7lets him fake his death so the Zombies ignore him!"
 
 REFERENCE           SPECIALIST_DESCRIPTION_TITLE
-LANG_ENGLISH        "TODO: SPECIALIST_DESCRIPTION_TITLE"
+LANG_ENGLISH        "Specialist Description"
 
 
 REFERENCE           ARMORED_DESCRIPTION

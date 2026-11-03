@@ -28,7 +28,7 @@ LANG_ENGLISH        "Strong Bullet (^3lvl 5^7)"
 REFERENCE			DES_SOLDIER_PR_AB1
 LANG_ENGLISH		"The Soldier equips himself with special bullets that can penetrate any object and hit the Zombies."
 
-REFERENCE			DES_SOLDIERD_PR_AB1
+REFERENCE			DES_SOLDIER_PR_AB1D
 LANG_ENGLISH		"The Soldier equips himself with special bullets that can penetrate any object and hit the Zombies. ^3Unlocked at Soldier rank 5."
 
 			// ABILITY 2 //
@@ -41,7 +41,7 @@ LANG_ENGLISH        "Rampage (^3lvl 15^7)"
 REFERENCE			DES_SOLDIER_PR_AB2
 LANG_ENGLISH		"The Soldier shoots and reloads faster for a certain amount of time."
 
-REFERENCE			DES_SOLDIERD_PR_AB2
+REFERENCE			DES_SOLDIER_PR_AB2D
 LANG_ENGLISH		"The Soldier shoots and reloads faster for a certain amount of time. ^3Unlocked at Soldier rank 15."
 
 
@@ -55,7 +55,7 @@ LANG_ENGLISH      	"Rocket Control (^3lvl 25^7)"
 REFERENCE			DES_SOLDIER_PR_AB3
 LANG_ENGLISH		"In his hands, rockets become precise as f***. His rockets always travel 100% straight with no spread!"
 
-REFERENCE			DES_SOLDIERD_PR_AB3
+REFERENCE			DES_SOLDIER_PR_AB3D
 LANG_ENGLISH		"In his hands, rockets become precise as f***. His rockets always travel 100% straight with no spread! ^3Unlocked at Soldier rank 25."
 
 	//PASSIVE

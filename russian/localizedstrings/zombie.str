@@ -6,7 +6,7 @@ REFERENCE			STREAK
 LANG_RUSSIAN		"X&&1"
 
 REFERENCE           4_PLAYERMENU
-LANG_RUSSIAN        "4. Меню Вижившего"
+LANG_RUSSIAN        "4. Меню Выжившего"
 
 REFERENCE           5_ADMINMENU
 LANG_RUSSIAN        "5. Меню админа"
@@ -96,7 +96,7 @@ REFERENCE           JOIN_SERVER
 LANG_RUSSIAN        "Зайти ^2СЕЙЧАС"
 
 REFERENCE           PLAYERMENU
-LANG_RUSSIAN        "Меню вижившего"
+LANG_RUSSIAN        "Меню выжившего"
 
 REFERENCE           CONTROLS
 LANG_RUSSIAN        "Управление зомби"

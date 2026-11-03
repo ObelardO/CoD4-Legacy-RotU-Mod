@@ -261,7 +261,7 @@ REFERENCE			UPGRADE_POINTS
 LANG_RUSSIAN		"Кредитов: "
 
 REFERENCE			SPREE_ANNOUNCE
-LANG_RUSSIAN		"^3&&2^7 убивает подряд ^3&&3^7! тварей! ^3&&1"
+LANG_RUSSIAN		"^3&&2^7 убивает подряд ^3&&3^7 тварей! ^3&&1"
 
 REFERENCE			SPREE_TRIPLE
 LANG_RUSSIAN		"Тройное убийство!"
