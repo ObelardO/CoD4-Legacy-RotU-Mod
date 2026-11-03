@@ -325,7 +325,7 @@ REFERENCE           2_NO
 LANG_RUSSIAN        "2. Нет"
 
 REFERENCE           MUTE_PLAYERS
-LANG_RUSSIAN        "Заглушить виживших"
+LANG_RUSSIAN        "Заглушить выживших"
 
 REFERENCE           ENABLE_VOICE_CHAT
 LANG_RUSSIAN        "Включить голосовой чат"

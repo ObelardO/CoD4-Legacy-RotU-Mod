@@ -20,10 +20,10 @@ REFERENCE           CLASS1
 LANG_RUSSIAN        "Солдат"
 
 REFERENCE           CLASS2
-LANG_RUSSIAN        "Инженер"
+LANG_RUSSIAN        "Ассасин"
 
 REFERENCE           CLASS3
-LANG_RUSSIAN        "Броневик"
+LANG_RUSSIAN        "Джаггернаут"
 
 REFERENCE           CLASS4
 LANG_RUSSIAN        "Инженер"

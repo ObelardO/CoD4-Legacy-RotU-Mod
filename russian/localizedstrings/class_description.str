@@ -7,16 +7,16 @@ REFERENCE           AVAILABLE_ROLES
 LANG_RUSSIAN        "Доступные специальности"
 
 REFERENCE           CLASS_PLAYERCOUNT
-LANG_RUSSIAN        "Число игроков"
+LANG_RUSSIAN        "Число выживших"
 
 REFERENCE           CLASS_DESCRIPTION_DEFAULT
 LANG_RUSSIAN        "Наведите курсор на специальность слева, чтобы увидеть подробности."
 
 REFERENCE           CLASS_DISPLAY_PLAYER
-LANG_RUSSIAN        "Игрок"
+LANG_RUSSIAN        "Выживший"
 
 REFERENCE           CLASS_DISPLAY_PLAYERS
-LANG_RUSSIAN        "Игроки"
+LANG_RUSSIAN        "Выживших"
 
 
 REFERENCE           SOLDIER_DESCRIPTION
@@ -34,7 +34,7 @@ LANG_RUSSIAN        "НЕ ГОТОВО: заголовок описания специалиста"
 
 
 REFERENCE           ARMORED_DESCRIPTION
-LANG_RUSSIAN        "Броневики носят щит здоровья, который снижает урон от зомби.\nИх ^3спецприём ^7даёт бесконечную броню и не даёт получить урон, так что на них можно положиться в критический момент."
+LANG_RUSSIAN        "Джаггернауты носят щит здоровья, который снижает урон от зомби.\nИх ^3спецприём ^7даёт бесконечную броню и не даёт получить урон, так что на них можно положиться в критический момент."
 
 REFERENCE           ARMORED_DESCRIPTION_TITLE
 LANG_RUSSIAN        "Описание броневика"

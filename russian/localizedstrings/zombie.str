@@ -24,16 +24,16 @@ REFERENCE           SOLDIER_FULL
 LANG_RUSSIAN        "Солдат (^1ПОЛОН^7)"
 
 REFERENCE           SPECIALIST
-LANG_RUSSIAN        "Инженер"
+LANG_RUSSIAN        "Ассасин"
 
 REFERENCE           SPECIALIST_FULL
-LANG_RUSSIAN        "Инженер (^1ПОЛОН^7)"
+LANG_RUSSIAN        "Ассасин (^1ПОЛОН^7)"
 
 REFERENCE           ARMORED
-LANG_RUSSIAN        "Броневик"
+LANG_RUSSIAN        "Джаггернаут"
 
 REFERENCE           ARMORED_FULL
-LANG_RUSSIAN        "Броневик (^1ПОЛОН^7)"
+LANG_RUSSIAN        "Джаггернаут (^1ПОЛОН^7)"
 
 REFERENCE           ENGINEER
 LANG_RUSSIAN        "Инженер"
@@ -210,7 +210,7 @@ REFERENCE           SPEND_SKILLPOINTS
 LANG_RUSSIAN        "Потратить очки навыков"
 
 REFERENCE			SURV_LEFT
-LANG_RUSSIAN		"В выживших: &&1"
+LANG_RUSSIAN		"В живых: &&1"
 
 REFERENCE			ZOMB_ALIVE
 LANG_RUSSIAN		"Недобитых зомби: &&1"

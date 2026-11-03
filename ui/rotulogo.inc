@@ -1,5 +1,5 @@
 #ifndef ROTU_LOGO_X
-	#define ROTU_LOGO_X 60
+	#define ROTU_LOGO_X 68
 #endif
 	
 #ifndef ROTU_LOGO_Y_OFFSET

@@ -505,7 +505,7 @@ finishRevive(player)
 		
 		// TODO: Why do we notify the player of taking damage?
 		player notify("damage", 0);
-		iprintln(player.name + " was revived by " + self.name + ".");
+		iprintln(&"ZOMBIEUI_WAS_REVIVED_BY", player, self);
 		player setClientDvar("ui_infostring", "");
 		
 		self thread scripts\players\_rank::giveRankXP("revive");

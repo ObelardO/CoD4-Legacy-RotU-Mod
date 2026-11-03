@@ -180,7 +180,7 @@ REFERENCE			INFECTED
 LANG_RUSSIAN		"^3&&1 ^7теперь ^1заражён!"
 
 REFERENCE			INFECTION_CURED_BY
-LANG_RUSSIAN		"Зараза ^2&&1 ^7вылечена вижившим ^3&&2."
+LANG_RUSSIAN		"Зараза ^2&&1 ^7вылечена выжившим ^3&&2."
 
 REFERENCE			PLACED_OBSTACLE
 LANG_RUSSIAN		"^3&&1 поставил препятствие."
@@ -261,22 +261,22 @@ REFERENCE			UPGRADE_POINTS
 LANG_RUSSIAN		"Кредитов: "
 
 REFERENCE			SPREE_ANNOUNCE
-LANG_RUSSIAN		"^3&&1 ^7&&2 ^7убил &&3 врагов подряд!"
+LANG_RUSSIAN		"^3&&2^7 убивает подряд ^3&&3^7! тварей! ^3&&1"
 
 REFERENCE			SPREE_TRIPLE
 LANG_RUSSIAN		"Тройное убийство!"
 
 REFERENCE			SPREE_MULTI
-LANG_RUSSIAN		"Мультиубийство!"
+LANG_RUSSIAN		"Массовое убийство!"
 
 REFERENCE			SPREE_KILLING
 LANG_RUSSIAN		"Серия убийств!"
 
 REFERENCE			SPREE_ULTRA
-LANG_RUSSIAN		"Ультраубийство!"
+LANG_RUSSIAN		"Ультра-убийство!"
 
 REFERENCE			SPREE_MEGA
-LANG_RUSSIAN		"Мегаубийство!"
+LANG_RUSSIAN		"Мега-убийство!"
 
 REFERENCE			SPREE_LUDICROUS
 LANG_RUSSIAN		"Нелепое убийство!"
@@ -288,6 +288,9 @@ REFERENCE			SPREE_WICKED
 LANG_RUSSIAN		"Жестоко!!!"
 
 REFERENCE			SCROLL_TEXT
-LANG_RUSSIAN		"DIMA JIOX"
+LANG_RUSSIAN		"Дима лох!"
+
+REFERENCE			WAS_REVIVED_BY
+LANG_RUSSIAN		"^3&&1 ^7поднят игроком ^3&&2^7."
 
 ENDMARKER

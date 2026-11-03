@@ -179,6 +179,7 @@ precache()
 	precachestring(&"ZOMBIEUI_CLASS_UNDEFINED");
 	precachestring(&"ZOMBIEUI_INFECTED");
 	precachestring(&"ZOMBIEUI_INFECTION_CURED_BY");
+	precachestring(&"ZOMBIEUI_WAS_REVIVED_BY");
 	precachestring(&"ZOMBIEUI_PLACED_OBSTACLE");
 	precachestring(&"ZOMBIEUI_CANNOT_PLACE_BARREL");
 	precachestring(&"ZOMBIEUI_DEPLOYED_GL");
