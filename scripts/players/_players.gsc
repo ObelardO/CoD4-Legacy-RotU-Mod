@@ -204,27 +204,11 @@ spawnJoinQueue()
 		spawners[spawners.size] = player;
 	}
 	
-	// Put out some names in the bottom left corner to inform people who has been spawned by the queue
+	// One localized line per player. &&2 is a localized class name.
 	if(spawners.size > 0)
 	{
-		string = "^3";
-		haveOrHas = "have";
-		
-		// Add each player's class and name to the message
 		for(i = 0; i < spawners.size; i++)
-			string += spawners[i].name + "^7 as ^3" + (spawners[i] getFullClassName()) + "^7, ^3";
-		
-		// Since we are adding characters AFTER the player's name in preparation of the next player
-		// we remove the additional characters from the end of the string when it's done
-		string = getSubStr(string, 0, string.size - 4);
-		
-		// Make sure we use proper English, d'uh!
-		if(i <= 1)
-			haveOrHas = "has";
-			
-		string += " " + haveOrHas + " joined the fight!";
-		
-		iprintln(string);
+			iprintln(&"ZOMBIEUI_JOINED_AS", spawners[i], spawners[i] getFullClassName());
 	}
 }
 
@@ -279,7 +263,7 @@ removeFromQueue()
 	if(arrayContains(level.joinQueue, self))
 	{
 		level.joinQueue = removeFromArray(level.joinQueue, self);
-		self iprintlnbold("You have been removed from the queue!");
+		self iprintlnbold(&"ZOMBIEUI_REMOVED_FROM_QUEUE");
 		
 		// A player that is removed from the queue is automatically considered a Spectator, thus moved there
 		self joinSpectator();
@@ -404,8 +388,8 @@ spawnPlayer(forceSpawn)
 		if(!level.intermission && level.activePlayers > 2 && level.dvar["game_enable_join_queue"])
 		{
 			self addToJoinQueue();
-			self iprintlnbold("You have been put into an automated joining queue.");
-			self iprintlnbold("You will join soon! Just be patient ;)");
+			self iprintlnbold(&"ZOMBIEUI_JOIN_QUEUE_1");
+			self iprintlnbold(&"ZOMBIEUI_JOIN_QUEUE_2");
 			return;
 		}
 	}
@@ -517,7 +501,7 @@ spawnPlayer(forceSpawn)
 	self scripts\players\_playermodels::setPlayerClassModel(self.curClass);
 	
 	// Set default clientdvars
-	self setclientdvars("cg_thirdperson", 0, "ui_upgradetext", "Upgrade Points: " + int(self.points), "ui_specialtext", "^1Special Unavailable", "ui_specialrecharge", 1, "ui_spawnqueue", "");
+	self setclientdvars("cg_thirdperson", 0, "ui_upgradetext", "" + int(self.points), "ui_specialtext", "^1Special Unavailable", "ui_specialrecharge", 1, "ui_spawnqueue", "");
 	
 	// Load class-specific stats
 	self scripts\players\_abilities::loadClassAbilities(self.curClass);

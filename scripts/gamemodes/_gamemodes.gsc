@@ -588,7 +588,8 @@ endMap(endReasontext, win)
 			level.end_text = newHudElem();
 			level.end_text.font = "objective";
 			level.end_text.fontScale = 2.4;
-			level.end_text setText(endReasontext);
+			level.end_text.label = endReasontext;
+			level.end_text setText(" ");
 			level.end_text.alignX = "center";
 			level.end_text.alignY = "top";
 			level.end_text.horzAlign = "center";
@@ -682,7 +683,8 @@ endMap(endReasontext, win)
 			level.end_text = newHudElem();
 			level.end_text.font = "objective";
 			level.end_text.fontScale = 2.4;
-			level.end_text setText(endReasontext);
+			level.end_text.label = endReasontext;
+			level.end_text setText(" ");
 			level.end_text.alignX = "center";
 			level.end_text.alignY = "top";
 			level.end_text.horzAlign = "center";
@@ -765,7 +767,7 @@ displayCredits()
 	wait 8;
 	
 	// Show text, delaying every display by 0.5 seconds
-	thread showCredit("REVOLUTION Development:", "credit", 1.4, 80);
+	thread showCredit(&"ZOMBIEUI_CREDIT_DEVELOPMENT", "credit", 1.4, 80);
 	wait 0.5;
 	
 	// WARNING !!!!!!!!!!!!!!!!!!!!!!!
@@ -787,12 +789,12 @@ displayCredits()
 	// "" is used as a separator
 	// TODO: Modify level.startY instead? Something like
 	// level.startY += 20;
-	thread showCredit("", "credit", 1.4, 80);
-	thread showCredit("Based on RotU 2.1 by:", "credit", 1.4, 80);
+	thread showCredit(undefined, "credit", 1.4, 80);
+	thread showCredit(&"ZOMBIEUI_CREDIT_BASED_ON", "credit", 1.4, 80);
 	wait 0.5;
 	thread showCredit("Bipo, Etheross", "credit", 1.5, 100);
 	wait 0.5;
-	thread showCredit("Additional help:", "credit", 1.4, 80);
+	thread showCredit(&"ZOMBIEUI_CREDIT_ADDITIONAL", "credit", 1.4, 80);
 	wait 0.5;
 	thread showCredit("Viking, Rycoon, Punk, Puffy", "credit", 1.5, 100);
 	wait 0.5;
@@ -800,8 +802,8 @@ displayCredits()
 	// "" is used as a separator
 	// TODO: Modify level.startY instead? Something like
 	// level.startY += 20;
-	thread showCredit("", "credit", 1.4, 80);
-	thread showCredit("More credits in ccfg.iwd/CREDITS.txt", "credit", 1.4, 80);
+	thread showCredit(undefined, "credit", 1.4, 80);
+	thread showCredit(&"ZOMBIEUI_CREDIT_MORE", "credit", 1.4, 80);
 	
 	// Wait 6 seconds for the credits to fade out and show game statistics
 	wait 6;
@@ -887,23 +889,16 @@ displayStats()
 				useInt = false;
 			}	
 			
-			// No values for these two types, so we do not display "-> xx number"
+			// Title is a localized label. Name and amount stay in the raw text after it.
 			if(request[0] == "firstminigun" || request[0] == "moredeathsthankills")
-			{
-				text = request[1] + "^5" + player.name;
-			}
-			// This is basically default: Prefix Text -> Player name -> '->' -> colorcode -> amount
+				valueText = "^5" + player.name;
 			else
 			{
 				if(useInt)
-					text = request[1] + "^5" + player.name + " ^7-> " + colorcode + int(amount);
+					valueText = "^5" + player.name + " ^7-> " + colorcode + int(amount);
 				else
-					text = request[1] + "^5" + player.name + " ^7-> " + colorcode + amount;
+					valueText = "^5" + player.name + " ^7-> " + colorcode + amount;
 			}
-			
-			// In case there is a suffix for this stat, we add it to the end of the line
-			if(request.size >= 4 && request[3] != ",")
-				text += "^7" + request[3];
 			
 			// In case there is a background color in there, we add it
 			if(request.size >= 5)
@@ -911,9 +906,9 @@ displayStats()
 				
 			// First result needs the Y overwrite, this resets the level.startY to the default position, all others increment it
 			if(i == 0)
-				thread showCredit(text, "stats", 1.4, -80, "right", backgroundColor, 1);
+				thread showCredit(statLabel(request[0]), "stats", 1.4, -80, "right", backgroundColor, 1, valueText);
 			else
-				thread showCredit(text, "stats", 1.4, -80, "right", backgroundColor);
+				thread showCredit(statLabel(request[0]), "stats", 1.4, -80, "right", backgroundColor, undefined, valueText);
 				
 			i++;
 			wait 0.5;
@@ -925,13 +920,13 @@ displayStats()
 	
 	// Add two empty lines here to leave some space for the next three lines
 	// TODO: Remove these and just increment level.startY manually
-	thread showCredit("", "stats", 1.4, 0, "center");
-	thread showCredit("", "stats", 1.4, 0, "center");
+	thread showCredit(undefined, "stats", 1.4, 0, "center");
+	thread showCredit(undefined, "stats", 1.4, 0, "center");
 	
 	// Show global stats (playtime, Zombies killed, RotU-R Version)
-	thread showCredit("This map lasted " + convertTime(level.gameEndTime - level.startTime), "stats", 1.4, 0, "center", (0.8, 0, 0));
+	thread showCredit(&"ZOMBIEUI_MAP_LASTED", "stats", 1.4, 0, "center", (0.8, 0, 0), undefined, " " + convertTime(level.gameEndTime - level.startTime));
 	wait 0.5;
-	thread showCredit("Zombies harmed: " + level.killedZombies, "stats", 1.4, 0, "center", (0.8, 0, 0));
+	thread showCredit(&"ZOMBIEUI_ZOMBIES_HARMED", "stats", 1.4, 0, "center", (0.8, 0, 0), undefined, " " + level.killedZombies);
 	wait 0.5;
 	thread showCredit(level.rotuVersion, "stats", 1.4, 0, "center", (0.8, 0, 0));
 }
@@ -1077,7 +1072,38 @@ soulSpawnOnEnd(origin)
 *	@backgroundColor Vector, (r,g,b)
 *	@restartYIndex Boolean, Resets the global Y height to 140
 */
-showCredit(text, type, scale, indexX, orientation, backgroundColor, restartYIndex)
+statLabel(id)
+{
+	switch(id)
+	{
+		case "kills": return &"ZOMBIEUI_STAT_KILLS";
+		case "deaths": return &"ZOMBIEUI_STAT_DEATHS";
+		case "assists": return &"ZOMBIEUI_STAT_ASSISTS";
+		case "downtime": return &"ZOMBIEUI_STAT_DOWNTIME";
+		case "heals": return &"ZOMBIEUI_STAT_HEALS";
+		case "revives": return &"ZOMBIEUI_STAT_REVIVES";
+		case "ammo": return &"ZOMBIEUI_STAT_AMMO";
+		case "timeplayed": return &"ZOMBIEUI_STAT_TIMEPLAYED";
+		case "damagedealt": return &"ZOMBIEUI_STAT_DAMAGE";
+		case "damagedealttoboss": return &"ZOMBIEUI_STAT_DAMAGEBOSS";
+		case "turretkills": return &"ZOMBIEUI_STAT_TURRETS";
+		case "upgradepointsspent": return &"ZOMBIEUI_STAT_SPENT";
+		case "upgradepoints": return &"ZOMBIEUI_STAT_POINTS";
+		case "explosivekills": return &"ZOMBIEUI_STAT_EXPLOSIVES";
+		case "knifekills": return &"ZOMBIEUI_STAT_KNIFE";
+		case "survivor": return &"ZOMBIEUI_STAT_SURVIVOR";
+		case "zombiefied": return &"ZOMBIEUI_STAT_ZOMBIE";
+		case "ignitions": return &"ZOMBIEUI_STAT_IGNITIONS";
+		case "poisons": return &"ZOMBIEUI_STAT_POISONS";
+		case "headshots": return &"ZOMBIEUI_STAT_HEADSHOTS";
+		case "barriers": return &"ZOMBIEUI_STAT_BARRIERS";
+		case "firstminigun": return &"ZOMBIEUI_STAT_MINIGUN";
+		case "moredeathsthankills": return &"ZOMBIEUI_STAT_EPICFAIL";
+		default: return &"ZOMBIEUI_STAT_KILLS";
+	}
+}
+
+showCredit(text, type, scale, indexX, orientation, backgroundColor, restartYIndex, valueText)
 {
 	// Default 'level.end_textYIndex' to 0
 	if(!isDefined(level.end_textYIndex))
@@ -1106,7 +1132,13 @@ showCredit(text, type, scale, indexX, orientation, backgroundColor, restartYInde
 	end_text = newHudElem();
 	end_text.font = "objective";
 	end_text.fontScale = scale;
-	end_text setText(text);
+	if(isDefined(valueText))
+	{
+		end_text.label = text;
+		end_text setText(valueText);
+	}
+	else if(isDefined(text))
+		end_text setText(text);
 	end_text.alignX = orientation;
 	end_text.alignY = "top";
 	end_text.horzAlign = orientation;
@@ -1139,7 +1171,7 @@ showCredit(text, type, scale, indexX, orientation, backgroundColor, restartYInde
 	
 	// Lazy hack to increment the text height without displaying anything
 	// TODO: Do this elsewhere, not here, and do it properly
-	if(text == "")
+	if(!isDefined(text))
 	{ 
 		wait 1;
 		end_text destroy();

@@ -98,10 +98,10 @@ skillPointsNotify(points)
 			self.sptxt = newClientHudElem(self);
 			self.sptxt.elemType = "font";
 			self.sptxt.font = "default";
-			self.sptxt.fontscale = 1.6;
+			self.sptxt.fontscale = 1.4;
 			self.sptxt.x = 6;
 			self.sptxt.y = 420;
-			self.sptxt.color = (1, 0.8, 0.4);
+			self.sptxt.color = (0.7, 0.92, 0.78);
 			self.sptxt.glowAlpha = 0;
 			self.sptxt.hideWhenInMenu = true;
 			self.sptxt.archived = false;
@@ -250,7 +250,7 @@ acceptClass()
 			// self thread scripts\players\_players::spawnPlayer();
 		// }
 	} else  {
-		self iprintlnbold("Select a class!");
+		self iprintlnbold(&"ZOMBIEUI_SELECT_CLASS");
 	}
 }
 

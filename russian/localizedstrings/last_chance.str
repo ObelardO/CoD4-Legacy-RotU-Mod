@@ -3,21 +3,21 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE			SPEND_FIRE
-LANG_RUSSIAN		"Нажмите^3 [{+attack}] (ОГОНЬ) ^7чтобы выкупить &&1!"
+LANG_RUSSIAN		"Нажмите^3 [{+attack}] ^7чтобы выкупить жизнь ^3&&1^7!"
 
 REFERENCE			SPEND_FIRE_YOURSELF
-LANG_RUSSIAN		"Нажмите^3 [{+attack}] (ОГОНЬ) ^7чтобы выкупиться!"
+LANG_RUSSIAN		"Нажмите^3 [{+attack}] ^7чтобы выкупить свою жизнь!"
 
 REFERENCE			TIMER
-LANG_RUSSIAN		"Успеете призвать спасительного Феникса?"
+LANG_RUSSIAN		"Успеете обмнауть смерть?"
 
 REFERENCE			SPEND_AMOUNT
-LANG_RUSSIAN		"Очков для платы за смерть: ^3&&1"
+LANG_RUSSIAN		"Нужно кредитов для выкупа: ^2&&1$"
 
 REFERENCE			SPEND_AMOUNT_CANT_PAY
-LANG_RUSSIAN		"У вас нет ^3&&1^7 очков, чтобы заплатить!"
+LANG_RUSSIAN		"У вас нет ^2&&1$^7 кредитов, чтобы заплатить!"
 
 REFERENCE			YOU_GOT_SAVED_BY
-LANG_RUSSIAN		"^2Повезло! ^3&&1 ^7заплатил за вас!"
+LANG_RUSSIAN		"Повезло! ^3&&1 ^7заплатил за вас!"
 
 ENDMARKER

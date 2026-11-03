@@ -14,13 +14,13 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE           CLASS
-LANG_RUSSIAN        "Класс"
+LANG_RUSSIAN        "Специальность"
 
 REFERENCE           CLASS1
 LANG_RUSSIAN        "Солдат"
 
 REFERENCE           CLASS2
-LANG_RUSSIAN        "Специалист"
+LANG_RUSSIAN        "Инженер"
 
 REFERENCE           CLASS3
 LANG_RUSSIAN        "Броневик"

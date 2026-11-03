@@ -228,18 +228,18 @@ ReplaceString(replace)
 }
 
 waveName(name){
-	if(level.intermission)	return "Intermission";
+	if(level.intermission)	return "Перерыв";
 	switch(name){
-		case "normal": return "Normal";
-		case "dog": return "Dogs";
-		case "burning": return "Inferno";
-		case "helldog": return "Helldogs";
-		case "toxic": return "Crawlers";
-		case "tank": return "Hell";
-		case "scary": return "Night";
-		case "boss": return "Boss";
-		case "grouped": return "Grouped";
-		case "finale": return "FINALE";
-		default: return "undefined";
+		case "normal": return "Обычная";
+		case "dog": return "Собаки";
+		case "burning": return "Инферно";
+		case "helldog": return "Адские псы";
+		case "toxic": return "Ползуны";
+		case "tank": return "Ад";
+		case "scary": return "Ночь";
+		case "boss": return "Босс";
+		case "grouped": return "Группа";
+		case "finale": return "ФИНАЛ";
+		default: return "неизвестно";
 	}
 }

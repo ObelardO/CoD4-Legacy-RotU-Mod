@@ -293,7 +293,10 @@ defenceTurret(turret_type, pos, angles, augmented)
 
 	offset = (0, 0, 0);
 	
-	iprintln("^2" + self.name + " ^2deployed a " + turret_type + " turret.");
+	if(turret_type == "gl")
+		iprintln(&"ZOMBIEUI_DEPLOYED_GL", self);
+	else
+		iprintln(&"ZOMBIEUI_DEPLOYED_SENTRY", self);
 	level.turrets++;
 	
 	// The GL turret 'head' has to be moved up a little, so it stands on its base
@@ -410,7 +413,7 @@ goAugmented()
 			self.isAugmented = true;
 			self thread scripts\players\_turrets::createEffectEntity(level._effect["augmented"], "tag_origin", "augmented");
 			// TODO: Find a better way to signal augmentation
-			self.owner iprintln("^3Augmenting ^7GL turret!");
+			self.owner iprintln(&"ZOMBIEUI_AUGMENTING_GL");
 			break;
 		case "minigun": 
 			self.numBullets = level.turretData[type].numbullets * 2;
@@ -420,7 +423,7 @@ goAugmented()
 			self.isAugmented = true;
 			self thread scripts\players\_turrets::createEffectEntity(level._effect["augmented"], "tag_origin", "augmented");
 			// TODO: Find a better way to signal augmentation
-			self.owner iprintln("^3Augmenting ^7Sentry turret!");
+			self.owner iprintln(&"ZOMBIEUI_AUGMENTING_SENTRY");
 			break;
 		default:
 			iprintlnbold("^1ERROR: ^7Wrong turret type for Engineer special!");
@@ -444,7 +447,10 @@ deleteTurretInTime(gun, bipod, time, type, owner)
 	wait time;
 	if(isDefined(owner))
 		// TODO: Find a better way to notify the player of a turret being removed
-		owner iPrintLn("Your " + type + " turret timed out!");
+		if(type == "gl")
+			owner iPrintLn(&"ZOMBIEUI_TURRET_TIMEOUT_GL");
+		else
+			owner iPrintLn(&"ZOMBIEUI_TURRET_TIMEOUT_SENTRY");
 		
 	thread deleteTurret(gun, bipod);
 }

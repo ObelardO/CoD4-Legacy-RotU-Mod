@@ -116,12 +116,12 @@ appendToDvar(dvar, string){
 
 getFullClassName(){
 	switch(self.class){
-		case "soldier": return "Soldier";
-		case "armored": return "Armored";
-		case "specialist": return "Specialist";
-		case "engineer": return "Engineer";
-		case "medic": return "Medic";
-		default: return "undefined";
+		case "soldier": return &"ZOMBIE_SOLDIER";
+		case "armored": return &"ZOMBIE_ARMORED";
+		case "specialist": return &"ZOMBIE_SPECIALIST";
+		case "engineer": return &"ZOMBIE_ENGINEER";
+		case "medic": return &"ZOMBIE_MEDIC";
+		default: return &"ZOMBIEUI_CLASS_UNDEFINED";
 	}
 }
 

@@ -104,7 +104,7 @@ buildLastChanceRequirement()
 		
 	// Calculate the amount of upgradepoints to pay and further proceed to build the logic
 	level.lastChance_toPay = int(requirement * scripts\players\_players::getAverageUpgradePoints());
-	iprintln("Required points for every person: " + level.lastChance_toPay);
+	iprintln(&"ZOMBIEUI_LC_REQUIRED", level.lastChance_toPay);
 	
 	createLCArrays();
 	level.resurrectPeople = [];
@@ -213,7 +213,7 @@ postLastChance()
 	scripts\server\_environment::setAmbient(level.ambient, 0, 1);
 	scripts\server\_environment::setVision(level.vision, 3);
 	
-	iprintln("The players have managed to get enough points to resurrect!");
+	iprintln(&"ZOMBIEUI_LC_RESURRECT");
 	
 	// Kill all zombies before reviving the players, but don't kill a boss
 	for(i = 0; i < level.bots.size; i++)

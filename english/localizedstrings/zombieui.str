@@ -47,4 +47,250 @@ LANG_ENGLISH		"Sorry! Maximum of &&1 turrets per player!"
 REFERENCE			MAXIMUM_OF_N_TURRETS
 LANG_ENGLISH		"Sorry! Maximum of &&1 total turrets!"
 
+REFERENCE			SKILLPOINTS
+LANG_ENGLISH		"Skillpoints: "
+
+REFERENCE			CLASSES
+LANG_ENGLISH		"Classes:"
+
+REFERENCE			QUICK_SKILLPOINTS
+LANG_ENGLISH		"1. Spend Skillpoints "
+
+REFERENCE			REVIVED_BY
+LANG_ENGLISH		"You are being revived by:"
+
+REFERENCE			END_PERISHED
+LANG_ENGLISH		"All Survivors have perished..."
+
+REFERENCE			END_EXTINCT
+LANG_ENGLISH		"The human race became extinct"
+
+REFERENCE			END_TAKEN_OVER
+LANG_ENGLISH		"Zombies have taken over..."
+
+REFERENCE			END_HELD_OFF
+LANG_ENGLISH		"All waves have been held off!"
+
+REFERENCE			END_OBLITERATED
+LANG_ENGLISH		"All Zombies have been obliterated!"
+
+REFERENCE			END_FREE
+LANG_ENGLISH		"This place is now free of Zombies!"
+
+REFERENCE			CREDIT_DEVELOPMENT
+LANG_ENGLISH		"REVOLUTION Development:"
+
+REFERENCE			CREDIT_BASED_ON
+LANG_ENGLISH		"Based on RotU 2.1 by:"
+
+REFERENCE			CREDIT_ADDITIONAL
+LANG_ENGLISH		"Additional help:"
+
+REFERENCE			CREDIT_MORE
+LANG_ENGLISH		"More credits in ccfg.iwd/CREDITS.txt"
+
+REFERENCE			MAP_LASTED
+LANG_ENGLISH		"This map lasted"
+
+REFERENCE			ZOMBIES_HARMED
+LANG_ENGLISH		"Zombies harmed:"
+
+REFERENCE			STAT_KILLS
+LANG_ENGLISH		"Killermachine: "
+
+REFERENCE			STAT_DEATHS
+LANG_ENGLISH		"Situps Trainer: "
+
+REFERENCE			STAT_ASSISTS
+LANG_ENGLISH		"Helped where he could: "
+
+REFERENCE			STAT_DOWNTIME
+LANG_ENGLISH		"Most Time spent down: "
+
+REFERENCE			STAT_HEALS
+LANG_ENGLISH		"Healing Hand: "
+
+REFERENCE			STAT_REVIVES
+LANG_ENGLISH		"Field-Medic: "
+
+REFERENCE			STAT_AMMO
+LANG_ENGLISH		"Running Ammobelt: "
+
+REFERENCE			STAT_TIMEPLAYED
+LANG_ENGLISH		"Longest time played: "
+
+REFERENCE			STAT_DAMAGE
+LANG_ENGLISH		"No Mercy: "
+
+REFERENCE			STAT_DAMAGEBOSS
+LANG_ENGLISH		"Dance with the Big: "
+
+REFERENCE			STAT_TURRETS
+LANG_ENGLISH		"Remote-Killer: "
+
+REFERENCE			STAT_SPENT
+LANG_ENGLISH		"Shopping Queen: "
+
+REFERENCE			STAT_POINTS
+LANG_ENGLISH		"Moneyking: "
+
+REFERENCE			STAT_EXPLOSIVES
+LANG_ENGLISH		"Holy Handgrenade: "
+
+REFERENCE			STAT_KNIFE
+LANG_ENGLISH		"Hidden Samurai: "
+
+REFERENCE			STAT_SURVIVOR
+LANG_ENGLISH		"Defied Death: "
+
+REFERENCE			STAT_ZOMBIE
+LANG_ENGLISH		"Unlucky Bastard: "
+
+REFERENCE			STAT_IGNITIONS
+LANG_ENGLISH		"Hot Bullets: "
+
+REFERENCE			STAT_POISONS
+LANG_ENGLISH		"Filthy Gun: "
+
+REFERENCE			STAT_HEADSHOTS
+LANG_ENGLISH		"Head Hunter: "
+
+REFERENCE			STAT_BARRIERS
+LANG_ENGLISH		"YOU SHALL NOT PASS! "
+
+REFERENCE			STAT_MINIGUN
+LANG_ENGLISH		"First minigun bought by: "
+
+REFERENCE			STAT_EPICFAIL
+LANG_ENGLISH		"^1EPIC FAIL: "
+
+REFERENCE			REMOVED_FROM_QUEUE
+LANG_ENGLISH		"You have been removed from the queue!"
+
+REFERENCE			JOIN_QUEUE_1
+LANG_ENGLISH		"You have been put into an automated joining queue."
+
+REFERENCE			JOIN_QUEUE_2
+LANG_ENGLISH		"You will join soon! Just be patient ;)"
+
+REFERENCE			JOINED_AS
+LANG_ENGLISH		"^3&&1 ^7joined as ^3&&2"
+
+REFERENCE			CLASS_UNDEFINED
+LANG_ENGLISH		"undefined"
+
+REFERENCE			INFECTED
+LANG_ENGLISH		"^1&&1 ^1has been infected!"
+
+REFERENCE			INFECTION_CURED_BY
+LANG_ENGLISH		"^2&&1^2's infection has been cured by &&2."
+
+REFERENCE			PLACED_OBSTACLE
+LANG_ENGLISH		"&&1 placed an ^2obstacle^7."
+
+REFERENCE			CANNOT_PLACE_BARREL
+LANG_ENGLISH		"^1Can not place barrel here!"
+
+REFERENCE			DEPLOYED_GL
+LANG_ENGLISH		"^2&&1 ^2deployed a GL turret."
+
+REFERENCE			DEPLOYED_SENTRY
+LANG_ENGLISH		"^2&&1 ^2deployed a Sentry turret."
+
+REFERENCE			AUGMENTING_GL
+LANG_ENGLISH		"^3Augmenting ^7GL turret!"
+
+REFERENCE			AUGMENTING_SENTRY
+LANG_ENGLISH		"^3Augmenting ^7Sentry turret!"
+
+REFERENCE			TURRET_TIMEOUT_GL
+LANG_ENGLISH		"Your GL turret timed out!"
+
+REFERENCE			TURRET_TIMEOUT_SENTRY
+LANG_ENGLISH		"Your Sentry turret timed out!"
+
+REFERENCE			NOT_ENOUGH_POINTS
+LANG_ENGLISH		"You do not have enough points: &&1"
+
+REFERENCE			NO_MORE_UPGRADES
+LANG_ENGLISH		"No more upgrades for this weapon!"
+
+REFERENCE			C4_MAX
+LANG_ENGLISH		"You can only put down &&1 C4 max.!"
+
+REFERENCE			CLAYMORE_MAX
+LANG_ENGLISH		"You can only put down &&1 Claymores max.!"
+
+REFERENCE			TURRETS_DISABLED
+LANG_ENGLISH		"Turrets are disabled! You can't use your Special!"
+
+REFERENCE			NEED_TURRET
+LANG_ENGLISH		"You need at least one turret to activate your Special!"
+
+REFERENCE			SELECT_CLASS
+LANG_ENGLISH		"Select a class!"
+
+REFERENCE			AFK_KICK
+LANG_ENGLISH		"^1WARNING: ^7DO NOT BE AFK OR YOU WILL BE KICKED!"
+
+REFERENCE			AFK_SPEC
+LANG_ENGLISH		"^1WARNING: ^7DO NOT BE AFK OR YOU WILL BE PUT TO SPECTATOR!"
+
+REFERENCE			LC_REQUIRED
+LANG_ENGLISH		"Required points for every person: &&1"
+
+REFERENCE			LC_RESURRECT
+LANG_ENGLISH		"The players have managed to get enough points to resurrect!"
+
+REFERENCE			BOT_NAME
+LANG_ENGLISH		"^1Warning: bot is not allowed as name/prefix!"
+
+REFERENCE			VERSION_RUNNING
+LANG_ENGLISH		"^2This Server is running ^1&&1"
+
+REFERENCE			VERSION_BUGS
+LANG_ENGLISH		"^2Please report bugs at ^3rotu-revolution.com"
+
+REFERENCE			VERSION_HAS_BUGS
+LANG_ENGLISH		"^2Also note that this version ^3DOES ^2contain Bugs!"
+
+REFERENCE			VERSION_MODIFIED
+LANG_ENGLISH		"This Version of RotU-R has last been modified at &&1"
+
+REFERENCE			VERSION_XP_DISABLED
+LANG_ENGLISH		"^3XP GAIN HAS BEEN ^1DISABLED ^3DUE TO DEBUGGING MODE"
+
+REFERENCE			UPGRADE_POINTS
+LANG_ENGLISH		"Upgrade Points: "
+
+REFERENCE			SPREE_ANNOUNCE
+LANG_ENGLISH		"^3&&1 ^7&&2 ^7killed &&3 enemies in a spree!"
+
+REFERENCE			SPREE_TRIPLE
+LANG_ENGLISH		"Triple kill!"
+
+REFERENCE			SPREE_MULTI
+LANG_ENGLISH		"Multi kill!"
+
+REFERENCE			SPREE_KILLING
+LANG_ENGLISH		"Killing Spree!"
+
+REFERENCE			SPREE_ULTRA
+LANG_ENGLISH		"Ultra kill!"
+
+REFERENCE			SPREE_MEGA
+LANG_ENGLISH		"Mega kill!"
+
+REFERENCE			SPREE_LUDICROUS
+LANG_ENGLISH		"Ludicrous kill!"
+
+REFERENCE			SPREE_HOLY
+LANG_ENGLISH		"Holy Shit!!!"
+
+REFERENCE			SPREE_WICKED
+LANG_ENGLISH		"Wicked Sick!!!"
+
+REFERENCE			SCROLL_TEXT
+LANG_ENGLISH		"DIMA JIOX"
+
 ENDMARKER

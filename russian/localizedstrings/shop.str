@@ -87,22 +87,22 @@ REFERENCE           DESC_EXPLODINGBARREL_TITLE
 LANG_RUSSIAN        "Взрывная бочка"
 
 REFERENCE           SENTRYTURRET
-LANG_RUSSIAN        "Турель-часовой"
+LANG_RUSSIAN        "Турель-пулемёт"
 
 REFERENCE           DESC_SENTRYTURRET
 LANG_RUSSIAN        "Армия США разработала автономную самонаводящуюся турель-миниган, которая разберётся со всеми зомби вокруг.\n^1Турели ^1отключены ^1во ^1время ^1тёмной ^1волны ^1помех^1!"
 
 REFERENCE           DESC_SENTRYTURRET_TITLE
-LANG_RUSSIAN        "Турель-часовой"
+LANG_RUSSIAN        "Турель-мулемёт"
 
 REFERENCE           GLTURRET
-LANG_RUSSIAN        "Турель GL"
+LANG_RUSSIAN        "Турель-гранатомёт"
 
 REFERENCE           DESC_GLTURRET
-LANG_RUSSIAN        "Турель GL намного сильнее турели-часового и наносит урон по площади. Очень эффективна против больших орд!\n^1Турели ^1отключены ^1во ^1время ^1тёмной ^1волны ^1помех^1!"
+LANG_RUSSIAN        "Турель-гранатомёт намного сильнее турели-пулемёта и наносит урон по площади. Очень эффективна против больших орд!\n^1Турели ^1отключены ^1во ^1время ^1тёмной ^1волны ^1помех^1!"
 
 REFERENCE           DESC_GLTURRET_TITLE
-LANG_RUSSIAN        "Турель GL"
+LANG_RUSSIAN        "Турель-пулемёт"
 
 REFERENCE           MGBARREL
 LANG_RUSSIAN        "Бочка + пулемёт"
@@ -117,7 +117,7 @@ REFERENCE           PORTAL
 LANG_RUSSIAN        "Портал"
 
 REFERENCE           DESC_PORTAL
-LANG_RUSSIAN        "Хотите быстро попасть из точки А в точку Б или из А на спавн? Энергетический портал MK IV переносит материю игроков из одной точки в другую!"
+LANG_RUSSIAN        "Хотите быстро попасть из точки А в точку Б или из А на спавн? Энергетический портал MK IV переносит материю виживших из одной точки в другую!"
 
 REFERENCE           DESC_PORTAL_TITLE
 LANG_RUSSIAN        "Портал"

@@ -117,11 +117,107 @@ precache()
 	precachestring(&"FINALE_3_5");
 	precachestring(&"FINALE_3_6");
 	precachestring(&"FINALE_3_7");
-	
-	
-	
-	precachestring(&"+&&1");
-	precachestring(&"&&1");
+
+	precachestring(&"ZOMBIE_NEWSPECIALWAVE");
+	precachestring(&"ZOMBIE_WAVE_DOG");
+	precachestring(&"ZOMBIE_WAVE_FAST");
+	precachestring(&"ZOMBIE_WAVE_FAT");
+	precachestring(&"ZOMBIE_WAVE_BURNING");
+	precachestring(&"ZOMBIE_WAVE_HELLDOG");
+	precachestring(&"ZOMBIE_WAVE_TOXIC");
+	precachestring(&"ZOMBIE_WAVE_TANK");
+	precachestring(&"ZOMBIE_WAVE_GROUPED");
+	precachestring(&"ZOMBIE_WAVE_BOSS");
+	precachestring(&"ZOMBIE_WAVE_ZOMBIE");
+	precachestring(&"ZOMBIE_SOLDIER");
+	precachestring(&"ZOMBIE_SPECIALIST");
+	precachestring(&"ZOMBIE_ARMORED");
+	precachestring(&"ZOMBIE_ENGINEER");
+	precachestring(&"ZOMBIE_MEDIC");
+
+	precachestring(&"ZOMBIEUI_SKILLPOINTS");
+	precachestring(&"ZOMBIEUI_REVIVED_BY");
+	precachestring(&"ZOMBIEUI_END_PERISHED");
+	precachestring(&"ZOMBIEUI_END_EXTINCT");
+	precachestring(&"ZOMBIEUI_END_TAKEN_OVER");
+	precachestring(&"ZOMBIEUI_END_HELD_OFF");
+	precachestring(&"ZOMBIEUI_END_OBLITERATED");
+	precachestring(&"ZOMBIEUI_END_FREE");
+	precachestring(&"ZOMBIEUI_CREDIT_DEVELOPMENT");
+	precachestring(&"ZOMBIEUI_CREDIT_BASED_ON");
+	precachestring(&"ZOMBIEUI_CREDIT_ADDITIONAL");
+	precachestring(&"ZOMBIEUI_CREDIT_MORE");
+	precachestring(&"ZOMBIEUI_MAP_LASTED");
+	precachestring(&"ZOMBIEUI_ZOMBIES_HARMED");
+	precachestring(&"ZOMBIEUI_STAT_KILLS");
+	precachestring(&"ZOMBIEUI_STAT_DEATHS");
+	precachestring(&"ZOMBIEUI_STAT_ASSISTS");
+	precachestring(&"ZOMBIEUI_STAT_DOWNTIME");
+	precachestring(&"ZOMBIEUI_STAT_HEALS");
+	precachestring(&"ZOMBIEUI_STAT_REVIVES");
+	precachestring(&"ZOMBIEUI_STAT_AMMO");
+	precachestring(&"ZOMBIEUI_STAT_TIMEPLAYED");
+	precachestring(&"ZOMBIEUI_STAT_DAMAGE");
+	precachestring(&"ZOMBIEUI_STAT_DAMAGEBOSS");
+	precachestring(&"ZOMBIEUI_STAT_TURRETS");
+	precachestring(&"ZOMBIEUI_STAT_SPENT");
+	precachestring(&"ZOMBIEUI_STAT_POINTS");
+	precachestring(&"ZOMBIEUI_STAT_EXPLOSIVES");
+	precachestring(&"ZOMBIEUI_STAT_KNIFE");
+	precachestring(&"ZOMBIEUI_STAT_SURVIVOR");
+	precachestring(&"ZOMBIEUI_STAT_ZOMBIE");
+	precachestring(&"ZOMBIEUI_STAT_IGNITIONS");
+	precachestring(&"ZOMBIEUI_STAT_POISONS");
+	precachestring(&"ZOMBIEUI_STAT_HEADSHOTS");
+	precachestring(&"ZOMBIEUI_STAT_BARRIERS");
+	precachestring(&"ZOMBIEUI_STAT_MINIGUN");
+	precachestring(&"ZOMBIEUI_STAT_EPICFAIL");
+	precachestring(&"ZOMBIEUI_REMOVED_FROM_QUEUE");
+	precachestring(&"ZOMBIEUI_JOIN_QUEUE_1");
+	precachestring(&"ZOMBIEUI_JOIN_QUEUE_2");
+	precachestring(&"ZOMBIEUI_JOINED_AS");
+	precachestring(&"ZOMBIEUI_CLASS_UNDEFINED");
+	precachestring(&"ZOMBIEUI_INFECTED");
+	precachestring(&"ZOMBIEUI_INFECTION_CURED_BY");
+	precachestring(&"ZOMBIEUI_PLACED_OBSTACLE");
+	precachestring(&"ZOMBIEUI_CANNOT_PLACE_BARREL");
+	precachestring(&"ZOMBIEUI_DEPLOYED_GL");
+	precachestring(&"ZOMBIEUI_DEPLOYED_SENTRY");
+	precachestring(&"ZOMBIEUI_AUGMENTING_GL");
+	precachestring(&"ZOMBIEUI_AUGMENTING_SENTRY");
+	precachestring(&"ZOMBIEUI_TURRET_TIMEOUT_GL");
+	precachestring(&"ZOMBIEUI_TURRET_TIMEOUT_SENTRY");
+	precachestring(&"ZOMBIEUI_NOT_ENOUGH_POINTS");
+	precachestring(&"ZOMBIEUI_NO_MORE_UPGRADES");
+	precachestring(&"ZOMBIEUI_C4_MAX");
+	precachestring(&"ZOMBIEUI_CLAYMORE_MAX");
+	precachestring(&"ZOMBIEUI_TURRETS_DISABLED");
+	precachestring(&"ZOMBIEUI_NEED_TURRET");
+	precachestring(&"ZOMBIEUI_SELECT_CLASS");
+	precachestring(&"ZOMBIEUI_AFK_KICK");
+	precachestring(&"ZOMBIEUI_AFK_SPEC");
+	precachestring(&"ZOMBIEUI_LC_REQUIRED");
+	precachestring(&"ZOMBIEUI_LC_RESURRECT");
+	precachestring(&"ZOMBIEUI_BOT_NAME");
+	precachestring(&"ZOMBIEUI_VERSION_RUNNING");
+	precachestring(&"ZOMBIEUI_VERSION_BUGS");
+	precachestring(&"ZOMBIEUI_VERSION_HAS_BUGS");
+	precachestring(&"ZOMBIEUI_VERSION_MODIFIED");
+	precachestring(&"ZOMBIEUI_VERSION_XP_DISABLED");
+	precachestring(&"ZOMBIEUI_UPGRADE_POINTS");
+	precachestring(&"ZOMBIEUI_SPREE_ANNOUNCE");
+	precachestring(&"ZOMBIEUI_SPREE_TRIPLE");
+	precachestring(&"ZOMBIEUI_SPREE_MULTI");
+	precachestring(&"ZOMBIEUI_SPREE_KILLING");
+	precachestring(&"ZOMBIEUI_SPREE_ULTRA");
+	precachestring(&"ZOMBIEUI_SPREE_MEGA");
+	precachestring(&"ZOMBIEUI_SPREE_LUDICROUS");
+	precachestring(&"ZOMBIEUI_SPREE_HOLY");
+	precachestring(&"ZOMBIEUI_SPREE_WICKED");
+	precachestring(&"ZOMBIEUI_SCROLL_TEXT");
+
+	precachestring(&"+&&1$");
+	precachestring(&"&&1$");
 	
 	
 	
@@ -699,7 +795,7 @@ increaseFontSize(start, end, stepsize){
 	}
 }
 
-glowMessage(label, text, glowcolor, duration, speed, size, sound, height)
+glowMessage(label, text, glowcolor, duration, speed, size, sound, height, substitute)
 {
 	self endon("disconnect");
 	
@@ -732,7 +828,7 @@ glowMessage(label, text, glowcolor, duration, speed, size, sound, height)
 		height = 64;
 	else
 		height = 64 + height;
-	showGlowMessage(label, text, glowcolor, duration, speed, size, height);
+	showGlowMessage(label, text, glowcolor, duration, speed, size, height, substitute);
 	wait duration;
 	self.announceHUD  = 0;
 	self.announceIndex ++;
@@ -778,7 +874,7 @@ overlayMessage(label, text, glowcolor, size)
 	return hud_message;
 }
 
-showGlowMessage(label, text, glowcolor, duration, speed, size, height)
+showGlowMessage(label, text, glowcolor, duration, speed, size, height, substitute)
 {
 	
 	self.hud_message.elemType = "font";
@@ -801,9 +897,15 @@ showGlowMessage(label, text, glowcolor, duration, speed, size, height)
 	self.hud_message.alpha = 1;
 	self.hud_message.glowAlpha = 1;
 	self.hud_message.glowColor = glowcolor;
-	self.hud_message.label = label;
-	if (isdefined(text))
-	self.hud_message setText(text);
+	// substitute: setText(format, arg) fills &&1, and arg may itself be a localized string
+	if (isDefined(substitute) && substitute)
+		self.hud_message setText(label, text);
+	else
+	{
+		self.hud_message.label = label;
+		if (isdefined(text))
+			self.hud_message setText(text);
+	}
 
 	self.hud_message setPulseFX(speed, int((duration)*1000), 1000);
 	

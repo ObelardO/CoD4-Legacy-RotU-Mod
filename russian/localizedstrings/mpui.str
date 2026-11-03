@@ -211,7 +211,7 @@ REFERENCE           TEMPORARY_BAN
 LANG_RUSSIAN        "Временный бан"
 
 REFERENCE           TEMPORARILY_BAN_PLAYER
-LANG_RUSSIAN        "Временно забанить игрока"
+LANG_RUSSIAN        "Временно забанить вижившего"
 
 REFERENCE           NEXT_MAP
 LANG_RUSSIAN        "Следующая карта"
@@ -244,7 +244,7 @@ REFERENCE           1_RESTART_MAP
 LANG_RUSSIAN        "1. Перезапустить карту"
 
 REFERENCE           PLAYERSUSING
-LANG_RUSSIAN        "Используют игроки:"
+LANG_RUSSIAN        "Используют вижившие:"
 
 REFERENCE           CLICK_TO_CONTINUE
 LANG_RUSSIAN        "Щёлкните, чтобы продолжить"
@@ -274,7 +274,7 @@ REFERENCE           2_CHANGE_TEAM
 LANG_RUSSIAN        "2. Сменить команду"
 
 REFERENCE           3_MUTE_PLAYERS
-LANG_RUSSIAN        "3. Заглушить игроков"
+LANG_RUSSIAN        "3. Заглушить виживших"
 
 REFERENCE           4_CALL_VOTE
 LANG_RUSSIAN        "4. Голосование"
@@ -325,7 +325,7 @@ REFERENCE           2_NO
 LANG_RUSSIAN        "2. Нет"
 
 REFERENCE           MUTE_PLAYERS
-LANG_RUSSIAN        "Заглушить игроков"
+LANG_RUSSIAN        "Заглушить виживших"
 
 REFERENCE           ENABLE_VOICE_CHAT
 LANG_RUSSIAN        "Включить голосовой чат"
@@ -562,7 +562,7 @@ REFERENCE           KILLS
 LANG_RUSSIAN        "Убийства"
 
 REFERENCE           PLAYER
-LANG_RUSSIAN        "Игрок"
+LANG_RUSSIAN        "Виживший"
 
 REFERENCE           TIME_PLAYED
 LANG_RUSSIAN        "Время в игре"
@@ -715,7 +715,7 @@ REFERENCE           MOTD
 LANG_RUSSIAN        "Сообщение дня"
 
 REFERENCE           PLAYER_OPTIONS
-LANG_RUSSIAN        "Параметры игрока"
+LANG_RUSSIAN        "Параметры вижившего"
 
 REFERENCE           YES
 LANG_RUSSIAN        "Да"
@@ -751,7 +751,7 @@ REFERENCE           DESC_PARTY_INVITE
 LANG_RUSSIAN        "Пригласите друзей в группу."
 
 REFERENCE           DESC_PLAYER_OPTIONS
-LANG_RUSSIAN        "Открыть меню параметров игрока."
+LANG_RUSSIAN        "Открыть меню параметров вижившего."
 
 REFERENCE           DESC_START_MATCH
 LANG_RUSSIAN        "Начать матч."
@@ -787,7 +787,7 @@ REFERENCE           UNLOCKXP
 LANG_RUSSIAN        "Открывается: &&1 (ур. &&2)"
 
 REFERENCE           MAXPARTYSIZE
-LANG_RUSSIAN        "Максимум игроков в группе: &&1"
+LANG_RUSSIAN        "Максимум виживших в группе: &&1"
 
 REFERENCE           NOPUNKBUSTER
 LANG_RUSSIAN        "Не удалось запустить PunkBuster. PunkBuster отключён."
@@ -964,7 +964,7 @@ REFERENCE           GRIP
 LANG_RUSSIAN        "Рукоятка"
 
 REFERENCE           END_GAME_WARNING
-LANG_RUSSIAN        "Точно завершить сессию для всех игроков?"
+LANG_RUSSIAN        "Точно завершить сессию для всех виживших?"
 
 REFERENCE           CHOOSE_CLASS_CAP
 LANG_RUSSIAN        "ВЫБОР КЛАССА"
@@ -1036,7 +1036,7 @@ REFERENCE           DESC_MAP_SHIPMENT
 LANG_RUSSIAN        "Крошечная российская верфь. Быстрый бой, спрятаться негде."
 
 REFERENCE           DESC_MAP_SHOWDOWN
-LANG_RUSSIAN        "Небольшая пустынная арена. Быстрая игра для малого числа игроков."
+LANG_RUSSIAN        "Небольшая пустынная арена. Быстрая игра для малого числа виживших."
 
 REFERENCE           DESC_MAP_STRIKE
 LANG_RUSSIAN        "Большой пустынный город. Отличные командные игры."
@@ -1051,7 +1051,7 @@ REFERENCE           DESC_MAP_PIPELINE
 LANG_RUSSIAN        "Российское депо. Отличные командные игры."
 
 REFERENCE           RULES_PLAYER_OPTIONS
-LANG_RUSSIAN        "Параметры игрока"
+LANG_RUSSIAN        "Параметры вижившего"
 
 REFERENCE           RULES_GAMEPLAY_OPTIONS
 LANG_RUSSIAN        "Параметры игры"
@@ -1135,7 +1135,7 @@ REFERENCE           RULES_FREE
 LANG_RUSSIAN        "Свободно"
 
 REFERENCE           RULES_PLAYERS_ONLY
-LANG_RUSSIAN        "Только игроки"
+LANG_RUSSIAN        "Только вижившие"
 
 REFERENCE           RULES_RADAR_ALWAYS_ON
 LANG_RUSSIAN        "Радар всегда включён:"
@@ -1342,7 +1342,7 @@ REFERENCE           BARRACKS_CAP
 LANG_RUSSIAN        "КАЗАРМА"
 
 REFERENCE           RECOMMENDEDPLAYERS
-LANG_RUSSIAN        "Рекомендуемый максимум игроков: &&1"
+LANG_RUSSIAN        "Рекомендуемый максимум виживших: &&1"
 
 REFERENCE           RULES_WAVE_DELAY
 LANG_RUSSIAN        "Задержка волны:"
@@ -1369,7 +1369,7 @@ REFERENCE           DESC_INVITE_FRIENDS_FULL
 LANG_RUSSIAN        "Лобби заполнено."
 
 REFERENCE           MUTEPLAYERS
-LANG_RUSSIAN        "ЗАГЛУШИТЬ ИГРОКОВ"
+LANG_RUSSIAN        "ЗАГЛУШИТЬ ВИЖИВШИХ"
 
 REFERENCE           RULES_2POINTS
 LANG_RUSSIAN        "2 очка"

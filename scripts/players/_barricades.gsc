@@ -104,7 +104,7 @@ placeBarrel()
 				self.carryObj = undefined;
 				self notify("used_usable");
 				
-				iPrintLn(self.name + " placed an ^2obstacle^7.");
+				iPrintLn(&"ZOMBIEUI_PLACED_OBSTACLE", self);
 				
 				self.canUse = true;
 				self enableWeapons();
@@ -112,7 +112,7 @@ placeBarrel()
 			}
 			else
 			{
-				self iPrintLnBold("^1Can not place barrel here!");
+				self iPrintLnBold(&"ZOMBIEUI_CANNOT_PLACE_BARREL");
 				wait 1;
 			}
 		}

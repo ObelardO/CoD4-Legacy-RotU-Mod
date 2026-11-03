@@ -1406,7 +1406,7 @@ doAugmentation()
 {
 	if(level.turretsDisabled)
 	{
-		self iprintlnbold("Turrets are disabled! You can't use your Special!");
+		self iprintlnbold(&"ZOMBIEUI_TURRETS_DISABLED");
 		return false;
 	}
 	
@@ -1420,7 +1420,7 @@ doAugmentation()
 	
 	if(turrets.size == 0)
 	{
-		self iprintlnbold("You need at least one turret to activate your Special!");
+		self iprintlnbold(&"ZOMBIEUI_NEED_TURRET");
 		return false;
 	}
 	

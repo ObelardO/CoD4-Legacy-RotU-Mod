@@ -64,34 +64,34 @@ checkSpree()
 				self playlocalsound("double_kill");
 			break;
 			case 3:
-				self.laststreak = "Triple kill! ";
+				self.laststreak = "triple";
 				self stoplocalsound("double_kill");
 				self playlocalsound("triple_kill");
 				break;
 			case 4:
 			case 5:
 			case 6:
-				if(self.laststreak != "Multi kill! ")
+				if(self.laststreak != "multi")
 				{
-					self.laststreak = "Multi kill! ";
+					self.laststreak = "multi";
 					self stoplocalsound("triple_kill");
 					self playlocalsound("multikill");
 				}
 				break;
 			case 7:
 			case 8:
-				if(self.laststreak != "Killing Spree! ")
+				if(self.laststreak != "killing")
 				{
-					self.laststreak = "Killing Spree! ";
+					self.laststreak = "killing";
 					self stoplocalsound("multikill");
 					self playlocalsound("killing_spree");
 				}
 				break;
 			case 9:
 			case 10:
-				if(self.laststreak != "Ultra kill! ")
+				if(self.laststreak != "ultra")
 				{
-					self.laststreak = "Ultra kill! ";
+					self.laststreak = "ultra";
 					self stoplocalsound("killing_spree");
 					self playlocalsound("ultrakill");
 
@@ -99,18 +99,18 @@ checkSpree()
 				break;
 			case 11:
 			case 12:
-				if(self.laststreak != "Mega kill! ")
+				if(self.laststreak != "mega")
 				{
-					self.laststreak = "Mega kill! ";
+					self.laststreak = "mega";
 					self stoplocalsound("ultrakill");
 					self playlocalsound("megakill");
 				}
 				break;
 			case 13:
 			case 14:
-				if(self.laststreak != "Ludicrous kill! ")
+				if(self.laststreak != "ludicrous")
 				{
-					self.laststreak = "Ludicrous kill! ";
+					self.laststreak = "ludicrous";
 					self stoplocalsound("megakill");
 					self playlocalsound("ludicrouskill");
 				}
@@ -120,17 +120,17 @@ checkSpree()
 			case 17:
 			case 18:
 			case 19:
-				if(self.laststreak != "Holy Shit!!! ")
+				if(self.laststreak != "holy")
 				{
-					self.laststreak = "Holy Shit!!! ";
+					self.laststreak = "holy";
 					self stoplocalsound("ludicrouskill");
 					self playlocalsound("holyshit");
 				}
 				break;
 			default:
-				if(self.laststreak != "Wicked Sick!!! ")
+				if(self.laststreak != "wicked")
 				{
-					self.laststreak = "Wicked Sick!!! ";
+					self.laststreak = "wicked";
 					self stoplocalsound("holyshit");
 					self playlocalsound("wickedsick");
 				}
@@ -179,9 +179,7 @@ processspree(streak, spree)
 	self.hud_streak fadeovertime(.5);
 	self.hud_streak.alpha = 0;
 	if (streak != "" && spree != 0) 
-	{
-		iprintln(streak + self.name + "^7 killed " + spree + " enemies in a spree!");
-	}
+		iprintln(&"ZOMBIEUI_SPREE_ANNOUNCE", spreeTitle(streak), self, spree);
 	
 	if(spree == 2)
 	{
@@ -189,52 +187,68 @@ processspree(streak, spree)
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(5);
 	}
-	else if(streak == "Triple kill! ")
+	else if(streak == "triple")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 15);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(15);
 	}
-	else if(streak == "Multi kill! ")
+	else if(streak == "multi")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 40);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(30);
 	}
-	else if(streak == "Killing Spree! ")
+	else if(streak == "killing")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 90);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(70);
 	}
-	else if(streak == "Ultra kill! ")
+	else if(streak == "ultra")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 190);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(95);
 	}
-	else if(streak == "Mega kill! ")
+	else if(streak == "mega")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 440);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(125);
 	}
-	else if(streak == "Ludicrous kill! ")
+	else if(streak == "ludicrous")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 940);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(160);
 	}
-	else if(streak == "Holy Shit!!! ")
+	else if(streak == "holy")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 1940);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(200);
 	}
-	else if(streak == "Wicked Sick!!! ")
+	else if(streak == "wicked")
 	{
 		self scripts\players\_rank::giveRankXP("spree", 3940);
 		if (self.curClass == "soldier")
 			self scripts\players\_abilities::rechargeSpecial(300);
+	}
+}
+
+spreeTitle(token)
+{
+	switch(token)
+	{
+		case "triple": return &"ZOMBIEUI_SPREE_TRIPLE";
+		case "multi": return &"ZOMBIEUI_SPREE_MULTI";
+		case "killing": return &"ZOMBIEUI_SPREE_KILLING";
+		case "ultra": return &"ZOMBIEUI_SPREE_ULTRA";
+		case "mega": return &"ZOMBIEUI_SPREE_MEGA";
+		case "ludicrous": return &"ZOMBIEUI_SPREE_LUDICROUS";
+		case "holy": return &"ZOMBIEUI_SPREE_HOLY";
+		case "wicked": return &"ZOMBIEUI_SPREE_WICKED";
+		default: return &"ZOMBIEUI_SPREE_TRIPLE";
 	}
 }

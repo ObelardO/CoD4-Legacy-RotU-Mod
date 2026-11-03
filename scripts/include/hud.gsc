@@ -72,10 +72,10 @@ removeTimers()
 	thread scripts\gamemodes\_hud::removeTimers();
 }
 
-announceMessage(label, text, glowcolor, duration, speed, size, height)
+announceMessage(label, text, glowcolor, duration, speed, size, height, substitute)
 {
 	for (i = 0; i < level.players.size; i++)
-		level.players[i] thread scripts\gamemodes\_hud::glowMessage(label, text, glowcolor, duration, speed, size, undefined, height);
+		level.players[i] thread scripts\gamemodes\_hud::glowMessage(label, text, glowcolor, duration, speed, size, undefined, height, substitute);
 }
 
 overlayMessage(label, text, glowcolor, size)
@@ -298,8 +298,8 @@ upgradeHud(points)
 	points = self.upgradeHudPoints;
 	self.upgradeHudPoints = 0;
 	
-	// Update total "Upgradepoints:" display on player's screen
-	self setClientDvar("ui_upgradetext", "Upgrade Points: " + int(self.points));
+	// Number only. hud.menu prepends @ZOMBIEUI_UPGRADE_POINTS in the client language.
+	self setClientDvar("ui_upgradetext", "" + int(self.points));
 	
 	// Create hud element showing the gain/loss of upgradepoints
 	hud_score = newClientHudElem(self);
@@ -320,13 +320,13 @@ upgradeHud(points)
 	if (points > 0)
 	{
 		hud_score.glowColor = (0.1, 0.9, 0.2);
-		hud_score.label = (&"+&&1"); // TODO: MAKE LABEL IN LANGUAGE FILE
+		hud_score.label = (&"+&&1$"); // TODO: MAKE LABEL IN LANGUAGE FILE
 		hud_score setValue(int(points));
 	}
 	else
 	{
 		hud_score.glowColor = (0.9, 0.1, 0.2);
-		hud_score.label = (&"&&1");
+		hud_score.label = (&"&&1$");
 		hud_score setValue(int(points));
 	}
 	

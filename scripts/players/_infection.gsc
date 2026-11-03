@@ -64,7 +64,7 @@ goInfected()
 	self.infection_overlay = createHealthOverlay((0,1,0));
 	self.infection_overlay.alpha = .5;
 	self.infected = true;
-	iPrintLn("^1" + self.name + "^1 has been infected!");		// TODO: Make this a localized string!
+	iPrintLn(&"ZOMBIEUI_INFECTED", self);
 	self glowMessage(&"ZOMBIE_INFECTED", "", (1, 0, 0), 6, 50, 2);
 	
 	wait level.dvar["zom_infectiontime"];

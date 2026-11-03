@@ -52,13 +52,8 @@ antiAFK(){
 	self endon("disconnect");
 	self endon("join_spectator");
 	
-	// We change the displayed text depending on the chosen handle type
 	// game_afk_type 0 = KICK
 	// game_afk_type 1 = MOVE TO SPECTATOR
-	if(level.dvar["game_afk_type"] == 0)
-		handleTypeText = "KICKED";
-	else
-		handleTypeText = "PUT TO SPECTATOR";
 	
 	// Save current position before starting loop
 	oldpos = self getOrigin();
@@ -99,7 +94,12 @@ antiAFK(){
 		if(self.antiAFK >= (level.dvar["game_afk_time_warn"] * 20) && 
 		self.antiAFK % 20 == 0 && 
 		self.antiAFK < ((level.dvar["game_afk_time_warn"] + level.dvar["game_afk_warn_amount"]) * 20))
-			self iprintlnbold("^1WARNING: ^7DO NOT BE AFK OR YOU WILL BE " + handleTypeText + "!");
+		{
+			if(level.dvar["game_afk_type"] == 0)
+				self iprintlnbold(&"ZOMBIEUI_AFK_KICK");
+			else
+				self iprintlnbold(&"ZOMBIEUI_AFK_SPEC");
+		}
 		
 		// After warning him, check if the AFK-counter is high enough to act
 		if(self.antiAFK >= (level.dvar["game_afk_time"] * 20))

@@ -286,19 +286,19 @@ preWave(wavetype, type){
 			break;
 		case "grouped":
 			thread playSoundOnAllPlayers("wave_start", randomfloat(1));
-			announceMessage(&"ZOMBIE_NEWSPECIALWAVE", level.zom_typenames[type], (.7,.2,0), 5, 85);
+			announceMessage(&"ZOMBIE_NEWSPECIALWAVE", specialWaveName(type), (.7,.2,0), 5, 85, undefined, undefined, true);
 			wait 5;
 			thread scripts\bots\_types::randomZombieProbabilityScenario(45);
 			break;
 		case "dog":
 			thread playSoundOnAllPlayers("wave_start", randomfloat(1));
-			announceMessage(&"ZOMBIE_NEWSPECIALWAVE", level.zom_typenames[type], (.7,.2,0), 5, 85);
+			announceMessage(&"ZOMBIE_NEWSPECIALWAVE", specialWaveName(type), (.7,.2,0), 5, 85, undefined, undefined, true);
 			wait 5;
 			thread scripts\server\_environment::normalWaveEffects();
 			break;
 		default:
 			thread playSoundOnAllPlayers("wave_start", randomfloat(1));
-			announceMessage(&"ZOMBIE_NEWSPECIALWAVE", level.zom_typenames[type], (.7,.2,0), 5, 85);
+			announceMessage(&"ZOMBIE_NEWSPECIALWAVE", specialWaveName(type), (.7,.2,0), 5, 85, undefined, undefined, true);
 			wait 5;
 			break;
 	}
@@ -723,5 +723,24 @@ getRandomSpawn()
 		choice = randomint(array.size);
 		// iprintlnbold("Spawn " + choice + " on " + spawn);
 		return array[choice];
+	}
+}
+
+/* Localized name for ZOMBIE_NEWSPECIALWAVE's &&1 */
+specialWaveName(type)
+{
+	switch(type)
+	{
+		case "dog": return &"ZOMBIE_WAVE_DOG";
+		case "fast": return &"ZOMBIE_WAVE_FAST";
+		case "fat": return &"ZOMBIE_WAVE_FAT";
+		case "burning": return &"ZOMBIE_WAVE_BURNING";
+		case "helldog": return &"ZOMBIE_WAVE_HELLDOG";
+		case "toxic": return &"ZOMBIE_WAVE_TOXIC";
+		case "tank": return &"ZOMBIE_WAVE_TANK";
+		case "grouped": return &"ZOMBIE_WAVE_GROUPED";
+		case "boss": return &"ZOMBIE_WAVE_BOSS";
+		case "zombie": return &"ZOMBIE_WAVE_ZOMBIE";
+		default: return &"ZOMBIE_WAVE_ZOMBIE";
 	}
 }

@@ -3,48 +3,291 @@ CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
 FILENOTES           ""
 
 REFERENCE			CHOOSE_ROLE
-LANG_RUSSIAN		"^3Сменить специальность"
+LANG_RUSSIAN		"Специальность"
 
 REFERENCE			JOIN
-LANG_RUSSIAN		"^5Войти"
+LANG_RUSSIAN		"Выживать"
 
 REFERENCE			GOSPEC
-LANG_RUSSIAN		"^3Наблюдать"
+LANG_RUSSIAN		"Наблюдать"
 
 REFERENCE			STOPQUEUE
-LANG_RUSSIAN		"^1Отменить вход"
+LANG_RUSSIAN		"Отменить вход"
 
 REFERENCE			RESTORING_HEALTH
-LANG_RUSSIAN		"Восстановление ^2здоровья^7!"
-
-REFERENCE			RESTORING_HEALTH
-LANG_RUSSIAN		"Восстановление ^2здоровья^7!"
+LANG_RUSSIAN		"^2Восстановление ^7здоровья!"
 
 REFERENCE			ALREADY_AT_FULL_HEALTH
-LANG_RUSSIAN		"^2Здоровье уже полное"
+LANG_RUSSIAN		"Здоровье уже ^2полное"
 
 REFERENCE			AMMO_RESTORED
-LANG_RUSSIAN		"^3Патроны ^7восстановлены"
+LANG_RUSSIAN		"Патроны ^2восстановлены"
 
 REFERENCE			ALREADY_AT_MAX_AMMO
-LANG_RUSSIAN		"Ваши ^3патроны ^7уже полные!"
+LANG_RUSSIAN		"Ваши патроны уже ^2полные!"
 
 REFERENCE			N_IS_NO_LONGER_INFECTED
-LANG_RUSSIAN		"^2&&1 больше не заражён!"
+LANG_RUSSIAN		"^3&&1 больше ^2не заражён!"
 
 REFERENCE			YOU_HAVE_BEEN_CURED
-LANG_RUSSIAN		"^2Зараза вылечена!"
+LANG_RUSSIAN		"Зараза ^2вылечена!"
 
 REFERENCE			YOU_ARE_NOT_INFECTED
-LANG_RUSSIAN		"^2Вы не заражены"
+LANG_RUSSIAN		"Вы ^2не заражены"
 
 REFERENCE			MAXIMUM_OF_N_BARRELS
-LANG_RUSSIAN		"Извините! Максимум бочек: &&1!"
+LANG_RUSSIAN		"^1Максимум ^7бочек: &&1!"
 
 REFERENCE			MAXIMUM_OF_N_TURRETS_PER_PLAYER
-LANG_RUSSIAN		"Извините! Максимум турелей на игрока: &&1!"
+LANG_RUSSIAN		"^1Максимум ^7турелей на вежившем: &&1!"
 
 REFERENCE			MAXIMUM_OF_N_TURRETS
-LANG_RUSSIAN		"Извините! Максимум турелей всего: &&1!"
+LANG_RUSSIAN		"^1Максимум ^7турелей всего: &&1!"
+
+REFERENCE			SKILLPOINTS
+LANG_RUSSIAN		"Очки навыков: "
+
+REFERENCE			CLASSES
+LANG_RUSSIAN		"Специаьности:"
+
+REFERENCE			QUICK_SKILLPOINTS
+LANG_RUSSIAN		"1. Очки навыков "
+
+REFERENCE			REVIVED_BY
+LANG_RUSSIAN		"Вас поднимает:"
+
+REFERENCE			END_PERISHED
+LANG_RUSSIAN		"^1Все выжившие погибли..."
+
+REFERENCE			END_EXTINCT
+LANG_RUSSIAN		"^1Человечество вымерло"
+
+REFERENCE			END_TAKEN_OVER
+LANG_RUSSIAN		"^1Зомби захватили всё..."
+
+REFERENCE			END_HELD_OFF
+LANG_RUSSIAN		"^2Все волны отбиты!"
+
+REFERENCE			END_OBLITERATED
+LANG_RUSSIAN		"^2Все зомби уничтожены!"
+
+REFERENCE			END_FREE
+LANG_RUSSIAN		"^2Это место очищено от зомби!"
+
+REFERENCE			CREDIT_DEVELOPMENT
+LANG_RUSSIAN		"Разработка RotU REVOLUTION:"
+
+REFERENCE			CREDIT_BASED_ON
+LANG_RUSSIAN		"Основано на RotU 2.1:"
+
+REFERENCE			CREDIT_ADDITIONAL
+LANG_RUSSIAN		"Дополнительная помощь:"
+
+REFERENCE			CREDIT_MORE
+LANG_RUSSIAN		"Разработка RotU LEGACY: ObelardO"
+
+REFERENCE			MAP_LASTED
+LANG_RUSSIAN		"Карта длилась"
+
+REFERENCE			ZOMBIES_HARMED
+LANG_RUSSIAN		"Зомби ранено:"
+
+REFERENCE			STAT_KILLS
+LANG_RUSSIAN		"Машина для убийств: "
+
+REFERENCE			STAT_DEATHS
+LANG_RUSSIAN		"Больше всех упал: "
+
+REFERENCE			STAT_ASSISTS
+LANG_RUSSIAN		"Помогал чем мог: "
+
+REFERENCE			STAT_DOWNTIME
+LANG_RUSSIAN		"Дольше всех лежал: "
+
+REFERENCE			STAT_HEALS
+LANG_RUSSIAN		"Целительная рука: "
+
+REFERENCE			STAT_REVIVES
+LANG_RUSSIAN		"Полевой медик: "
+
+REFERENCE			STAT_AMMO
+LANG_RUSSIAN		"Ходячий патронташ: "
+
+REFERENCE			STAT_TIMEPLAYED
+LANG_RUSSIAN		"Дольше всех в бою: "
+
+REFERENCE			STAT_DAMAGE
+LANG_RUSSIAN		"Без пощады: "
+
+REFERENCE			STAT_DAMAGEBOSS
+LANG_RUSSIAN		"Танец с большим: "
+
+REFERENCE			STAT_TURRETS
+LANG_RUSSIAN		"Убийца с турели: "
+
+REFERENCE			STAT_SPENT
+LANG_RUSSIAN		"Королева покупок: "
+
+REFERENCE			STAT_POINTS
+LANG_RUSSIAN		"Денежный король: "
+
+REFERENCE			STAT_EXPLOSIVES
+LANG_RUSSIAN		"Святая граната: "
+
+REFERENCE			STAT_KNIFE
+LANG_RUSSIAN		"Скрытый самурай: "
+
+REFERENCE			STAT_SURVIVOR
+LANG_RUSSIAN		"Обманул смерть: "
+
+REFERENCE			STAT_ZOMBIE
+LANG_RUSSIAN		"Невезучий: "
+
+REFERENCE			STAT_IGNITIONS
+LANG_RUSSIAN		"Горячие пули: "
+
+REFERENCE			STAT_POISONS
+LANG_RUSSIAN		"Грязное оружие: "
+
+REFERENCE			STAT_HEADSHOTS
+LANG_RUSSIAN		"Охотник за головами: "
+
+REFERENCE			STAT_BARRIERS
+LANG_RUSSIAN		"ТЫ НЕ ПРОЙДЁШЬ! "
+
+REFERENCE			STAT_MINIGUN
+LANG_RUSSIAN		"Первый миниган купил: "
+
+REFERENCE			STAT_EPICFAIL
+LANG_RUSSIAN		"^1ЭПИК ФЕЙЛ: "
+
+REFERENCE			REMOVED_FROM_QUEUE
+LANG_RUSSIAN		"Вас ^1убрали ^7из очереди!"
+
+REFERENCE			JOIN_QUEUE_1
+LANG_RUSSIAN		"Вы ^2поставлены ^7в очередь на вход."
+
+REFERENCE			JOIN_QUEUE_2
+LANG_RUSSIAN		"Скоро войдёте. Подождите ;)"
+
+REFERENCE			JOINED_AS
+LANG_RUSSIAN		"^3&&1 ^7вступает в бой: ^3&&2"
+
+REFERENCE			CLASS_UNDEFINED
+LANG_RUSSIAN		"неизвестно"
+
+REFERENCE			INFECTED
+LANG_RUSSIAN		"^3&&1 ^7теперь ^1заражён!"
+
+REFERENCE			INFECTION_CURED_BY
+LANG_RUSSIAN		"Зараза ^2&&1 ^7вылечена вижившим ^3&&2."
+
+REFERENCE			PLACED_OBSTACLE
+LANG_RUSSIAN		"^3&&1 поставил препятствие."
+
+REFERENCE			CANNOT_PLACE_BARREL
+LANG_RUSSIAN		"Здесь нельзя поставить бочку!"
+
+REFERENCE			DEPLOYED_GL
+LANG_RUSSIAN		"^3&&1 ^7установил турель-гранатомёт."
+
+REFERENCE			DEPLOYED_SENTRY
+LANG_RUSSIAN		"^3&&1 ^7установил турель-пулемёт."
+
+REFERENCE			AUGMENTING_GL
+LANG_RUSSIAN		"^2Усиление ^7турели-гранатомёта!"
+
+REFERENCE			AUGMENTING_SENTRY
+LANG_RUSSIAN		"^2Усиление ^7турели-пулемёта!"
+
+REFERENCE			TURRET_TIMEOUT_GL
+LANG_RUSSIAN		"Ваша турель-гранатомёт ^1отключилась!"
+
+REFERENCE			TURRET_TIMEOUT_SENTRY
+LANG_RUSSIAN		"Ваша турель-пулемёт ^1отключилась!"
+
+REFERENCE			NOT_ENOUGH_POINTS
+LANG_RUSSIAN		"Не хватает кредитов: ^2&&1$"
+
+REFERENCE			NO_MORE_UPGRADES
+LANG_RUSSIAN		"Для этого оружия больше нет улучшений!"
+
+REFERENCE			C4_MAX
+LANG_RUSSIAN		"^1Нельзя ^7поставить больше ^7&&1 C4!"
+
+REFERENCE			CLAYMORE_MAX
+LANG_RUSSIAN		"^1Нельзя ^7поставить больше ^7&&1 мин!"
+
+REFERENCE			TURRETS_DISABLED
+LANG_RUSSIAN		"Турели ^1отключены!^7 Особое умение недоступно!"
+
+REFERENCE			NEED_TURRET
+LANG_RUSSIAN		"Для особого умения нужна хотя бы одна турель!"
+
+REFERENCE			SELECT_CLASS
+LANG_RUSSIAN		"Выберите специальность!"
+
+REFERENCE			AFK_KICK
+LANG_RUSSIAN		"^3ВНИМАНИЕ: ^7НЕ СТОЙТЕ AFK, ИНАЧЕ ВАС КИКНУТ!"
+
+REFERENCE			AFK_SPEC
+LANG_RUSSIAN		"^3ВНИМАНИЕ: ^7НЕ СТОЙТЕ AFK, ИНАЧЕ ВАС ПЕРЕВЕДУТ В НАБЛЮДАТЕЛИ!"
+
+REFERENCE			LC_REQUIRED
+LANG_RUSSIAN		"Нужно кредитов с каждого: ^2&&1$"
+
+REFERENCE			LC_RESURRECT
+LANG_RUSSIAN		"Выжившие собрали достаточно кредитов для воскрешения!"
+
+REFERENCE			BOT_NAME
+LANG_RUSSIAN		"^3Внимание: bot нельзя использовать как имя или префикс!"
+
+REFERENCE			VERSION_RUNNING
+LANG_RUSSIAN		"Сервер работает на ^1&&1"
+
+REFERENCE			VERSION_BUGS
+LANG_RUSSIAN		"Сообщайте об ошибках на ^5obelardos@gmail.com"
+
+REFERENCE			VERSION_HAS_BUGS
+LANG_RUSSIAN		"В этой версии ^1ЕСТЬ ^7ошибки!"
+
+REFERENCE			VERSION_MODIFIED
+LANG_RUSSIAN		"Эта версия RotU-R изменена: &&1"
+
+REFERENCE			VERSION_XP_DISABLED
+LANG_RUSSIAN		"^3НАБОР ОПЫТА ^1ОТКЛЮЧЁН ^3ИЗ-ЗА РЕЖИМА ОТЛАДКИ"
+
+REFERENCE			UPGRADE_POINTS
+LANG_RUSSIAN		"Кредитов: "
+
+REFERENCE			SPREE_ANNOUNCE
+LANG_RUSSIAN		"^3&&1 ^7&&2 ^7убил &&3 врагов подряд!"
+
+REFERENCE			SPREE_TRIPLE
+LANG_RUSSIAN		"Тройное убийство!"
+
+REFERENCE			SPREE_MULTI
+LANG_RUSSIAN		"Мультиубийство!"
+
+REFERENCE			SPREE_KILLING
+LANG_RUSSIAN		"Серия убийств!"
+
+REFERENCE			SPREE_ULTRA
+LANG_RUSSIAN		"Ультраубийство!"
+
+REFERENCE			SPREE_MEGA
+LANG_RUSSIAN		"Мегаубийство!"
+
+REFERENCE			SPREE_LUDICROUS
+LANG_RUSSIAN		"Нелепое убийство!"
+
+REFERENCE			SPREE_HOLY
+LANG_RUSSIAN		"Святые угодники!!!"
+
+REFERENCE			SPREE_WICKED
+LANG_RUSSIAN		"Жестоко!!!"
+
+REFERENCE			SCROLL_TEXT
+LANG_RUSSIAN		"DIMA JIOX"
 
 ENDMARKER

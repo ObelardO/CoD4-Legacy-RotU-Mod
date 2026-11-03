@@ -220,7 +220,7 @@ comingFromTheBottom(){
 	// end_text endon("death");
 	scroll_text.font = "objective";
 	scroll_text.fontScale = 2.5;
-	scroll_text SetText("Pink text");
+	scroll_text SetText(&"ZOMBIEUI_SCROLL_TEXT");
 	scroll_text.alignX = "center";
 	scroll_text.alignY = "top";
 	scroll_text.horzAlign = "center";

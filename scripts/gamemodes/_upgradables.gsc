@@ -252,9 +252,9 @@ doUpgrade(type)
 		}
 		else
 		{
-			self iPrintLnBold("You do not have enough points: "+costs);
+			self iPrintLnBold(&"ZOMBIEUI_NOT_ENOUGH_POINTS", costs);
 		}
 	}
 	else
-		self iPrintLnBold("No more upgrades for this weapon!");
+		self iPrintLnBold(&"ZOMBIEUI_NO_MORE_UPGRADES");
 }

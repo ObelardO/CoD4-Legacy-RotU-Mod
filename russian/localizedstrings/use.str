@@ -6,13 +6,13 @@ REFERENCE			GETWEAPON
 LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы взять оружие!"
 
 REFERENCE			UPGRADEWEAPON
-LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы улучшить оружие!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы купить новое оружие!"
 
 REFERENCE			GETAMMO
 LANG_RUSSIAN		"Удерживайте^3 [{+activate}] ^7чтобы пополнить патроны!"
 
 REFERENCE			BUYUPGRADES
-LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы купить улучшения!"
+LANG_RUSSIAN		"Нажмите^3 [{+activate}] ^7чтобы открыть магазин!"
 
 REFERENCE			REBUILDBARRIER
 LANG_RUSSIAN		"Удерживайте^3 [{+activate}] ^7чтобы починить!"

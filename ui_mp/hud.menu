@@ -686,25 +686,25 @@
 		itemDef // Middle text displaying "You are being revived by..."
 		{
 			rect		-5 -2 1 1 HORIZONTAL_ALIGN_CENTER_SAFEAREA VERTICAL_ALIGN_CENTER_SAFEAREA
-			exp text	( dvarstring("ui_infostring") );
+			exp text	( LocString("@ZOMBIEUI_REVIVED_BY") + " " + dvarstring("ui_infostring") );
 			textfont	UI_FONT_DEFAULT
 			textscale	0.4
 			textalign	ITEM_ALIGN_CENTER
 			textstyle	ITEM_TEXTSTYLE_SHADOWEDMORE
 			forecolor	1 1 1 HUD_FOREGROUND_ALPHA
-			visible 	1
+			visible 	when( dvarstring("ui_infostring") != "" )
 			decoration 
 		}
 		itemDef // "Upgrade Points"-text
 		{
 			rect		4 -120 1 1 HORIZONTAL_ALIGN_LEFT VERTICAL_ALIGN_BOTTOM
-			exp text	( dvarstring("ui_upgradetext") );
+			exp text	( LocString("@ZOMBIEUI_UPGRADE_POINTS") + "^2" + dvarstring("ui_upgradetext") + "$" );
 			textfont	UI_FONT_DEFAULT
 			textscale	0.35
 			textalign	ITEM_ALIGN_LEFT
 			textstyle	ITEM_TEXTSTYLE_SHADOWEDMORE
 			forecolor	1 1 1 HUD_FOREGROUND_ALPHA
-			visible 	when (!dvarint("hud_vehicle"))
+			visible 	when ( dvarstring("ui_upgradetext") != "" && !dvarint("hud_vehicle") )
 			decoration 
 		}
 		

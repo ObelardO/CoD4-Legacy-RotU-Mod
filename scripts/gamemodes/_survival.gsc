@@ -171,9 +171,9 @@ watchEnd()
 		{
 			ran = randomint(3);
 			switch(ran){
-				case 0: thread scripts\gamemodes\_gamemodes::endMap("All Survivors have perished...", 0); break;
-				case 1: thread scripts\gamemodes\_gamemodes::endMap("The human race became extinct", 0); break;
-				case 2: thread scripts\gamemodes\_gamemodes::endMap("Zombies have taken over...", 0); break;
+				case 0: thread scripts\gamemodes\_gamemodes::endMap(&"ZOMBIEUI_END_PERISHED", 0); break;
+				case 1: thread scripts\gamemodes\_gamemodes::endMap(&"ZOMBIEUI_END_EXTINCT", 0); break;
+				case 2: thread scripts\gamemodes\_gamemodes::endMap(&"ZOMBIEUI_END_TAKEN_OVER", 0); break;
 			}
 		}
 	}
@@ -254,9 +254,9 @@ mainGametype()
 	// FINISH
 	ran = randomint(3);
 	switch(ran){
-		case 0: thread scripts\gamemodes\_gamemodes::endMap("All waves have been held off!", 1); break;
-		case 1: thread scripts\gamemodes\_gamemodes::endMap("All Zombies have been obliterated!", 1); break;
-		case 2: thread scripts\gamemodes\_gamemodes::endMap("This place is now free of Zombies!", 1); break;
+		case 0: thread scripts\gamemodes\_gamemodes::endMap(&"ZOMBIEUI_END_HELD_OFF", 1); break;
+		case 1: thread scripts\gamemodes\_gamemodes::endMap(&"ZOMBIEUI_END_OBLITERATED", 1); break;
+		case 2: thread scripts\gamemodes\_gamemodes::endMap(&"ZOMBIEUI_END_FREE", 1); break;
 	}
 	
 }

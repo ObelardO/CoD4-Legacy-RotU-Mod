@@ -273,7 +273,7 @@ usableUse()
 				self.curEnt.occupied = true;
 				self.isBusy = true;
 				
-				self.curEnt setclientdvar("ui_infostring", "You are being revived by: " + self.name);
+				self.curEnt setclientdvar("ui_infostring", self.name);
 				
 				if(self.reviveWill)
 					self setclientdvar("ui_damagereduced", 1); // Medic Passive
@@ -290,7 +290,7 @@ usableUse()
 				if (!self.curEnt.isDown)
 				{
 					// TODO: Find better means of reporting cured players?
-					iprintln("^2" + self.curEnt.name + "^2's infection has been cured by " + self.name + ".");
+					iprintln(&"ZOMBIEUI_INFECTION_CURED_BY", self.curEnt, self);
 					
 					self.curEnt scripts\players\_infection::cureInfection();
 					// TODO: Create one file/script that handles all rewards for all usables?

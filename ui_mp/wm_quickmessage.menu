@@ -36,7 +36,7 @@
 			textstyle		ITEM_TEXTSTYLE_SHADOWED
 			textscale		TEXTSIZE_SMALL
 			textaligny		8
-			exp				text("1. Spend Skillpoints ("+dvarstring(ui_skillpoints)+")")
+			exp				text(LocString("@ZOMBIEUI_QUICK_SKILLPOINTS") + "(" + dvarstring(ui_skillpoints) + ")")
 			decoration
 		}
 		execKey "1" { close quickmessage; open skillpoints }

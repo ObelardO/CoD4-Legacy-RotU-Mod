@@ -6,13 +6,13 @@ REFERENCE			STREAK
 LANG_RUSSIAN		"X&&1"
 
 REFERENCE           4_PLAYERMENU
-LANG_RUSSIAN        "4. Меню игрока"
+LANG_RUSSIAN        "4. Меню Вижившего"
 
 REFERENCE           5_ADMINMENU
 LANG_RUSSIAN        "5. Меню админа"
 
 REFERENCE           SURV
-LANG_RUSSIAN        "Reign of the Undead-^1Revolution"
+LANG_RUSSIAN        "^1Выживание"
 
 REFERENCE           PROMOTION
 LANG_RUSSIAN        "Новое звание!"
@@ -24,10 +24,10 @@ REFERENCE           SOLDIER_FULL
 LANG_RUSSIAN        "Солдат (^1ПОЛОН^7)"
 
 REFERENCE           SPECIALIST
-LANG_RUSSIAN        "Специалист"
+LANG_RUSSIAN        "Инженер"
 
 REFERENCE           SPECIALIST_FULL
-LANG_RUSSIAN        "Специалист (^1ПОЛОН^7)"
+LANG_RUSSIAN        "Инженер (^1ПОЛОН^7)"
 
 REFERENCE           ARMORED
 LANG_RUSSIAN        "Броневик"
@@ -57,7 +57,7 @@ REFERENCE           HEALTH
 LANG_RUSSIAN        "Здоровье зомби:"
 
 REFERENCE			AVAILABLE_SKILLPOINTS
-LANG_RUSSIAN		"У вас &&1 очков навыков. [{mp_QuickMessage}] + 1 - меню прокачки"
+LANG_RUSSIAN		"Очки навыков: ^5&&1^7 Нажмите ^3[{mp_QuickMessage}]^7 +^3 1"
 
 REFERENCE           DIFFICULTY
 LANG_RUSSIAN        "Сложность:"
@@ -96,7 +96,7 @@ REFERENCE           JOIN_SERVER
 LANG_RUSSIAN        "Зайти ^2СЕЙЧАС"
 
 REFERENCE           PLAYERMENU
-LANG_RUSSIAN        "Меню игрока"
+LANG_RUSSIAN        "Меню вижившего"
 
 REFERENCE           CONTROLS
 LANG_RUSSIAN        "Управление зомби"
@@ -114,10 +114,10 @@ REFERENCE			MYINVENTORY
 LANG_RUSSIAN        "Мой инвентарь"
 
 REFERENCE			WEIGHT
-LANG_RUSSIAN        "^3Вес"
+LANG_RUSSIAN        "Вес"
 
 REFERENCE			ITEMS
-LANG_RUSSIAN        "Предметы ^3(&&1/&&2)"
+LANG_RUSSIAN        "Предметы (&&1/&&2)"
 
 REFERENCE			DESCRIPTION
 LANG_RUSSIAN        "Описание"
@@ -168,7 +168,7 @@ REFERENCE           NEWSPECIALWAVE
 LANG_RUSSIAN        "Особая волна: &&1 на подходе!"
 
 REFERENCE           NEWBOSSWAVE
-LANG_RUSSIAN        "БЕРЕГИСЬ! ИДЁТ ^1БОСС-ЗОМБИ ^7!"
+LANG_RUSSIAN        "БЕРЕГИСЬ! ИДЁТ ^1БОСС-ЗОМБИ^7!"
 
 REFERENCE           BOSS_CATCHED_FIRE
 LANG_RUSSIAN        "Осторожно! Тварь загорелась!"
@@ -204,19 +204,19 @@ REFERENCE           INFECTED
 LANG_RUSSIAN        "Вы заражены! Вылечитесь!"
 
 REFERENCE			DAMMOD
-LANG_RUSSIAN		"^1Модификатор урона: &&1"
+LANG_RUSSIAN		"^7Модификатор урона: ^2&&1"
 
 REFERENCE           SPEND_SKILLPOINTS
 LANG_RUSSIAN        "Потратить очки навыков"
 
 REFERENCE			SURV_LEFT
-LANG_RUSSIAN		"Живых выживших: &&1"
+LANG_RUSSIAN		"В выживших: &&1"
 
 REFERENCE			ZOMB_ALIVE
-LANG_RUSSIAN		"Живых зомби: &&1"
+LANG_RUSSIAN		"Недобитых зомби: &&1"
 
 REFERENCE			SURV_DOWN
-LANG_RUSSIAN		"Выживших в нокдауне: &&1"
+LANG_RUSSIAN		"При смерти: &&1"
 
 REFERENCE			MAPVOTE_WAIT4VOTES
 LANG_RUSSIAN		"Ожидание голосов"
@@ -246,9 +246,39 @@ REFERENCE			DIFFICULTY_INCREASED
 LANG_RUSSIAN		"Сложность ^1ПОВЫШЕНА^7!"
 
 REFERENCE			SHOP_COSTS_INCREASED
-LANG_RUSSIAN		"Цены в магазине выросли на &&1%!"
+LANG_RUSSIAN		"Цены в магазине выросли на ^1&&1%^7!"
 
 REFERENCE			PLAYER_N_LASTSTAND
-LANG_RUSSIAN		"&&1 ^7падает!"
+LANG_RUSSIAN		"^3&&1 ^7падает! ^1На помощь!"
+
+REFERENCE			WAVE_DOG
+LANG_RUSSIAN		"Мерзкие псы"
+
+REFERENCE			WAVE_FAST
+LANG_RUSSIAN		"Бегуны"
+
+REFERENCE			WAVE_FAT
+LANG_RUSSIAN		"Толстокожие"
+
+REFERENCE			WAVE_BURNING
+LANG_RUSSIAN		"Горящие зомби"
+
+REFERENCE			WAVE_HELLDOG
+LANG_RUSSIAN		"Адские гончие"
+
+REFERENCE			WAVE_TOXIC
+LANG_RUSSIAN		"Ползуны"
+
+REFERENCE			WAVE_TANK
+LANG_RUSSIAN		"Адские зомби"
+
+REFERENCE			WAVE_GROUPED
+LANG_RUSSIAN		"Сброд"
+
+REFERENCE			WAVE_BOSS
+LANG_RUSSIAN		"^1Последний зомби^7"
+
+REFERENCE			WAVE_ZOMBIE
+LANG_RUSSIAN		"зомби"
 
 ENDMARKER

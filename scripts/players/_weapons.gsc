@@ -403,7 +403,7 @@ watchThrowable()
 			if( self.c4array.size >= level.dvar["game_max_c4"] )
 			{
 				c4 delete();
-				self iprintlnbold("You can only put down " + level.dvar["game_max_c4"] + " C4 max.!");
+				self iprintlnbold(&"ZOMBIEUI_C4_MAX", level.dvar["game_max_c4"]);
 				self setWeaponAmmoClip(self getCurrentWeapon(), self getWeaponAmmoClip(self getCurrentWeapon()) + 1);
 				continue;
 			}

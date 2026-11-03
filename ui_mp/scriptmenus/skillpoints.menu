@@ -70,7 +70,7 @@
 			visible			when ( 1 );
 			rect			7 290 0 0
 			forecolor		1 0.8 0.4 1
-			exp				text("Skillpoints: " + dvarstring(ui_skillpoints))
+			exp				text(LocString("@ZOMBIEUI_SKILLPOINTS") + dvarstring(ui_skillpoints))
 			textfont		UI_FONT_DEFAULT
 			textstyle	ITEM_TEXTSTYLE_SHADOWEDMORE
 			textscale		TEXTSIZE_DEFAULT decoration	}
@@ -95,32 +95,32 @@
 		#define CHOICE_X_SPACING		206 
 		
 		/* =================================== default classes ================================= */		
-		CHOICE_SECTION_TITLE( 1, "Classes:" )
+		CHOICE_SECTION_TITLE( 1, LocString("@ZOMBIEUI_CLASSES") )
 
 		CHOICE_BUTTON_BG( 2, 1 )
 		CHOICE_HIGHLIGHT( 2, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 2, "Soldier ("+(stat(430)+1)+")", scriptMenuResponse "upgr_soldier";, when( dvarint("ui_skillpoints") > 0 && stat(430) < 29 ) )
-		CHOICE_DBUTTON_VIS_NOHI( 2, "Soldier ("+(stat(430)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(430) >= 29 ) )
+		CHOICE_BUTTON_VIS_NOHI( 2, LocString("@ZOMBIE_SOLDIER") + " ("+(stat(430)+1)+")", scriptMenuResponse "upgr_soldier";, when( dvarint("ui_skillpoints") > 0 && stat(430) < 29 ) )
+		CHOICE_DBUTTON_VIS_NOHI( 2, LocString("@ZOMBIE_SOLDIER") + " ("+(stat(430)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(430) >= 29 ) )
 
 		CHOICE_BUTTON_BG( 3, 1 )
 		CHOICE_HIGHLIGHT( 3, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 3, "Specialist ("+(stat(431)+1)+")", scriptMenuResponse "upgr_specialist";, when( dvarint("ui_skillpoints") > 0&& stat(431) < 29 ) )
-		CHOICE_DBUTTON_VIS_NOHI( 3, "Specialist ("+(stat(431)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(431) >= 29 ) )
+		CHOICE_BUTTON_VIS_NOHI( 3, LocString("@ZOMBIE_SPECIALIST") + " ("+(stat(431)+1)+")", scriptMenuResponse "upgr_specialist";, when( dvarint("ui_skillpoints") > 0&& stat(431) < 29 ) )
+		CHOICE_DBUTTON_VIS_NOHI( 3, LocString("@ZOMBIE_SPECIALIST") + " ("+(stat(431)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(431) >= 29 ) )
 		
 		CHOICE_BUTTON_BG( 4, 1 )
 		CHOICE_HIGHLIGHT( 4, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 4, "Armored ("+(stat(432)+1)+")", scriptMenuResponse "upgr_armored";, when( dvarint("ui_skillpoints") > 0&& stat(432) < 29 ) )
-		CHOICE_DBUTTON_VIS_NOHI( 4, "Armored ("+(stat(432)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(432) >= 29 ) )
+		CHOICE_BUTTON_VIS_NOHI( 4, LocString("@ZOMBIE_ARMORED") + " ("+(stat(432)+1)+")", scriptMenuResponse "upgr_armored";, when( dvarint("ui_skillpoints") > 0&& stat(432) < 29 ) )
+		CHOICE_DBUTTON_VIS_NOHI( 4, LocString("@ZOMBIE_ARMORED") + " ("+(stat(432)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(432) >= 29 ) )
 		
 		CHOICE_BUTTON_BG( 5, 1 )
 		CHOICE_HIGHLIGHT( 5, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 5, "Engineer ("+(stat(433)+1)+")", scriptMenuResponse "upgr_engineer";, when( dvarint("ui_skillpoints") > 0&& stat(433) < 29 ) )
-		CHOICE_DBUTTON_VIS_NOHI( 5, "Engineer ("+(stat(433)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(433) >= 29 ) )
+		CHOICE_BUTTON_VIS_NOHI( 5, LocString("@ZOMBIE_ENGINEER") + " ("+(stat(433)+1)+")", scriptMenuResponse "upgr_engineer";, when( dvarint("ui_skillpoints") > 0&& stat(433) < 29 ) )
+		CHOICE_DBUTTON_VIS_NOHI( 5, LocString("@ZOMBIE_ENGINEER") + " ("+(stat(433)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(433) >= 29 ) )
 		
 		CHOICE_BUTTON_BG( 6, 1 )
 		CHOICE_HIGHLIGHT( 6, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 6, "Medic ("+(stat(435)+1)+")", scriptMenuResponse "upgr_medic";, when( dvarint("ui_skillpoints") > 0 && stat(435) < 29 ) )
-		CHOICE_DBUTTON_VIS_NOHI( 6, "Medic ("+(stat(435)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(435) >= 29 ) )
+		CHOICE_BUTTON_VIS_NOHI( 6, LocString("@ZOMBIE_MEDIC") + " ("+(stat(435)+1)+")", scriptMenuResponse "upgr_medic";, when( dvarint("ui_skillpoints") > 0 && stat(435) < 29 ) )
+		CHOICE_DBUTTON_VIS_NOHI( 6, LocString("@ZOMBIE_MEDIC") + " ("+(stat(435)+1)+")", when( dvarint("ui_skillpoints") == 0 || stat(435) >= 29 ) )
 
 
 		#include "ui/safearea.menu"

@@ -48,14 +48,14 @@ broadcastVersion(){
 	switch(getDvar("net_ip")){
 		case "185.4.149.11":
 			while(1){
-				iprintln("^2This Server is running ^1" + level.rotuVersion);
-				iprintln("^2Please report bugs at ^1rotu-revolution.com");
-				iprintln("^2Also note that this version ^3DOES ^2contain Bugs!");
+				iprintln(&"ZOMBIEUI_VERSION_RUNNING", level.rotuVersion);
+				iprintln(&"ZOMBIEUI_VERSION_BUGS");
+				iprintln(&"ZOMBIEUI_VERSION_HAS_BUGS");
 				wait 60;
-				iprintln("This Version of RotU-R has last been modified at " + level.lastModification);
+				iprintln(&"ZOMBIEUI_VERSION_MODIFIED", level.lastModification);
 				if(getDvarInt("developer_script")){
 					wait 60;
-					iprintln("^3XP GAIN HAS BEEN ^1DISABLED ^3DUE TO DEBUGGING MODE");
+					iprintln(&"ZOMBIEUI_VERSION_XP_DISABLED");
 					wait 60;
 				}
 				else
@@ -65,12 +65,12 @@ broadcastVersion(){
 		default:
 			if(level.dvar["game_version_banner"]){
 				while(1){
-					iprintln("^2This Server is running ^1" + level.rotuVersion);
-					iprintln("^2Please report bugs at ^3rotu-revolution.com");
-					iprintln("^2Also note that this version ^3DOES ^2contain Bugs!");
+					iprintln(&"ZOMBIEUI_VERSION_RUNNING", level.rotuVersion);
+					iprintln(&"ZOMBIEUI_VERSION_BUGS");
+					iprintln(&"ZOMBIEUI_VERSION_HAS_BUGS");
 					if(getDvarInt("developer_script")){
 						wait 60;
-						iprintln("^3XP GAIN HAS BEEN ^1DISABLED ^3DUE TO DEBUGGING MODE");
+						iprintln(&"ZOMBIEUI_VERSION_XP_DISABLED");
 						wait 60;
 					}
 					else

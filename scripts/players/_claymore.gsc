@@ -47,7 +47,7 @@ WatchForClaymore()
 		if(weap == "claymore_mp")
 		{
 			if(self.claymores >= level.dvar["game_max_claymores"]){
-				self iprintlnbold("You can only put down " + level.dvar["game_max_claymores"] + " Claymores max.!");
+				self iprintlnbold(&"ZOMBIEUI_CLAYMORE_MAX", level.dvar["game_max_claymores"]);
 				self setWeaponAmmoClip(self getCurrentWeapon(), self getWeaponAmmoClip(self getCurrentWeapon()) + 1);
 				proj delete();
 				continue;

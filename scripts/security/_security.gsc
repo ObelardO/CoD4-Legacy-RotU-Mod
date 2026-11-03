@@ -97,7 +97,7 @@ watchName()
 		name = toLower(getSubStr(self.name, 0, 3));
 		if(name == "bot")		// should we maybe make this a list off names instead?
 		{
-			self iPrintLnBold("^1Warning: bot is not allowed as name/prefix!");
+			self iPrintLnBold(&"ZOMBIEUI_BOT_NAME");
 			violations++;
 		}
 		else if(violations > 0 && false /*level.dvar["admin_decay_namedbot"] TODO: ADD CONFIG VAR*/)
