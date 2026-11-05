@@ -55,10 +55,16 @@ onPlayerConnect()
 		player.hud_damagefeedback_shield = newClientHudElem(player);
 		player.hud_damagefeedback_shield.horzAlign = "center";
 		player.hud_damagefeedback_shield.vertAlign = "middle";
-		player.hud_damagefeedback_shield.x = -12;
-		player.hud_damagefeedback_shield.y = 34;
+		player.hud_damagefeedback_shield.alignX = "center";
+		player.hud_damagefeedback_shield.alignY = "middle";
+		player.hud_damagefeedback_shield.x = 0;
+		player.hud_damagefeedback_shield.y = 0;
 		player.hud_damagefeedback_shield.alpha = 0;
 		player.hud_damagefeedback_shield.archived = true;
+		player.hud_damagefeedback_shield.hideWhenInMenu = true;
+		player.hud_damagefeedback_shield.foreground = true;
+		player.hud_damagefeedback_shield.sort = 3;
+		player.hud_damagefeedback_shield.color = (1, 1, 1);
 		player.hud_damagefeedback_shield setShader("icon_armored", 24, 24);
 	}
 }
@@ -97,7 +103,7 @@ updateTurretDamageFeedback()
 	self.hud_damagefeedback_turret.alpha = 0;
 }
 
-bossDamageFeedback(color, shield)
+bossDamageFeedback(color)
 {
 	if(!isPlayer(self))
 		return;
@@ -108,11 +114,26 @@ bossDamageFeedback(color, shield)
 	self.hud_damagefeedback_normal.alpha = 1;
 	self.hud_damagefeedback_normal fadeOverTime(1);
 	self.hud_damagefeedback_normal.alpha = 0;
+}
 
-	if(shield && isDefined(self.hud_damagefeedback_shield))
-	{
-		self.hud_damagefeedback_shield.alpha = 1;
-		self.hud_damagefeedback_shield fadeOverTime(1);
-		self.hud_damagefeedback_shield.alpha = 0;
-	}
+bossShieldFeedback()
+{
+	if(!isPlayer(self))
+		return;
+
+	self showBossShield();
+}
+
+showBossShield()
+{
+	if(!isDefined(self.hud_damagefeedback_shield))
+		return;
+
+	self.hud_damagefeedback_shield.color = (1, 1, 1);
+	self.hud_damagefeedback_shield.x = 0;
+	self.hud_damagefeedback_shield.y = 0;
+	self.hud_damagefeedback_shield setShader("icon_armored", 24, 24);
+	self.hud_damagefeedback_shield.alpha = 1;
+	self.hud_damagefeedback_shield fadeOverTime(1);
+	self.hud_damagefeedback_shield.alpha = 0;
 }

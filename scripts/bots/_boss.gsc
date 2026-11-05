@@ -5,6 +5,8 @@
 * One cyclops and the upper body from spawnHitboxBot() share one damage pool.
 */
 
+#include scripts\include\useful;
+
 registerDvars()
 {
 	scripts\server\_settings::dvarString("surv", "boss_stages", "1;2;3;4");
@@ -424,6 +426,7 @@ begin()
 	level.bossPhase = -1;
 	level.bossDamageDone = 0;
 	level.bossBarLocked = 0;
+	level.nextBossMelee = 0;
 
 	self loadStages();
 	self ghostBarrels();
@@ -530,7 +533,7 @@ applyBodyFx()
 	if(level.bossStage.fx == "fire")
 		self startFireAura();
 	else if(level.bossStage.fx == "aura" && isDefined(level.soul_deathfx))
-		self thread loopFx(level.soul_deathfx, "j_spinelower");
+		self thread loopFx(level.soul_deathfx, "j_head");
 }
 
 startFireAura()
@@ -652,13 +655,17 @@ onDamage(sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor)
 	if(channel == "")
 		return 0;
 
-	if(isDefined(self.number) && self.number == 1 && channel == "explosive")
+	// One blast can touch both bodies. Count that blast once. A hit that reaches only the upper body still counts.
+	if(channel == "explosive" && explosiveAlreadyCounted(eAttacker, sWeapon))
 		return 0;
 
 	percent = channelPercent(stage, channel);
 	mode = channelMode(stage, channel);
 	if(mode == 0)
+	{
+		showShield(eAttacker);
 		return 0;
+	}
 
 	bar = false;
 	stun = false;
@@ -680,15 +687,11 @@ onDamage(sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor)
 	if(level.bossStunned || level.bossStunRecovering)
 		stun = false;
 
-	filled = false;
 	if(stun)
 	{
 		level.bossStunPoints += iDamage * stage.stunGain;
 		if(level.bossStunPoints >= stage.stunLimit)
-		{
-			filled = true;
 			self startStun();
-		}
 	}
 
 	amount = 0;
@@ -700,10 +703,15 @@ onDamage(sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor)
 			amount = 1;
 	}
 
-	if(amount > 0)
-		showHit(eAttacker, (1, 0.15, 0.05), percent < 10);
-	else if(filled)
-		showHit(eAttacker, (0.2, 0.45, 1), percent < 10);
+	high = (amount > 0 && percent > 10);
+	if(stun && high)
+		showHit(eAttacker, (0.7, 0.35, 1));
+	else if(stun)
+		showHit(eAttacker, (0.55, 0.85, 1));
+	else if(high)
+		showHit(eAttacker, (1, 0.15, 0.05));
+	else if(amount <= 0)
+		showShield(eAttacker);
 
 	if(amount > 0)
 	{
@@ -720,6 +728,18 @@ onDamage(sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor)
 	}
 
 	return 0;
+}
+
+explosiveAlreadyCounted(eAttacker, sWeapon)
+{
+	now = getTime();
+	if(isDefined(level.bossExplosiveTime) && level.bossExplosiveTime == now && level.bossExplosiveAttacker == eAttacker && level.bossExplosiveWeapon == sWeapon)
+		return true;
+
+	level.bossExplosiveTime = now;
+	level.bossExplosiveAttacker = eAttacker;
+	level.bossExplosiveWeapon = sWeapon;
+	return false;
 }
 
 damageChannel(eInflictor, sMeansOfDeath, sWeapon)
@@ -812,11 +832,18 @@ channelMode(stage, channel)
 	return 0;
 }
 
-showHit(attacker, color, shield)
+showHit(attacker, color)
 {
 	if(!isDefined(attacker) || !isPlayer(attacker))
 		return;
-	attacker scripts\players\_damagefeedback::bossDamageFeedback(color, shield);
+	attacker scripts\players\_damagefeedback::bossDamageFeedback(color);
+}
+
+showShield(attacker)
+{
+	if(!isDefined(attacker) || !isPlayer(attacker))
+		return;
+	attacker scripts\players\_damagefeedback::bossShieldFeedback();
 }
 
 turretAllows(turret, bot)
@@ -846,7 +873,7 @@ think()
 
 	if(level.bossStunned)
 	{
-		self setanim("stand");
+		self scripts\bots\_bots::setAnim("stand");
 		self.cur_speed = 0;
 		self runAttack(attack, pick);
 		return;
@@ -882,7 +909,7 @@ think()
 	}
 	else
 	{
-		self setanim("stand");
+		self scripts\bots\_bots::setAnim("stand");
 		self.cur_speed = 0;
 	}
 }
@@ -896,6 +923,11 @@ runAttack(attack, pick)
 			return;
 		self thread scripts\bots\_bots::zomMoveLockon(victim, self.meleeTime, self.meleeSpeed);
 		self scripts\bots\_bots::zomMelee();
+		// Stand still after the swing so the player can leave melee range.
+		self scripts\bots\_bots::setAnim("stand");
+		self.cur_speed = 0;
+		level.nextBossMelee = getTime() + 2000;
+		wait 2;
 	}
 	else if(attack == "jump")
 		self doJump();
@@ -922,6 +954,8 @@ pickAttack()
 			continue;
 		if(name == "melee")
 		{
+			if(isDefined(level.nextBossMelee) && getTime() < level.nextBossMelee)
+				continue;
 			victim = self nearestPlayer(self.meleeRange);
 			if(!isDefined(victim))
 				continue;
@@ -985,7 +1019,7 @@ usageAllows(stage, name)
 doJump()
 {
 	self endon("death");
-	self setanim("jump");
+	self scripts\bots\_bots::setAnim("jump");
 	playFX(level.bossShockwaveFX, self.origin);
 	self playsound("boss_charge");
 	wait 1.1;
@@ -1000,7 +1034,7 @@ doJump()
 	}
 
 	wait 0.2;
-	self setanim("stand");
+	self scripts\bots\_bots::setAnim("stand");
 	level.lastBossJump = getTime();
 	level.nextBossJump = level.lastBossJump + 10000 + randomint(10000);
 }

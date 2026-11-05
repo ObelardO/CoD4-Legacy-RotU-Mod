@@ -989,9 +989,9 @@ createBossHud(title, desc, color)
 	level.bossHudTitle = newHudElem();
 	level.bossHudTitle.elemType = "font";
 	level.bossHudTitle.font = "objective";
-	level.bossHudTitle.fontscale = 1.6;
+	level.bossHudTitle.fontscale = 2.0;
 	level.bossHudTitle.x = 0;
-	level.bossHudTitle.y = 4;
+	level.bossHudTitle.y = 14;
 	level.bossHudTitle.alignX = "center";
 	level.bossHudTitle.alignY = "top";
 	level.bossHudTitle.horzAlign = "center";
@@ -1006,9 +1006,9 @@ createBossHud(title, desc, color)
 	level.bossHudDesc = newHudElem();
 	level.bossHudDesc.elemType = "font";
 	level.bossHudDesc.font = "objective";
-	level.bossHudDesc.fontscale = 1.15;
+	level.bossHudDesc.fontscale = 1.4;
 	level.bossHudDesc.x = 0;
-	level.bossHudDesc.y = 24;
+	level.bossHudDesc.y = 60;
 	level.bossHudDesc.alignX = "center";
 	level.bossHudDesc.alignY = "top";
 	level.bossHudDesc.horzAlign = "center";
@@ -1046,6 +1046,8 @@ createBossHud(title, desc, color)
 	level.bossHudBarFg.alpha = 0;
 	level.bossHudBarFg.sort = 1;
 	level.bossHudBarFg setShader("white", 1, level.bossHudBarHeight);
+
+	thread bossBarPulse();
 }
 
 updateBossBar()
@@ -1053,21 +1055,22 @@ updateBossBar()
 	if(!isDefined(level.bossHudBarFg) || !isDefined(level.bossStage) || !isDefined(level.bossPool) || level.bossPool < 1)
 		return;
 
+	locked = level.bossStage.hudLock && !level.bossStunned;
 	shown = level.bossDamageDone;
-	if(level.bossStage.hudLock && !level.bossStunned)
+	if(locked)
 		shown = level.bossBarLocked;
 	else
 		level.bossBarLocked = level.bossDamageDone;
 
-	frac = shown / level.bossPool;
+	frac = 1 - (shown / level.bossPool);
 	if(frac > 1)
 		frac = 1;
 	if(frac < 0)
 		frac = 0;
 
 	color = level.bossStage.color;
-	if(level.bossStage.hudLock && !level.bossStunned)
-		color = (0.35, 0.35, 0.35);
+	if(locked)
+		color = (0.55, 0.55, 0.55);
 
 	width = int(level.bossHudBarWidth * frac);
 	level.bossHudBarFg.color = color;
@@ -1077,8 +1080,33 @@ updateBossBar()
 		return;
 	}
 
-	level.bossHudBarFg.alpha = 1;
+	if(!locked || level.bossHudBarFg.alpha <= 0)
+		level.bossHudBarFg.alpha = 1;
 	level.bossHudBarFg setShader("white", width, level.bossHudBarHeight);
+}
+
+bossBarPulse()
+{
+	level notify("boss_bar_pulse_stop");
+	level endon("boss_bar_pulse_stop");
+
+	while(isDefined(level.bossHudBarFg))
+	{
+		locked = isDefined(level.bossStage) && level.bossStage.hudLock && !level.bossStunned;
+		if(locked && level.bossHudBarFg.alpha > 0)
+		{
+			level.bossHudBarFg fadeOverTime(0.55);
+			level.bossHudBarFg.alpha = 0.45;
+			wait 0.55;
+			if(!isDefined(level.bossHudBarFg))
+				return;
+			level.bossHudBarFg fadeOverTime(0.55);
+			level.bossHudBarFg.alpha = 1;
+			wait 0.55;
+		}
+		else
+			wait 0.2;
+	}
 }
 
 hideBossHud()
@@ -1086,6 +1114,7 @@ hideBossHud()
 	if(!isDefined(level.bossHudTitle))
 		return;
 
+	level notify("boss_bar_pulse_stop");
 	level.bossHudTitle fadeOverTime(2);
 	level.bossHudTitle.alpha = 0;
 	level.bossHudDesc fadeOverTime(2);
@@ -1105,10 +1134,13 @@ showBossHud()
 	level.bossHudDesc.alpha = 0.9;
 	level.bossHudBarBg.alpha = 0.75;
 	updateBossBar();
+	thread bossBarPulse();
 }
 
 destroyBossHud()
 {
+	level notify("boss_bar_pulse_stop");
+
 	if(isDefined(level.bossHudTitle))
 		level.bossHudTitle destroy();
 	if(isDefined(level.bossHudDesc))
