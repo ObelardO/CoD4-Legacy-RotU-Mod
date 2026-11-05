@@ -23,6 +23,7 @@ init()
 {
 	precacheShader("damage_feedback");
 	precacheShader("icon_turret_hit");
+	precacheShader("icon_armored");
 
 	level thread onPlayerConnect();
 }
@@ -50,6 +51,15 @@ onPlayerConnect()
 		player.hud_damagefeedback_turret.alpha = 0;
 		player.hud_damagefeedback_turret.archived = true;
 		player.hud_damagefeedback_turret setShader("icon_turret_hit", 47, 20);
+
+		player.hud_damagefeedback_shield = newClientHudElem(player);
+		player.hud_damagefeedback_shield.horzAlign = "center";
+		player.hud_damagefeedback_shield.vertAlign = "middle";
+		player.hud_damagefeedback_shield.x = -12;
+		player.hud_damagefeedback_shield.y = 34;
+		player.hud_damagefeedback_shield.alpha = 0;
+		player.hud_damagefeedback_shield.archived = true;
+		player.hud_damagefeedback_shield setShader("icon_armored", 24, 24);
 	}
 }
 
@@ -66,6 +76,7 @@ updateDamageFeedback()
 	if (!isPlayer(self))
 		return;
 		
+	self.hud_damagefeedback_normal.color = (1, 1, 1);
 	self.hud_damagefeedback_normal setShader("damage_feedback", 24, 48);
 	self playlocalsound("MP_hit_alert");
 	
@@ -84,4 +95,24 @@ updateTurretDamageFeedback()
 	self.hud_damagefeedback_turret.alpha = 0.8;
 	self.hud_damagefeedback_turret fadeOverTime(1);
 	self.hud_damagefeedback_turret.alpha = 0;
+}
+
+bossDamageFeedback(color, shield)
+{
+	if(!isPlayer(self))
+		return;
+
+	self.hud_damagefeedback_normal.color = color;
+	self.hud_damagefeedback_normal setShader("damage_feedback", 24, 48);
+	self playlocalsound("MP_hit_alert");
+	self.hud_damagefeedback_normal.alpha = 1;
+	self.hud_damagefeedback_normal fadeOverTime(1);
+	self.hud_damagefeedback_normal.alpha = 0;
+
+	if(shield && isDefined(self.hud_damagefeedback_shield))
+	{
+		self.hud_damagefeedback_shield.alpha = 1;
+		self.hud_damagefeedback_shield fadeOverTime(1);
+		self.hud_damagefeedback_shield.alpha = 0;
+	}
 }

@@ -440,7 +440,13 @@ spawnZombie(type, spawnpoint, bot)
 	
 	bot linkto(bot.linkObj);
 	
-	bot zomGoIdle();
+	if(bot.type == "boss")
+	{
+		bot.alertLevel = 999;
+		bot zomGoTriggered();
+	}
+	else
+		bot zomGoIdle();
 	
 	bot thread zomMain();
 	
@@ -530,7 +536,7 @@ Callback_BotDamage(eInflictor, eAttacker, iDamage, iDFlags, sMeansOfDeath, sWeap
 	sWeapon = level.weaponKeyC2S[sWeapon];
 	
 	// don't damage clients that are immune to this type of damage
-	if(!self scripts\bots\_types::onDamage(self.type, sMeansOfDeath, sWeapon, iDamage, eAttacker))
+	if(!self scripts\bots\_types::onDamage(self.type, sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor))
 		return;
 
 	// increase the alert level of the bot
@@ -1065,6 +1071,11 @@ zomMain()
 				}
 				break;
 			case "triggered":
+				if(self.type == "boss")
+				{
+					self scripts\bots\_boss::think();
+					break;
+				}
 				if (update==10){
 					self.bestTarget = zomGetBestTarget();
 					update = 0;
@@ -1941,17 +1952,20 @@ checkForBarricade(targetposition)
 			}
 		}
 	}
-	for (i=0; i<level.dynamic_barricades.size; i++)
+	if(self.type != "boss")
 	{
-		ent = level.dynamic_barricades[i];
-		if (isDefined(ent) && distance(self.origin, ent.origin) < 48 && ent.hp > 0)
+		for (i=0; i<level.dynamic_barricades.size; i++)
 		{
-			fwdDir = vectorNormalize(targetposition-self.origin);
-			dirToTarget = vectorNormalize(ent.origin-self.origin);
-			dot = vectorDot(fwdDir, dirToTarget);
-			if (dot > 0 && dot < 1)
+			ent = level.dynamic_barricades[i];
+			if (isDefined(ent) && distance(self.origin, ent.origin) < 48 && ent.hp > 0)
 			{
-				return 1;
+				fwdDir = vectorNormalize(targetposition-self.origin);
+				dirToTarget = vectorNormalize(ent.origin-self.origin);
+				dot = vectorDot(fwdDir, dirToTarget);
+				if (dot > 0 && dot < 1)
+				{
+					return 1;
+				}
 			}
 		}
 	}

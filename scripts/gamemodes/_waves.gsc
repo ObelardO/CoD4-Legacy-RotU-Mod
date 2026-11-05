@@ -333,6 +333,9 @@ waveAmbient(type, reset){
 	level endon("game_ended");
 	if(!isDefined(reset))
 		reset = false;
+
+	if(!reset && type == "boss")
+		return;
 		
 	if(!reset){
 		switch(type){

@@ -415,6 +415,7 @@ loadSettings()
 	setDvar("g_teamname_axis", "^9Zombies");
 	setDvar("g_teamname_allies", "Survivors");
 	level.rewardScale = level.dvar["game_rewardscale"];
+	scripts\bots\_boss::registerDvars();
 	//
 }
 

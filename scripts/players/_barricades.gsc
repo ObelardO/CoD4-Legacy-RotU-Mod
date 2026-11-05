@@ -101,6 +101,8 @@ placeBarrel()
 				self.carryObj.origin = newpos;
 				self.carryObj.angles = self.angles;
 				level.dynamic_barricades[level.dynamic_barricades.size] = self.carryObj;
+				if(isDefined(level.bossFight) && level.bossFight)
+					self.carryObj setContents(0);
 				self.carryObj = undefined;
 				self notify("used_usable");
 				

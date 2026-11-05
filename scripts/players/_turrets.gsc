@@ -841,7 +841,7 @@ targetAcquisition()
 			bot = level.bots[i];
 			
 			// Check whether the zombie we target is alive and can be damaged with turrets
-			if(bot.sessionstate == "playing" && (bot.type != "boss" || level.bossPhase == 2) && !level.turretsDisabled)
+			if(bot.sessionstate == "playing" && scripts\bots\_boss::turretAllows(self, bot) && !level.turretsDisabled)
 			{
 				// Get distance of the currently selected bot
 				checkingDistance = self isInView(bot);
@@ -864,7 +864,7 @@ targetAcquisition()
 			self.targetPlayer = closestPlayer;
         
 		// Keep ourselves locked on that target until any critical conditions fail
-		while(isDefined(closestPlayer) && isAlive(closestPlayer) && (closestPlayer.type != "boss" || level.bossPhase == 2) && closestPlayer.sessionstate == "playing" && self isInView(closestPlayer) >= 0 && !level.turretsDisabled)
+		while(isDefined(closestPlayer) && isAlive(closestPlayer) && scripts\bots\_boss::turretAllows(self, closestPlayer) && closestPlayer.sessionstate == "playing" && self isInView(closestPlayer) >= 0 && !level.turretsDisabled)
 		{
 			self.targetPlayer = closestPlayer;
 			wait 0.05;

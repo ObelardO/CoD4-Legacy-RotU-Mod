@@ -973,3 +973,153 @@ showWelcomeMessage(label, text, glowcolor, duration, speed, size, height)
 	self.welcome_message setPulseFX(speed, int((duration)*1000), 1000);
 	
 }
+
+createBossHud(title, desc, color)
+{
+	destroyBossHud();
+
+	level.bossHudBarWidth = 200;
+	level.bossHudBarHeight = 8;
+
+	if(!isDefined(title) || title == "")
+		title = " ";
+	if(!isDefined(desc))
+		desc = "";
+
+	level.bossHudTitle = newHudElem();
+	level.bossHudTitle.elemType = "font";
+	level.bossHudTitle.font = "objective";
+	level.bossHudTitle.fontscale = 1.6;
+	level.bossHudTitle.x = 0;
+	level.bossHudTitle.y = 4;
+	level.bossHudTitle.alignX = "center";
+	level.bossHudTitle.alignY = "top";
+	level.bossHudTitle.horzAlign = "center";
+	level.bossHudTitle.vertAlign = "top";
+	level.bossHudTitle.alpha = 1;
+	level.bossHudTitle.glowAlpha = 0.8;
+	level.bossHudTitle.glowColor = color;
+	level.bossHudTitle.hideWhenInMenu = true;
+	level.bossHudTitle.archived = false;
+	level.bossHudTitle setText(title);
+
+	level.bossHudDesc = newHudElem();
+	level.bossHudDesc.elemType = "font";
+	level.bossHudDesc.font = "objective";
+	level.bossHudDesc.fontscale = 1.15;
+	level.bossHudDesc.x = 0;
+	level.bossHudDesc.y = 24;
+	level.bossHudDesc.alignX = "center";
+	level.bossHudDesc.alignY = "top";
+	level.bossHudDesc.horzAlign = "center";
+	level.bossHudDesc.vertAlign = "top";
+	level.bossHudDesc.alpha = 0.9;
+	level.bossHudDesc.glowAlpha = 0.4;
+	level.bossHudDesc.glowColor = color;
+	level.bossHudDesc.hideWhenInMenu = true;
+	level.bossHudDesc.archived = false;
+	level.bossHudDesc setText(desc);
+
+	level.bossHudBarBg = newHudElem();
+	level.bossHudBarBg.x = -102;
+	level.bossHudBarBg.y = 44;
+	level.bossHudBarBg.alignX = "left";
+	level.bossHudBarBg.alignY = "top";
+	level.bossHudBarBg.horzAlign = "center";
+	level.bossHudBarBg.vertAlign = "top";
+	level.bossHudBarBg.hideWhenInMenu = true;
+	level.bossHudBarBg.archived = false;
+	level.bossHudBarBg.sort = 0;
+	level.bossHudBarBg.alpha = 0.75;
+	level.bossHudBarBg setShader("black", 204, 12);
+
+	level.bossHudBarFg = newHudElem();
+	level.bossHudBarFg.x = -100;
+	level.bossHudBarFg.y = 46;
+	level.bossHudBarFg.alignX = "left";
+	level.bossHudBarFg.alignY = "top";
+	level.bossHudBarFg.horzAlign = "center";
+	level.bossHudBarFg.vertAlign = "top";
+	level.bossHudBarFg.hideWhenInMenu = true;
+	level.bossHudBarFg.archived = false;
+	level.bossHudBarFg.color = color;
+	level.bossHudBarFg.alpha = 0;
+	level.bossHudBarFg.sort = 1;
+	level.bossHudBarFg setShader("white", 1, level.bossHudBarHeight);
+}
+
+updateBossBar()
+{
+	if(!isDefined(level.bossHudBarFg) || !isDefined(level.bossStage) || !isDefined(level.bossPool) || level.bossPool < 1)
+		return;
+
+	shown = level.bossDamageDone;
+	if(level.bossStage.hudLock && !level.bossStunned)
+		shown = level.bossBarLocked;
+	else
+		level.bossBarLocked = level.bossDamageDone;
+
+	frac = shown / level.bossPool;
+	if(frac > 1)
+		frac = 1;
+	if(frac < 0)
+		frac = 0;
+
+	color = level.bossStage.color;
+	if(level.bossStage.hudLock && !level.bossStunned)
+		color = (0.35, 0.35, 0.35);
+
+	width = int(level.bossHudBarWidth * frac);
+	level.bossHudBarFg.color = color;
+	if(width < 1)
+	{
+		level.bossHudBarFg.alpha = 0;
+		return;
+	}
+
+	level.bossHudBarFg.alpha = 1;
+	level.bossHudBarFg setShader("white", width, level.bossHudBarHeight);
+}
+
+hideBossHud()
+{
+	if(!isDefined(level.bossHudTitle))
+		return;
+
+	level.bossHudTitle fadeOverTime(2);
+	level.bossHudTitle.alpha = 0;
+	level.bossHudDesc fadeOverTime(2);
+	level.bossHudDesc.alpha = 0;
+	level.bossHudBarBg fadeOverTime(2);
+	level.bossHudBarBg.alpha = 0;
+	level.bossHudBarFg fadeOverTime(2);
+	level.bossHudBarFg.alpha = 0;
+}
+
+showBossHud()
+{
+	if(!isDefined(level.bossHudTitle))
+		return;
+
+	level.bossHudTitle.alpha = 1;
+	level.bossHudDesc.alpha = 0.9;
+	level.bossHudBarBg.alpha = 0.75;
+	updateBossBar();
+}
+
+destroyBossHud()
+{
+	if(isDefined(level.bossHudTitle))
+		level.bossHudTitle destroy();
+	if(isDefined(level.bossHudDesc))
+		level.bossHudDesc destroy();
+	if(isDefined(level.bossHudBarBg))
+		level.bossHudBarBg destroy();
+	if(isDefined(level.bossHudBarFg))
+		level.bossHudBarFg destroy();
+
+	level.bossHudTitle = undefined;
+	level.bossHudDesc = undefined;
+	level.bossHudBarBg = undefined;
+	level.bossHudBarFg = undefined;
+}

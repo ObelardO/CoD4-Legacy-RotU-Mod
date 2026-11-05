@@ -916,19 +916,8 @@ onSpawn(type)
 			//PlayFXOnTag(level.toxicFX, self, "j_head");
 			break;
 		case "boss":
-			level.bossPhases = 1;
-			level.bossPhase = getRandomBossPhase();
-			label = getLabelForBoss();
-			colour = getColourForPhase();
-			level.bossOverlay = overlayMessage(label, "", colour);
-			level.bossOverlay setvalue(0);
-			level.bossOverlay.alpha = 0;
-			level.bossOverlay fadeOverTime(1);
-			level.bossOverlay.alpha = 1;
-			level.bossDamageDone[level.bossPhase] = 0;
-			level.bossDamageToDo[level.bossPhase] = calculateBossHP();
 			self.quake = true;
-			self thread bossSpecialAttack();
+			self thread scripts\bots\_boss::begin();
 			self thread spawnHitboxBot();
 		break;
 		case "napalm":
@@ -1062,13 +1051,20 @@ doSpecialAttack()
 
 bossCatchFire(){
 	self endon("death");
+	self endon("boss_fx_stop");
 	level endon("game_ended");
+	level endon("wave_finished");
 	
 	self thread burnThrowback();
 	range = 130;
 	time = 2; // in seconds, we need 4 * time encounters to make us burn
 	
 	while(1){
+		if(level.bossStunned && isDefined(level.bossStage) && level.bossStage.fire_ignore == 0)
+		{
+			wait 0.25;
+			continue;
+		}
 		for(i = 0; i < level.players.size; i++){
 			p = level.players[i];
 			if(!isReallyPlaying(p)) continue; // Ignore not-playing players
@@ -1094,6 +1090,7 @@ bossCatchFire(){
 
 burnThrowback(){
 	self endon("death");
+	self endon("boss_fx_stop");
 	level endon("game_ended");
 	level endon("wave_finished");
 	
@@ -1173,10 +1170,13 @@ kill_ball_out(p)
 		{
 		p.isPlayer = true;
 		p.entity = p;
+		soulDamage = int(50 * level.dif_zomDamMod);
+		if(isDefined(level.bossStage))
+			soulDamage = int(soulDamage * level.bossStage.damage);
 		p damageEnt(
 			self, // eInflictor = the entity that causes the damage (e.g. a claymore)
 			self, // eAttacker = the player that is attacking
-			int(50*level.dif_zomDamMod), // iDamage = the amount of damage to do
+			soulDamage, // iDamage = the amount of damage to do
 									"MOD_MELEE", // sMeansOfDeath = string specifying the method of death (e.g. "MOD_PROJECTILE_SPLASH")
 									self.pers["weapon"], // sWeapon = string specifying the weapon used (e.g. "claymore_mp")
 									self.origin, // damagepos = the position damage is coming from
@@ -1192,78 +1192,13 @@ kill_ball_out(p)
 }
 
 
-onDamage(type, sMeansOfDeath, sWeapon, iDamage, eAttacker)
+onDamage(type, sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor)
 {
 	switch (type)
 	{
 		case "boss":
-			self.health = 10000;
-			/* EXPLOSIVES */
-			if (level.bossPhase == 0)
-			{
-				if (sMeansOfDeath != "MOD_IMPACT")
-				{
-					if ((sWeapon == "c4_mp" || sWeapon == "frag_grenade_mp" || sWeapon == "claymore_mp" || sWeapon == "rpg_mp" || sWeapon == "at4_mp" || sMeansOfDeath == "MOD_MELEE"))
-					{
-						if(isDefined(eAttacker.lastBossHit) && eAttacker.lastBossHit != self.number){
-							eAttacker thread resetBossHit();
-							return 0;
-						}
-						eAttacker.lastBossHit = self.number;
-						if (sMeansOfDeath == "MOD_MELEE"){
-							iDamage = int(iDamage*.5);
-							eAttacker scripts\players\_players::incUpgradePoints(1*level.dvar["game_rewardscale"]);
-						}
-						else
-							eAttacker scripts\players\_players::incUpgradePoints(5*level.dvar["game_rewardscale"]);
-						
-						level.bossDamageDone[level.bossPhase] += idamage;
-						newval = int(level.bossDamageDone[level.bossPhase]*100/level.bossDamageToDo[level.bossPhase]);
-						if (newval > 100)
-						newval = 100;
-						level.bossOverlay setvalue(newval);
-						thread nextBossStatus();
-						return 1;
-					}
-				}
+			return self scripts\bots\_boss::onDamage(sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor);
 
-			}
-			/* KNIFE */
-			else if (level.bossPhase == 1)
-			{
-				if (sMeansOfDeath == "MOD_MELEE")
-				{
-					eAttacker scripts\players\_players::incUpgradePoints(5*level.dvar["game_rewardscale"]);
-					level.bossDamageDone[level.bossPhase] += iDamage;
-					newval = int(level.bossDamageDone[level.bossPhase]*100/level.bossDamageToDo[level.bossPhase]);
-					if (newval > 100)
-					newval = 100;
-					level.bossOverlay setvalue(newval);
-					self thread nextBossStatus();
-					return 1;
-				}
-			}
-			/* GENERAL DAMAGE */
-			else if (level.bossPhase == 2)
-			{
-				if(isDefined(eAttacker.lastBossHit) && eAttacker.lastBossHit != self.number){
-					eAttacker thread resetBossHit();
-					return 0;
-				}
-				eAttacker.lastBossHit = self.number;
-				eAttacker scripts\players\_players::incUpgradePoints(int(level.dvar["game_rewardscale"]/20 * iDamage));
-				level.bossDamageDone[level.bossPhase] += idamage;
-				newval = int(level.bossDamageDone[level.bossPhase]*100/level.bossDamageToDo[level.bossPhase]);
-				if (newval > 100)
-				newval = 100;
-				level.bossOverlay setvalue(newval);
-				self thread nextBossStatus();
-				return 1;
-			}
-			
-			eAttacker.stats["damageDealtToBoss"] += iDamage;
-			return 0;
-			
 		default:
 		return 1;
 	}
@@ -1396,8 +1331,10 @@ onAttack(type, target)
 	switch (type)
 	{
 		case "boss":
-			target thread scripts\players\_players::bounce(vectorNormalize(target.origin + (0,0,15) - self.origin));
+			if(isDefined(level.bossStage) && level.bossStage.push > 0)
+				target thread scripts\bots\_boss::pushPlayer(vectorNormalize(target.origin + (0,0,15) - self.origin), int(level.bossStage.push));
 			target shellShock("boss", 2);
+			return 1;
 		default:
 		return 1;
 	}

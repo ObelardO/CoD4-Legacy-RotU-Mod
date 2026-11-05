@@ -160,6 +160,7 @@ prepareLastChance()
 		level.bossOverlay fadeOverTime(2);
 		level.bossOverlay.alpha = 0;
 	}
+	scripts\gamemodes\_hud::hideBossHud();
 	
 	// At this point we basically commited to starting the Last Chance, so we notify the game about that
 	level notify("last_chance_start");
@@ -275,6 +276,7 @@ postLastChance()
 	// If there was a boss, show the overlay again
 	if(isDefined(level.bossOverlay))
 		level.bossOverlay thread fadein(1);
+	scripts\gamemodes\_hud::showBossHud();
 	
 	// Start gameplay related threads
 	thread scripts\gamemodes\_survival::watchEnd();

@@ -556,6 +556,7 @@ endMap(endReasontext, win)
 	// If a boss is on the map, remove the Health display
 	if(isDefined(level.bossOverlay))
 		level.bossOverlay destroy();
+	scripts\gamemodes\_hud::destroyBossHud();
 	
 	// I better not write what this does. It would spoil the fun. Seriously. Don't look it up.
 	if(scripts\include\physics::finalizeStats())
