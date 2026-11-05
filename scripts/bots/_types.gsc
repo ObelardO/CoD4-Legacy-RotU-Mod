@@ -1144,10 +1144,10 @@ kill_ball_out(p)
 	wait 0.05;
 	playFXOnTag(level.soulFX,ball_tag,"tag_origin");
 	ball_tag endon("death");
-	movespeed = 2;
+	movespeed = 1;
 	
-	ball_tag moveto(self.origin + (0,0,400), 5);
-	wait 5;
+	ball_tag moveto(self.origin + (0,0,400), 2.5);
+	wait 2.5;
 	while(isdefined(p) && !level.gameEnded)
 	{
 		wait 0.1;
@@ -1155,11 +1155,11 @@ kill_ball_out(p)
 		if(distance(ball_tag.origin,head_tag_org) > 30)
 			{
 			
-			if (movespeed > 1.5)
-			movespeed -= 0.05;
+			if (movespeed > 0.75)
+			movespeed -= 0.025;
 			
 			if(distance(ball_tag.origin,head_tag_org) > 30 && distance(ball_tag.origin,head_tag_org) < 64)
-				{movespeed = .1;}
+				{movespeed = .05;}
 				
 			head_tag_org = p getTagOrigin("j_head");
 			ball_tag moveTo(head_tag_org,movespeed);

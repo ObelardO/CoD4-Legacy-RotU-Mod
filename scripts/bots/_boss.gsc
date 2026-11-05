@@ -10,6 +10,7 @@
 registerDvars()
 {
 	scripts\server\_settings::dvarString("surv", "boss_stages", "1;2;3;4");
+	scripts\server\_settings::dvarInt("surv", "boss_turret_hits", 3, 1, 50);
 	level.bossStageDefined = [];
 
 	for(n = 1; n <= 4; n++)
@@ -51,6 +52,7 @@ registerStage(n)
 	scripts\server\_settings::dvarFloat("surv", "boss_stun_recovery_stage" + n, 2, 0, 30);
 
 	scripts\server\_settings::dvarString("surv", "boss_fx_stage" + n, strDef(n, "fx"));
+	scripts\server\_settings::dvarInt("surv", "boss_target_range_stage" + n, 1000, 1, 999999);
 	scripts\server\_settings::dvarString("surv", "boss_targets_stage" + n, strDef(n, "targets"));
 	scripts\server\_settings::dvarString("surv", "boss_attacks_stage" + n, strDef(n, "attacks"));
 
@@ -217,8 +219,14 @@ strDef(n, key)
 	}
 	if(key == "targets")
 	{
+		if(n == 1)
+			return "gl_turrets:800;players";
+		if(n == 2)
+			return "mg_turrets:800;best_player:1200;players";
+		if(n == 3)
+			return "mg_turrets:800;raygun_player:1000;players";
 		if(n == 4)
-			return "gl_turrets;go_away";
+			return "gl_turrets:800;raygun_player:1000;far_player:1500;go_away";
 		return "players";
 	}
 	if(key == "attacks")
@@ -313,6 +321,7 @@ buildStage(n)
 	stage.stunTime = dvar("stun_time", n);
 	stage.stunRecovery = dvar("stun_recovery", n);
 	stage.fx = dvar("fx", n);
+	stage.targetRange = dvar("target_range", n);
 	stage.targets = strTok(dvar("targets", n), ";");
 	stage.attacks = strTok(dvar("attacks", n), ";");
 	stage.melee_usage = dvar("attack_melee_usage", n);
@@ -420,6 +429,7 @@ begin()
 	level.bossDying = false;
 	level.bossFight = true;
 	level.bossSoulBusy = false;
+	level.bossSoulLeft = 0;
 	level.bossStunned = false;
 	level.bossStunRecovering = false;
 	level.bossStunPoints = 0;
@@ -656,7 +666,13 @@ onDamage(sMeansOfDeath, sWeapon, iDamage, eAttacker, eInflictor)
 		return 0;
 
 	// One blast can touch both bodies. Count that blast once. A hit that reaches only the upper body still counts.
-	if(channel == "explosive" && explosiveAlreadyCounted(eAttacker, sWeapon))
+	// A bullet that hits both bodies in the same millisecond counts once. Pellets that only hit one body still each count.
+	if(channel == "explosive")
+	{
+		if(explosiveAlreadyCounted(eAttacker, sWeapon))
+			return 0;
+	}
+	else if(twinAlreadyCounted(eAttacker, sWeapon))
 		return 0;
 
 	percent = channelPercent(stage, channel);
@@ -739,6 +755,23 @@ explosiveAlreadyCounted(eAttacker, sWeapon)
 	level.bossExplosiveTime = now;
 	level.bossExplosiveAttacker = eAttacker;
 	level.bossExplosiveWeapon = sWeapon;
+	return false;
+}
+
+twinAlreadyCounted(eAttacker, sWeapon)
+{
+	now = getTime();
+	sameShot = isDefined(level.bossHitTime) && level.bossHitTime == now && level.bossHitAttacker == eAttacker && level.bossHitWeapon == sWeapon;
+	if(sameShot && isDefined(level.bossHitEnt) && level.bossHitEnt != self)
+		return true;
+
+	if(!sameShot)
+	{
+		level.bossHitTime = now;
+		level.bossHitAttacker = eAttacker;
+		level.bossHitWeapon = sWeapon;
+		level.bossHitEnt = self;
+	}
 	return false;
 }
 
@@ -1041,12 +1074,17 @@ doJump()
 
 launchSoul()
 {
-	player = self nearestPlayer(999999);
-	if(!isDefined(player) || level.bossSoulBusy)
+	if(level.bossSoulBusy)
+		return;
+
+	list = livingPlayers();
+	if(list.size == 0)
 		return;
 
 	level.bossSoulBusy = true;
-	self thread soulWatcher(player);
+	level.bossSoulLeft = list.size;
+	for(i = 0; i < list.size; i++)
+		self thread soulWatcher(list[i]);
 }
 
 soulWatcher(player)
@@ -1054,7 +1092,9 @@ soulWatcher(player)
 	self endon("death");
 	level endon("wave_finished");
 	self scripts\bots\_types::kill_ball_out(player);
-	level.bossSoulBusy = false;
+	level.bossSoulLeft--;
+	if(level.bossSoulLeft <= 0)
+		level.bossSoulBusy = false;
 }
 
 smashTurret(gun)
@@ -1062,6 +1102,20 @@ smashTurret(gun)
 	self scripts\bots\_bots::zomMelee(false);
 	if(!isDefined(gun))
 		return;
+
+	hits = 1;
+	if(isDefined(gun.bossHits))
+		hits = gun.bossHits + 1;
+	gun.bossHits = hits;
+
+	need = level.dvar["surv_boss_turret_hits"];
+	if(!isDefined(need) || need < 1)
+		need = 3;
+	if(hits < need)
+		return;
+
+	if(isDefined(level.effect_sentry_hit) && isDefined(level.effect_sentry_hit["gl"]))
+		playFx(level.effect_sentry_hit["gl"], gun.origin);
 
 	gun notify("kill_turret");
 	bipod = gun.bipod;
@@ -1091,22 +1145,35 @@ pickTarget()
 
 	for(i = 0; i < stage.targets.size; i++)
 	{
-		token = stage.targets[i];
-		pick = self targetFor(token);
+		parts = strTok(stage.targets[i], ":");
+		token = parts[0];
+		radius = stage.targetRange;
+		if(!isDefined(radius) || radius < 1)
+			radius = 1000;
+		if(parts.size > 1 && parts[1] != "")
+		{
+			radius = int(parts[1]);
+			if(radius < 1)
+				radius = 999999;
+		}
+		else if(token == "players")
+			radius = 999999;
+
+		pick = self targetFor(token, radius);
 		if(isDefined(pick))
 			return pick;
 	}
 	return undefined;
 }
 
-targetFor(token)
+targetFor(token, radius)
 {
 	if(token == "" || token == "none")
 		return undefined;
 
 	if(token == "players" || token == "best_player" || token == "far_player" || token == "raygun_player")
 	{
-		player = self playerForToken(token);
+		player = self playerForToken(token, radius);
 		if(!isDefined(player))
 			return undefined;
 		return makePick(player.origin, player, "player");
@@ -1125,7 +1192,7 @@ targetFor(token)
 		kind = "minigun";
 		if(token == "gl_turrets")
 			kind = "gl";
-		gun = self nearestTurret(kind);
+		gun = self nearestTurret(kind, radius);
 		if(!isDefined(gun))
 			return undefined;
 		return makePick(gun.origin, gun, "turret");
@@ -1151,16 +1218,16 @@ makePick(origin, ent, kind)
 	return pick;
 }
 
-playerForToken(token)
+playerForToken(token, radius)
 {
 	if(token == "players")
-		return self nearestPlayer(999999);
+		return self nearestPlayer(radius);
 	if(token == "raygun_player")
-		return self nearestRaygun();
+		return self nearestRaygun(radius);
 	if(token == "best_player")
-		return bestPlayer();
+		return self bestPlayer(radius);
 	if(token == "far_player")
-		return farPlayer();
+		return self farPlayer(radius);
 	return undefined;
 }
 
@@ -1181,17 +1248,17 @@ nearestPlayer(maxDist)
 	return best;
 }
 
-nearestRaygun()
+nearestRaygun(maxDist)
 {
 	best = undefined;
-	bestDist = 999999;
+	bestDist = maxDist;
 	list = livingPlayers();
 	for(i = 0; i < list.size; i++)
 	{
 		if(!holdingRaygun(list[i]))
 			continue;
 		dist = distance(self.origin, list[i].origin);
-		if(dist < bestDist)
+		if(dist <= bestDist)
 		{
 			bestDist = dist;
 			best = list[i];
@@ -1200,13 +1267,15 @@ nearestRaygun()
 	return best;
 }
 
-bestPlayer()
+bestPlayer(maxDist)
 {
 	best = undefined;
 	bestScore = undefined;
 	list = livingPlayers();
 	for(i = 0; i < list.size; i++)
 	{
+		if(distance(self.origin, list[i].origin) > maxDist)
+			continue;
 		score = 0;
 		if(isDefined(list[i].score))
 			score = list[i].score;
@@ -1219,26 +1288,32 @@ bestPlayer()
 	return best;
 }
 
-farPlayer()
+farPlayer(maxDist)
 {
 	list = livingPlayers();
-	if(list.size == 0)
+	near = [];
+	for(i = 0; i < list.size; i++)
+	{
+		if(distance(self.origin, list[i].origin) <= maxDist)
+			near[near.size] = list[i];
+	}
+	if(near.size == 0)
 		return undefined;
 
 	center = (0, 0, 0);
-	for(i = 0; i < list.size; i++)
-		center = (center[0] + list[i].origin[0], center[1] + list[i].origin[1], center[2] + list[i].origin[2]);
-	center = (center[0] / list.size, center[1] / list.size, center[2] / list.size);
+	for(i = 0; i < near.size; i++)
+		center = (center[0] + near[i].origin[0], center[1] + near[i].origin[1], center[2] + near[i].origin[2]);
+	center = (center[0] / near.size, center[1] / near.size, center[2] / near.size);
 
 	best = undefined;
 	bestDist = -1;
-	for(i = 0; i < list.size; i++)
+	for(i = 0; i < near.size; i++)
 	{
-		dist = distance(center, list[i].origin);
+		dist = distance(center, near[i].origin);
 		if(dist > bestDist)
 		{
 			bestDist = dist;
-			best = list[i];
+			best = near[i];
 		}
 	}
 	return best;
@@ -1265,10 +1340,10 @@ mapCenter()
 	return (center[0] / level.waypoints.size, center[1] / level.waypoints.size, center[2] / level.waypoints.size);
 }
 
-nearestTurret(kind)
+nearestTurret(kind, maxDist)
 {
 	best = undefined;
-	bestDist = 999999;
+	bestDist = maxDist;
 	for(i = 0; i < level.players.size; i++)
 	{
 		player = level.players[i];
@@ -1280,7 +1355,7 @@ nearestTurret(kind)
 		if(!isDefined(gun.turret_type) || gun.turret_type != kind)
 			continue;
 		dist = distance(self.origin, gun.origin);
-		if(dist < bestDist)
+		if(dist <= bestDist)
 		{
 			bestDist = dist;
 			best = gun;
